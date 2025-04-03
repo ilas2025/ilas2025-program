@@ -1,2 +1,2 @@
-# program
+# Program
 ILAS2025 Program Generator
