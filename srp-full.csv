@@ -219,9 +219,9 @@ S2,SC0009,2,Jie,Meng,Jie Meng,2025-06-23 14:00:00,MS29,Matrix functions and rela
 The superlinear convergence of a weighted mean based on the Ando-Li-Mathias (ALM) construction is proved. A weighted Cheap mean is defined and conditions on the weights for linear or superlinear convergence of order at least three are provided.
 "
 S2,SC0009,3,,,,2025-06-23 14:00:00,MS29,Matrix functions and related topics,Monday,15:00,15:30,102,29,,
-S2,SC0012,1,TBA,TBA,TBA TBA,2025-06-23 14:00:00,,,Monday,14:00,14:30,102,1000,,
-S2,SC0012,2,TBA,TBA,TBA TBA,2025-06-23 14:00:00,,,Monday,14:30,15:00,102,1000,,
-S2,SC0012,3,TBA,TBA,TBA TBA,2025-06-23 14:00:00,,,Monday,15:00,15:30,102,1000,,
+S2,SC0012,1,,,,2025-06-23 14:00:00,,,Monday,14:00,14:30,102,1000,,
+S2,SC0012,2,,,,2025-06-23 14:00:00,,,Monday,14:30,15:00,102,1000,,
+S2,SC0012,3,,,,2025-06-23 14:00:00,,,Monday,15:00,15:30,102,1000,,
 S2,SC0014,1,Michal,Eckstein,Michal Eckstein,2025-06-23 14:00:00,MS8,Tensor and quantum information science,Monday,14:00,14:30,102,8,Max-type quasidistances probability simplices,"A quasidistance is a function on a set, which is non-negative, non-degenerate and satisfies the triangle inequality. Despite the lack of symmetry, quasidistances lead to a rich theory involving geometric structures, such as geodesics. 
 
 %It is thus a generalisation of a distance function, which need not be symmetric. 
@@ -326,38 +326,9 @@ S3,SC4011,1,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:00,16:30,103,2
 S3,SC4011,2,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:30,17:00,103,200,,
 S3,SC4011,3,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:00,17:30,103,200,,
 S3,SC4011,4,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:30,18:00,103,200,,
-S4,SC0008,1,Shigeru,Furuichi,Shigeru Furuichi,2025-06-24 10:30:00,MS3,Matrix inequalities with applications,Tuesday,10:30,11:00,104,3,Inequalities on spectral geometric mean and application for relative entropy,"The weighted geometric mean is defined by $A\sharp_t B:=A^{\frac{1}{2}}\left(A^{-\frac{1}{2}}BA^{-\frac{1}{2}}\right)^t A^{\frac{1}{2}}$ for positive invertible operators $A,B$ and $0\leq t\leq 1.$ 
-The weighted spectral geometric mean was defined in \cite{Lee1} by
-\[A{{{\rm sp}}_{t}}B={{\left( {{A}^{-1}}\sharp B \right)}^{t}}A{{\left( {{A}^{-1}}\sharp B \right)}^{t}},\quad (0\leq t\leq 1).\]
-Operator inequalities between the weighted spectral geometric mean $A{\rm sp}_t B$ and the weighted geometric mean $A\sharp_tB$ have compared in \cite{MFS2023} with the generalized Kantorovich constant for $0<m<M$ and $t\in \mathbb{R}$:
-\[K\left( m,M,t \right)=\frac{\left(m{{M}^{t}}-M{{m}^{t}}\right)}{\left( t-1 \right)\left( M-m \right)}{{\left( \frac{t-1}{t}\frac{{{M}^{t}}-{{m}^{t}}}{m{{M}^{t}}-M{{m}^{t}}} \right)}^{t}}.\]
-	
-In this talk, we consider the case $t\notin (0,1)$. We firstly state the relations of $A\hat\sharp_t B$ and $A{{\hat{\rm sp}}_{t}}B$ for $t\notin (0,1)$ in L\""{o}wner order with the generalized Kantorovich constant. Norm inequalities are also shown for them.
-We also give log--majorization and the bounds for the Tsallis relative entropy as its application.
-Our talk is based on the results in \cite{FS2024}.
-
-
-\begin{thebibliography}{5}
-
-\bibitem{Lee1}
- H. Lee and Y. Lim, {\it Metric and spectral geometric means on symmetric cones}, Kyungpook Math. J., {\bf47}(1) (2007), 133--150.
-
-\bibitem{MFS2023}
-H. R. Moradi, S. Furuichi and M. Sababheh, {\it Operator spectral geometric versus geometric mean}, 	Linear Multilinear Algebra, {\bf 72}(2024), 997--1016.
-
-
-\bibitem{FS2024} S. Furuichi and Y. Seo, {\it Some inequalities for spectral geometric mean
-with applications}, Linear Multilinear Algebra, \url{doi.org/10.1080/03081087.2024.2433512}.
-\end{thebibliography}"
-S4,SC0008,2,Pattrawut,Chansangiam,Pattrawut Chansangiam,2025-06-24 10:30:00,MS3,Matrix inequalities with applications,Tuesday,11:00,11:30,104,3,Integral inequalities of Kantorovich and Fiedler types for Hadamard products of matrices,"The scalar Kantorovich inequality is a reverse weighted arithmetic-harmonic mean
-inequality. In matrix case, this inequality is also a reverse version of Fiedler’s inequality. In
-this talk, we discuss several Kantorovich and Fiedler types integral inequalities involving
-Hadamard products of continuous fields of Hilbert space operators. Kantorovich type inequality
-in which the product is replaced by an operator mean is also investigated. Such inequalities
-include discrete inequalities as special cases. Moreover, we obtain the monotonicity of certain
-maps involving Hadamard products of operators. As special cases, we get some operator versions of Fiedler matrix inequality.
-"
-S4,SC0008,3,Yang,Zhang,Yang Zhang,2025-06-24 10:30:00,MS3,Matrix inequalities with applications,Tuesday,11:30,12:00,104,3,,
+S4,SC0008,1,Olga,Katkova,Olga Katkova,2025-06-24 10:30:00,MS9,Total positivity,Tuesday,10:30,11:00,104,9,,
+S4,SC0008,2,Sujit Sakharam,Damase,Sujit Sakharam Damase,2025-06-24 10:30:00,MS9,Total positivity,Tuesday,11:00,11:30,104,9,,
+S4,SC0008,3,Tanvi,Jain,Tanvi Jain,2025-06-24 10:30:00,MS9,Total positivity,Tuesday,11:30,12:00,104,9,,
 S4,SC0009,1,Miran,Jeong,Miran Jeong,2025-06-24 10:30:00,MS29,Matrix functions and related topics,Tuesday,10:30,11:00,104,29,New weighted spectral geometric mean and quantum divergence,"A new class of weighted spectral geometric means has recently been introduced. In this talk, we present its inequalities in terms of the L\""{o}wner order, operator
 norm, and trace.
 Moreover, we establish a log-majorization relationship between the new spectral geometric mean, and the R\'{e}nyi relative operator entropy.
@@ -523,9 +494,38 @@ S4,SC2001,3,Emanuel Juliano,Morais Silva,Emanuel Juliano Morais Silva,2025-06-24
 In this talk, we focus on a natural quotient matrix of the adjacency matrix of $k$-atoms and use its combinatorial properties to derive bounds on the Grundy number in terms of the largest eigenvalue and the size of the graph.
 This talk is based on a joint work with Gabriel Coutinho and Thiago Assis.
 "
-S4,SC2006,1,TBA,TBA,TBA TBA,2025-06-24 10:30:00,,,Tuesday,10:30,11:00,104,1000,,
-S4,SC2006,2,TBA,TBA,TBA TBA,2025-06-24 10:30:00,,,Tuesday,11:00,11:30,104,1000,,
-S4,SC2006,3,TBA,TBA,TBA TBA,2025-06-24 10:30:00,,,Tuesday,11:30,12:00,104,1000,,
+S4,SC2006,1,Shigeru,Furuichi,Shigeru Furuichi,2025-06-24 10:30:00,MS3,Matrix inequalities with applications,Tuesday,10:30,11:00,104,3,Inequalities on spectral geometric mean and application for relative entropy,"The weighted geometric mean is defined by $A\sharp_t B:=A^{\frac{1}{2}}\left(A^{-\frac{1}{2}}BA^{-\frac{1}{2}}\right)^t A^{\frac{1}{2}}$ for positive invertible operators $A,B$ and $0\leq t\leq 1.$ 
+The weighted spectral geometric mean was defined in \cite{Lee1} by
+\[A{{{\rm sp}}_{t}}B={{\left( {{A}^{-1}}\sharp B \right)}^{t}}A{{\left( {{A}^{-1}}\sharp B \right)}^{t}},\quad (0\leq t\leq 1).\]
+Operator inequalities between the weighted spectral geometric mean $A{\rm sp}_t B$ and the weighted geometric mean $A\sharp_tB$ have compared in \cite{MFS2023} with the generalized Kantorovich constant for $0<m<M$ and $t\in \mathbb{R}$:
+\[K\left( m,M,t \right)=\frac{\left(m{{M}^{t}}-M{{m}^{t}}\right)}{\left( t-1 \right)\left( M-m \right)}{{\left( \frac{t-1}{t}\frac{{{M}^{t}}-{{m}^{t}}}{m{{M}^{t}}-M{{m}^{t}}} \right)}^{t}}.\]
+	
+In this talk, we consider the case $t\notin (0,1)$. We firstly state the relations of $A\hat\sharp_t B$ and $A{{\hat{\rm sp}}_{t}}B$ for $t\notin (0,1)$ in L\""{o}wner order with the generalized Kantorovich constant. Norm inequalities are also shown for them.
+We also give log--majorization and the bounds for the Tsallis relative entropy as its application.
+Our talk is based on the results in \cite{FS2024}.
+
+
+\begin{thebibliography}{5}
+
+\bibitem{Lee1}
+ H. Lee and Y. Lim, {\it Metric and spectral geometric means on symmetric cones}, Kyungpook Math. J., {\bf47}(1) (2007), 133--150.
+
+\bibitem{MFS2023}
+H. R. Moradi, S. Furuichi and M. Sababheh, {\it Operator spectral geometric versus geometric mean}, 	Linear Multilinear Algebra, {\bf 72}(2024), 997--1016.
+
+
+\bibitem{FS2024} S. Furuichi and Y. Seo, {\it Some inequalities for spectral geometric mean
+with applications}, Linear Multilinear Algebra, \url{doi.org/10.1080/03081087.2024.2433512}.
+\end{thebibliography}"
+S4,SC2006,2,Pattrawut,Chansangiam,Pattrawut Chansangiam,2025-06-24 10:30:00,MS3,Matrix inequalities with applications,Tuesday,11:00,11:30,104,3,Integral inequalities of Kantorovich and Fiedler types for Hadamard products of matrices,"The scalar Kantorovich inequality is a reverse weighted arithmetic-harmonic mean
+inequality. In matrix case, this inequality is also a reverse version of Fiedler’s inequality. In
+this talk, we discuss several Kantorovich and Fiedler types integral inequalities involving
+Hadamard products of continuous fields of Hilbert space operators. Kantorovich type inequality
+in which the product is replaced by an operator mean is also investigated. Such inequalities
+include discrete inequalities as special cases. Moreover, we obtain the monotonicity of certain
+maps involving Hadamard products of operators. As special cases, we get some operator versions of Fiedler matrix inequality.
+"
+S4,SC2006,3,Yang,Zhang,Yang Zhang,2025-06-24 10:30:00,MS3,Matrix inequalities with applications,Tuesday,11:30,12:00,104,3,,
 S4,SC3001,1,Gilad,Lerman,Gilad Lerman,2025-06-24 10:30:00,MS18,New methods in numerical multilinear algebra,Tuesday,10:30,11:00,104,18,,
 S4,SC3001,2,Jing,Niu,Jing Niu,2025-06-24 10:30:00,MS18,New methods in numerical multilinear algebra,Tuesday,11:00,11:30,104,18,A tensor alternating Anderson--Richardson method for solving multilinear systems with $ \mathcal{M} $-tensors,"It is well-known that a multilinear system with a nonsingular $ \mathcal{M} $-tensor and a positive right-hand side has a unique positive solution.
 Tensor splitting methods are efficient because they do not require computing the Jacobian matrix.
@@ -542,10 +542,10 @@ S4,SC4011,1,Sing-Yuan,Yeh,Sing-Yuan Yeh,2025-06-24 10:30:00,MS20,Manifold learni
 S4,SC4011,2,Yu-Jie,Huang,Yu-Jie Huang,2025-06-24 10:30:00,MS20,Manifold learning and statistical applications,Tuesday,11:00,11:30,104,20,Application of VoxelMorph and SynthMorph for multitype 3D medical image registration,"In this work, we explore the application of VoxelMorph and SynthMorph for 3D medical image registration. VoxelMorph provides a deep learning-based framework that utilizes deformable pairwise registration, enabling the alignment of complex anatomical structures through continuous deformation fields. By modeling transformations as smooth manifolds, VoxelMorph facilitates precise, non-rigid alignment, making it well-suited for capturing intricate deformations in medical images. SynthMorph further extends this approach, offering a robust method for image registration across diverse MRI contrasts, effectively handling variations in image intensities without relying on acquired imaging data. We investigate how these deformable models can be integrated into existing medical imaging workflows to enhance multi-type image registration, improving the alignment of images with varying anatomical and contrast properties."
 S4,SC4011,3,Chih-Wei,Chen,Chih-Wei Chen,2025-06-24 10:30:00,MS20,Manifold learning and statistical applications,Tuesday,11:30,12:00,104,20,Convergence of Hessian estimator from random samples on a manifold with boundary,"A common method for estimating the Hessian operator from random samples on a submanifold involves locally fitting a quadratic polynomial. Although widely used, it is unclear if this estimator introduces bias, especially in manifolds with boundaries and nonuniform sampling. We show that this estimator asymptotically converges to the Hessian operator, with nonuniform sampling and curvature effects proving negligible, even near boundaries. Our analysis framework simplifies the intensive computations required for direct analysis. This is join work with Hau-Tieng Wu. 
 "
-S5,SC0008,1,Olga,Katkova,Olga Katkova,2025-06-24 13:30:00,MS9,Total positivity,Tuesday,13:30,14:00,105,9,,
-S5,SC0008,2,Prateek Kumar,Vishwakarma,Prateek Kumar Vishwakarma,2025-06-24 13:30:00,MS9,Total positivity,Tuesday,14:00,14:30,105,9,,
-S5,SC0008,3,Sujit Sakharam,Damase,Sujit Sakharam Damase,2025-06-24 13:30:00,MS9,Total positivity,Tuesday,14:30,15:00,105,9,,
-S5,SC0008,4,Tanvi,Jain,Tanvi Jain,2025-06-24 13:30:00,MS9,Total positivity,Tuesday,15:00,15:30,105,9,,
+S5,SC0008,1,,,,2025-06-24 13:30:00,,,Tuesday,13:30,14:00,105,1000,,
+S5,SC0008,2,,,,2025-06-24 13:30:00,,,Tuesday,14:00,14:30,105,1000,,
+S5,SC0008,3,,,,2025-06-24 13:30:00,,,Tuesday,14:30,15:00,105,1000,,
+S5,SC0008,4,,,,2025-06-24 13:30:00,,,Tuesday,15:00,15:30,105,1000,,
 S5,SC0009,1,Pengpeng,Xie,Pengpeng Xie,2025-06-24 13:30:00,MS29,Matrix functions and related topics,Tuesday,13:30,14:00,105,29,,
 S5,SC0009,2,Yuki,Seo,Yuki Seo,2025-06-24 13:30:00,MS29,Matrix functions and related topics,Tuesday,14:00,14:30,105,29,,
 S5,SC0009,3,Athul,Augustine,Athul Augustine,2025-06-24 13:30:00,MS29,Matrix functions and related topics,Tuesday,14:30,15:00,105,29,,
@@ -961,24 +961,9 @@ S6,SC4011,4,Michele,Rinelli,Michele Rinelli,2025-06-24 16:00:00,MS23,Advances in
 Instead of focusing on determining the gap between two particular consecutive eigenvalues of $A$, we aim to find all gaps that are wider than a specified threshold. By examining the problem from this perspective, and thoroughly analyzing both the Hutchinson and the Lanczos components of the algorithm, we obtain error bounds that allow us to determine the numbers of Hutchinson's sample vectors and Lanczos iterations needed to ensure the detection of all gaps above the target width with high probability.\\
 We conclude that the most efficient strategy is to always use a single random sample vector for Hutchinson's estimator and concentrate all computational effort in the Lanczos algorithm. Our numerical experiments demonstrate the efficiency and reliability of this approach.
 "
-S7,SC0008,1,Rute,Lemos,Rute Lemos,2025-06-25 10:30:00,MS3,Matrix inequalities with applications,Wednesday,10:30,11:00,107,3,$J$-selfadoint matrix means and their indefinite inequalities,"Consider the indefinite inner product induced by a non trivial involutive Hermitian matrix $J$, 
-which endows the matrix algebra of $n$-square complex matrices with a partial order relation between $J$-selfadjoint matrices.
-Indefinite inequalities are given in this setup, involving the $J$-selfadjoint $\alpha$-weighted geometric matrix mean. 
-In particular, an indefinite version of Ando–Hiai inequality is proved to be equivalent to Furuta inequality of indefinite type.
-
-This talk is based on a joint work with Nat\'alia Bebiano and Gra\c ca Soares.
-
-This work is supported by the
-Center for Research and Development in Mathematics and Applications (CIDMA) under the
-Portuguese Foundation for Science and Technology 
-(FCT, https://ror.org/00snfqn58)   
-Multi-Annual Financing Program for R\&D Units.
-
-
-%Linear algebra is a fundamental branch of mathematics that underpins numerous scientific and technological advancements. It provides essential tools for solving systems of equations, transforming geometric spaces, and analyzing data. With applications in engineering, computer science, physics, economics, and machine learning, linear algebra plays a crucial role in modern innovations, from image processing to artificial intelligence. 
-"
-S7,SC0008,2,Hiroyuki,Osaka,Hiroyuki Osaka,2025-06-25 10:30:00,MS3,Matrix inequalities with applications,Wednesday,11:00,11:30,107,3,,
-S7,SC0008,3,Zhongshan Jason,Li,Zhongshan Jason Li,2025-06-25 10:30:00,MS3,Matrix inequalities with applications,Wednesday,11:30,12:00,107,3,,
+S7,SC0008,1,,,,2025-06-25 10:30:00,,,Wednesday,10:30,11:00,107,1000,,
+S7,SC0008,2,,,,2025-06-25 10:30:00,,,Wednesday,11:00,11:30,107,1000,,
+S7,SC0008,3,,,,2025-06-25 10:30:00,,,Wednesday,11:30,12:00,107,1000,,
 S7,SC0009,1,Brooke,Randell,Brooke Randell,2025-06-25 10:30:00,MS33,"Norms of matrices, numerical range, applications of functional analysis to matrix theory",Wednesday,10:30,11:00,107,33,Exploring the numerical range of block Toeplitz operators,"We will discuss the numerical range of a family of Toeplitz operators with symbol function \(\phi(z)=A_0+zA_1\), where \(A_0\) and \(A_1\) are \(2 \times 2\) matrices with complex-valued entries. A special case of a result proved by Bebiano and Spitkovsky in 2011 states that the closure of the numerical range of the Toeplitz operator \(T_{\phi(z)}\) is the convex hull of \(\{W(\phi(z)): z \in \partial \mathbb{D}\}\). Here, \(W(\phi(z))\) denotes the numerical range of \(\phi(z)\). We combine this result with the envelope algorithm to describe the boundary of the convex hull of \(\{W(\phi(z)): z \in \partial \mathbb{D}\}\). We also place specific conditions on the matrices \(A_0\) and \(A_1\) so that \(\{W(\phi(z)): z \in \partial \mathbb{D}\}\) is a set of potentially degenerate circular disks. The convex hull of \(\{W(\phi(z)): z \in \partial \mathbb{D}\}\) takes on a wide variety of shapes, including the convex hull of lima\c{c}ons."
 S7,SC0009,2,Dragana,Cvetkovic Ilic,Dragana Cvetkovic Ilic,2025-06-25 10:30:00,MS33,"Norms of matrices, numerical range, applications of functional analysis to matrix theory",Wednesday,11:00,11:30,107,33,"Large similarities between the numerical range of an operator and
 of certain generalized inverses","In this talk we will consider the different properties of the numerical range for a bounded linear operator from the point of view of its similarities  to the numerical range  of certain generalized inverses such as the Moore-Penrose inverse, Drazin inverse, DMP-inverse, MDP-inverse and CMP-inverse.  We will discuss  the question whether the numerical ranges of an operator and its certain generalized inverse simultaneously contain the origin as well as whether this is true in the case of the closure, boundary, extreme points and sharp points of the corresponding numerical ranges.  To illustrate our results we will exhibit some numerical examples."
@@ -1054,9 +1039,24 @@ S7,SC2001,2,Helena,Šmigoc,Helena Šmigoc,2025-06-25 10:30:00,MS2,Combinatorial 
 We will explore the connection between the spectral properties of an  $\mathrm{AFD}_+$-matrix $A$ and the spectral properties of a limit point $L$ of its stochastic roots. This connection, which is first formalised in the broader context of complex and real square matrices, poses restrictions on $A$ assuming $L$ is given. For example, if an $\mathrm{AFD}_+$-matrix $A$ has a corresponding irreducible limit point $L$, then $A$ has to be a circulant matrix. We close with a complete characterisation of $\mathrm{AFD}_+$-matrices of rank-two."
 S7,SC2001,3,Himanshu,Gupta,Himanshu Gupta,2025-06-25 10:30:00,MS2,Combinatorial matrix theory,Wednesday,11:30,12:00,107,2,Minimum number of distinct eigenvalues of Johnson and Hamming graphs,"This talk focuses on the inverse eigenvalue problem for graphs (IEPG), which seeks to determine the possible spectra of symmetric matrices associated with a given graph $G$. These matrices have off-diagonal non-zero entries corresponding to the edges of $G$, while diagonal entries are unrestricted. A key parameter in IEPG is $q(G)$, the minimum number of distinct eigenvalues among such matrices. The Johnson and Hamming graphs are well-studied families of graphs with many interesting combinatorial and algebraic properties. We prove that every Johnson graph admits a signed adjacency matrix with exactly two distinct eigenvalues, establishing that its $q$-value is two. Additionally, we explore the behavior of $q(G)$ for Hamming graphs. This is a joint work with Shaun Fallat, Allen Herman, and Johnna Parenteau. 
 "
-S7,SC2006,1,TBA,TBA,TBA TBA,2025-06-25 10:30:00,,,Wednesday,10:30,11:00,107,1000,,
-S7,SC2006,2,TBA,TBA,TBA TBA,2025-06-25 10:30:00,,,Wednesday,11:00,11:30,107,1000,,
-S7,SC2006,3,TBA,TBA,TBA TBA,2025-06-25 10:30:00,,,Wednesday,11:30,12:00,107,1000,,
+S7,SC2006,1,Rute,Lemos,Rute Lemos,2025-06-25 10:30:00,MS3,Matrix inequalities with applications,Wednesday,10:30,11:00,107,3,$J$-selfadoint matrix means and their indefinite inequalities,"Consider the indefinite inner product induced by a non trivial involutive Hermitian matrix $J$, 
+which endows the matrix algebra of $n$-square complex matrices with a partial order relation between $J$-selfadjoint matrices.
+Indefinite inequalities are given in this setup, involving the $J$-selfadjoint $\alpha$-weighted geometric matrix mean. 
+In particular, an indefinite version of Ando–Hiai inequality is proved to be equivalent to Furuta inequality of indefinite type.
+
+This talk is based on a joint work with Nat\'alia Bebiano and Gra\c ca Soares.
+
+This work is supported by the
+Center for Research and Development in Mathematics and Applications (CIDMA) under the
+Portuguese Foundation for Science and Technology 
+(FCT, https://ror.org/00snfqn58)   
+Multi-Annual Financing Program for R\&D Units.
+
+
+%Linear algebra is a fundamental branch of mathematics that underpins numerous scientific and technological advancements. It provides essential tools for solving systems of equations, transforming geometric spaces, and analyzing data. With applications in engineering, computer science, physics, economics, and machine learning, linear algebra plays a crucial role in modern innovations, from image processing to artificial intelligence. 
+"
+S7,SC2006,2,Hiroyuki,Osaka,Hiroyuki Osaka,2025-06-25 10:30:00,MS3,Matrix inequalities with applications,Wednesday,11:00,11:30,107,3,,
+S7,SC2006,3,Zhongshan Jason,Li,Zhongshan Jason Li,2025-06-25 10:30:00,MS3,Matrix inequalities with applications,Wednesday,11:30,12:00,107,3,,
 S7,SC3001,1,Chun-Yueh,Chiang,Chun-Yueh Chiang,2025-06-25 10:30:00,MS11,Structured matrix computations and its applications,Wednesday,10:30,11:00,107,11,,
 S7,SC3001,2,Hung-Yuan,Fan,Hung-Yuan Fan,2025-06-25 10:30:00,MS11,Structured matrix computations and its applications,Wednesday,11:00,11:30,107,11,Inheritance properties of conjugate discrete-time algebraic Riccati equations,"In this talk we consider a class of conjugate discrete-time Riccati equations, arising originally from the linear quadratic regulator problem for discrete-time antilinear systems. Under mild and reasonable assumptions, the existence of the maximal solution to the conjugate discrete-time Riccati equation, in which the control weighting matrix is nonsingular and its constant term is Hermitian, will be inherited to a transformed discrete-time algebraic Riccati equation. Based on this inheritance property, an accelerated fixed-point iteration is proposed for finding the maximal solution via the transformed Riccati equation. Numerical examples are shown to illustrate the correctness of our theoretical results and the feasibility of the proposed algorithm."
 S7,SC3001,3,,,,2025-06-25 10:30:00,MS11,Structured matrix computations and its applications,Wednesday,11:30,12:00,107,11,,
@@ -1114,9 +1114,9 @@ S8,SC0014,3,Zehua,Lai,Zehua Lai,2025-06-26 10:30:00,MS8,Tensor and quantum infor
 S8,SC1001,1,Akihiro,Munemasa,Akihiro Munemasa,2025-06-26 10:30:00,MS34,"Combinatorics, association scheme, and graphs",Thursday,10:30,11:00,108,34,,
 S8,SC1001,2,Chia-An,Liu,Chia-An Liu,2025-06-26 10:30:00,MS34,"Combinatorics, association scheme, and graphs",Thursday,11:00,11:30,108,34,,
 S8,SC1001,3,Pin-Chieh,Tseng,Pin-Chieh Tseng,2025-06-26 10:30:00,MS34,"Combinatorics, association scheme, and graphs",Thursday,11:30,12:00,108,34,,
-S8,SC1003,1,TBA,TBA,TBA TBA,2025-06-26 10:30:00,,,Thursday,10:30,11:00,108,1000,,
-S8,SC1003,2,TBA,TBA,TBA TBA,2025-06-26 10:30:00,,,Thursday,11:00,11:30,108,1000,,
-S8,SC1003,3,TBA,TBA,TBA TBA,2025-06-26 10:30:00,,,Thursday,11:30,12:00,108,1000,,
+S8,SC1003,1,,,,2025-06-26 10:30:00,,,Thursday,10:30,11:00,108,1000,,
+S8,SC1003,2,,,,2025-06-26 10:30:00,,,Thursday,11:00,11:30,108,1000,,
+S8,SC1003,3,,,,2025-06-26 10:30:00,,,Thursday,11:30,12:00,108,1000,,
 S8,SC1005,1,Mike,Michailidis,Mike Michailidis,2025-06-26 10:30:00,MS27,Linear algebra education,Thursday,10:30,11:00,108,27,Computational labs to enhance linear algebra intuition,"Linear algebra is a key topic in mathematics and a core component of science and engineering education. In this talk, we will explore the role of programming in enhancing linear algebra education. Specifically, we will report on a study about a proof-based second course in linear algebra encompassing various topics, including vector spaces, finite-dimensional vector spaces, linear maps, polynomials, inner product spaces, operators on inner product spaces, eigenvalues, and eigenvectors. The existing course was reorganized to incorporate six labs and a final project using MATLAB, to help students explore numerical linear algebra and its applications via programming. 22 mathematics and engineering students were enrolled in this course and 15 agreed to participate in this study, the findings of which we will report and present during this talk. 
 "
 S8,SC1005,2,Rachel,Quinlan,Rachel Quinlan,2025-06-26 10:30:00,MS27,Linear algebra education,Thursday,11:00,11:30,108,27,Project work in an undergraduate linear algebra course,"This talk will report on the work of some students in a free-form project
@@ -1147,9 +1147,9 @@ S8,SC2001,1,Steve,Kirkland,Steve Kirkland,2025-06-26 10:30:00,MS2,Combinatorial 
 S8,SC2001,2,Carlos,Hoppen,Carlos Hoppen,2025-06-26 10:30:00,MS2,Combinatorial matrix theory,Thursday,11:00,11:30,108,2,Spectral community detection in geometric random graphs,"This talk is about community detection in graphs defined by the Soft Geometric Block Model (SGBM). Suppose that $n=k \ell$ points are classified into $k \geq 2$ communities with $\ell$ points in each community. These $n$ points are embedded independently and with uniform probability as points $X_1,\ldots,X_n$ of the $d$-dimensional flat unit torus $\mathbf{T^d}$. A random graph $G$ is generated so that the edge $\{i,j\}$ appears with probability $F_{in}(||X_i-X_j||)$ if $i$ and $j$ belong to the same community, and with probability $F_{out}(||X_i-X_j||)$  if $i$ and $j$ belong to different communities. Under some technical conditions about $F_{in}$ and $F_{out}$, we shall prove that asymptotically almost surely there is a set of $k-1$ eigenvalues of the adjacency matrix $A(G)$ whose eigenspaces allow us to correctly identify the members of each community. This strategy gives a spectral algorithm for community detection in random geometric graphs. The talk is based on joint work with Konstantin Avrachenkov (INRIA-Sophia Antipolis), Luiz Emilio Allem (UFRGS), Hariprasad Manjunath (Chanakya University), and Lucas Siviero Sibemberg (UFRGS), and generalizes a result of Avrachenkov, Bobu and Dreveton [Avrachenkov, K., Bobu, A., Dreveton, M., \emph{Higher-Order Spectral Clustering for Geometric Graphs}, Journal of Fourier Analysis and Applications {\bf 27} (2021), article 22.], which deals with the case of $k=2$ communities. 
 "
 S8,SC2001,3,Wei,Wang,Wei Wang,2025-06-26 10:30:00,MS2,Combinatorial matrix theory,Thursday,11:30,12:00,108,2,,
-S8,SC2006,1,TBA,TBA,TBA TBA,2025-06-26 10:30:00,,,Thursday,10:30,11:00,108,1000,,
-S8,SC2006,2,TBA,TBA,TBA TBA,2025-06-26 10:30:00,,,Thursday,11:00,11:30,108,1000,,
-S8,SC2006,3,TBA,TBA,TBA TBA,2025-06-26 10:30:00,,,Thursday,11:30,12:00,108,1000,,
+S8,SC2006,1,,,,2025-06-26 10:30:00,,,Thursday,10:30,11:00,108,1000,,
+S8,SC2006,2,,,,2025-06-26 10:30:00,,,Thursday,11:00,11:30,108,1000,,
+S8,SC2006,3,,,,2025-06-26 10:30:00,,,Thursday,11:30,12:00,108,1000,,
 S8,SC3001,1,Tomohiro,Sogabe,Tomohiro Sogabe,2025-06-26 10:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,10:30,11:00,108,16,,
 S8,SC3001,2,Michael,Saunders,Michael Saunders,2025-06-26 10:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,11:00,11:30,108,16,,
 S8,SC3001,3,Xiaobo,Liu,Xiaobo Liu,2025-06-26 10:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,11:30,12:00,108,16,,
