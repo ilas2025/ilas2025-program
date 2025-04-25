@@ -31,7 +31,8 @@ every node/.style={circle, draw=black, inner sep=2pt}
 \newcommand{\info}[1]{{\footnotesize\tt #1}}
 
 \definecolor{mstitle}{HTML}{193890}
-
+\newenvironment{ilasabstract}{\par\noindent\ignorespaces}{\btskip\ignorespacesafterend}
+ 
 %% \parskip=2cm
 %% \parindent=0pt
 
@@ -168,22 +169,16 @@ National Sun Yat-sen University
 
 \newpage
 
-%% SEC: COMPACT SCHEDULE
-
 %% SEC: TOC
+\tableofcontents
+
+\newpage
 
 \pagenumbering{arabic}
 
-%% SEC: MONDAY SCHEDULE
-%% SEC: TUESDAY SCHEDULE
-%% SEC: WEDNESDAY SCHEDULE
-%% SEC: THURSDAY SCHEDULE
-%% SEC: FRIDAY SCHEDULE
-
-%% SEC: ABSTRACTS
-
-
 \subfile{schedule}
+
+\subfile{abstract}
 
 %% \subfile{content}
 
