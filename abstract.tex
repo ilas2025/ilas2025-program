@@ -3,6 +3,7 @@
 \begin{document}
 
 \parindent=0pt
+\parskip=5pt
 
 \section{Abstracts of Plenary Talks}
 
@@ -131,6 +132,7 @@ while the objective function increases monotonically. Along similar lines,
 joint principal SVD-type block-diagonalization is also investigated.
 Numerical experiments will be presented to illustrate the use of the NPDo approach and demonstrate its superiority
 to existing methods for matrices of dimension 200 or larger.
+
 \end{ilasabstract}
     
 
@@ -663,15 +665,32 @@ This talk is based on joint work with Adam Berliner, Dale Olesky and Pauline van
     
 
 \hypertarget{down0231}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{A Divide-and-Conquer Framework for Efficient Algebraic Linearizations of Matrix Polynomials
+}
     
-\textbf{Eunice Y. S. Chan}, \info{17:00\textrm{--}17:30 @ SC2006 (June 24, Tuesday)} \hfill \hyperlink{up0231}{$\Uparrow$}
+\textbf{Eunice Chan}, \info{17:00\textrm{--}17:30 @ SC2006 (June 24, Tuesday)} \hfill \hyperlink{up0231}{$\Uparrow$}
     
     
 (in {\color{mstitle}MS30: Bohemian matrices: Theory, applications, and explorations})
         
 \mtskip
-    nan
+    In this talk, we explore the integration of the divide-and-conquer (dc) technique into the computation of eigenvalues for matrix polynomials using algebraic linearizations. Algebraic linearizations reduce a matrix polynomial $\mathbf{P}(z) \in \mathbb{C}[z]^{r \times r}$ of degree $s$ into a generalized eigenvalue problem of the form
+\begin{equation*}
+    (z\mathbf{D_L} - \mathbf{L})\mathbf{v} = \mathbf{0} \>,
+\end{equation*}
+where $\mathbf{D_L}$ is block diagonal, $\mathbf{L}$ is block upper Hessenberg, and $\mathbf{P}(z)$ is reconstructed through a resolvent representation:
+\begin{equation*}
+    \mathbf{P}(z)^{-1} = \mathbf{X_L}(z\mathbf{D_L} - \mathbf{L})^{-1}\mathbf{Y_L} \>.
+\end{equation*}
+While algebraic linearizations offer a structured and efficient way to solve polynomial eigenvalue problems, the resulting linearized systems can become computationally demanding for large-scale problems. To overcome this challenge, we incorporate the divide-and-conquer technique, as outlined by Bini and Pan (1992), leveraging its ability to break down eigenvalue computation into smaller, independent subproblems.
+
+We demonstrate how this integration facilitates the efficient computation of eigenvalues for systems such as
+\begin{equation*}
+    \mathbf{h}(z) = z\mathbf{a}(z)\mathbf{d}_0\mathbf{b}(z) + \mathbf{c}_0 \>,
+\end{equation*}
+where $\mathbf{a}(z)$ and $\mathbf{b}(z)$ are matrix polynomials with their own linearizations. This combined approach reduces computational complexity while maintaining numerical stability, making it a scalable and practical solution for large-scale polynomial eigenvalue problems. This talk will highlight the theoretical framework and discuss how this integration enhances the efficiency and robustness of algebraic linearizations.
+
+
 \end{ilasabstract}
     
 
@@ -819,7 +838,7 @@ Friedland, back in 1985.
     
 
 \hypertarget{down0268}{}\begin{ilasabstract}
-\talktitle{{\bf Title:} Ten Hermitian solutions of anti-Riccati matrix equation arising in anti-LQR problem
+\talktitle{Ten Hermitian solutions of anti-Riccati matrix equation arising in anti-LQR problem
 }
     
 \textbf{Chun-Yueh Chiang}, \info{10:30\textrm{--}11:00 @ SC3001 (June 25, Wednesday)} \hfill \hyperlink{up0268}{$\Uparrow$}
@@ -828,7 +847,7 @@ Friedland, back in 1985.
 (in {\color{mstitle}MS11: Structured matrix computations and its applications})
         
 \mtskip
-    {\bf Abstract:} In this talk, we consider a class of conjugate discrete-time Riccati equations (CDARE), arising originally
+    In this talk, we consider a class of conjugate discrete-time Riccati equations (CDARE), arising originally
 from the linear quadratic regulation problem for discrete-time antilinear systems. Recently, we have proven
 the existence of the maximal solution to the CDARE with a nonsingular control weighting matrix within
 the framework of a constructive method. Our contribution to the work is to find another meaningful
@@ -914,7 +933,8 @@ We will discuss related results for arbitrary strongly connected graphs, includi
     
 
 \hypertarget{down0304}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Inverse Iteration for Sylvester Operators
+}
     
 \textbf{Eric King-wah Chu}, \info{10:30\textrm{--}11:00 @ SC4011 (June 26, Thursday)} \hfill \hyperlink{up0304}{$\Uparrow$}
     
@@ -922,7 +942,8 @@ We will discuss related results for arbitrary strongly connected graphs, includi
 (in {\color{mstitle}MS1: Embracing new opportunities in numerical linear algebra})
         
 \mtskip
-    nan
+    We generalize the inverse iteration for matrices  to the (generalized) Sylvester operator $\mathcal{S}(X) \equiv AXB^\top - CXD^\top$, computing the null space or the homogeneous solution to $\mathcal{S}(X)=0$, or the eigen-spaces for the intersecting subspectrum $\Lambda (A, C) \cap \Lambda (D,B)$. Cases with two small matrix pencils in $(A,C)$ and $(D,B)$, a large and a small pencils, and two large pencils, as well as the special cases for the Sylvester and Lyapunov equations, and the linear equation with tensor structures, are  considered. When the solution process for the corresponding Sylvester equation is robust and efficient, the generalized inverse iteration converges in one or two iterations, especially for cases of small dimensions or with semi-simple intersecting eigenvalues. For large examples, especially with derogatory intersecting eigenvalues, the approach performs less well. Illustrative numerical experiments are presented.
+
 \end{ilasabstract}
     
 
@@ -943,9 +964,25 @@ In this study, we propose a novel framework for identifying preferred trajectori
     
 
 \hypertarget{down0202}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Data-driven inverse problems via autoencoder
+}
     
 \textbf{Matthias Chung}, \info{16:30\textrm{--}17:00 @ SC0009 (June 24, Tuesday)} \hfill \hyperlink{up0202}{$\Uparrow$}
+    
+    
+(in {\color{mstitle}MS4: Linear algebra methods for inverse problems and data assimilation})
+        
+\mtskip
+    Emerging disciplines such as data analytics, machine learning, and uncertainty quantification increasingly depend on efficient computational techniques to address inverse problems. As models grow in complexity and data volumes expand, existing state-of-the-art inference methods are reaching their limitations, highlighting the urgent need for novel approaches.
+Inverse problems in science and engineering remain inherently challenging. While likelihood-free methods offer promising alternatives to traditional inversion techniques, they often face limitations in generalization and accuracy. In this work, we propose a novel paired autoencoder framework as a likelihood-free estimator. Our approach enables efficient solution generation, quality evaluation, and iterative refinement. We demonstrate the effectiveness of the method through applications to full waveform inversion and inverse electromagnetic imaging.
+
+\end{ilasabstract}
+    
+
+\hypertarget{down0312}{}\begin{ilasabstract}
+\talktitle{nan}
+    
+\textbf{Julianne Chung}, \info{14:00\textrm{--}14:30 @ SC0009 (June 26, Thursday)} \hfill \hyperlink{up0312}{$\Uparrow$}
     
     
 (in {\color{mstitle}MS4: Linear algebra methods for inverse problems and data assimilation})
@@ -1331,9 +1368,7 @@ where \(f\colon [0,1]\to [0,1]\) is a continuous, strictly increasing function w
     
 
 \hypertarget{down0258}{}\begin{ilasabstract}
-\talktitle{The spectrum of Toeplitz matrices
-with two off-diagonals
-}
+\talktitle{The spectrum of Toeplitz matrices with two off-diagonals}
     
 \textbf{Sven-Erik Ekström}, \info{11:30\textrm{--}12:00 @ SC1003 (June 25, Wednesday)} \hfill \hyperlink{up0258}{$\Uparrow$}
     
@@ -2574,7 +2609,8 @@ This is a joint work With Srdjan Stefanovi\'c
     
 
 \hypertarget{down0252}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Global locations of Schmidt number witnesses
+}
     
 \textbf{Seung-Hyeok Kye}, \info{11:30\textrm{--}12:00 @ SC0014 (June 25, Wednesday)} \hfill \hyperlink{up0252}{$\Uparrow$}
     
@@ -2582,7 +2618,21 @@ This is a joint work With Srdjan Stefanovi\'c
 (in {\color{mstitle}MS8: Tensor and quantum information science})
         
 \mtskip
-    nan
+    We investigate global locations of Schmidt number witnesses which
+are outside of the convex set of all bi-partite states. Their
+locations are classified by interiors of faces of the convex set of
+all states, by considering the line segments from them to the
+maximally mixed state. In this way, a nonpositive Hermitian matrix
+of trace one is located outside of one and only one face. Faces of
+the convex set of all states are classified by subspaces, which are
+range spaces of states belonging to specific faces. For a given
+subspace, we show that there exist Schmidt number $k+1$ witnesses
+outside of the face arising from this subspace if and only if every
+vector in the orthogonal complement of the subspace has Schmidt rank
+greater than $k$. Once we have Schmidt number $k+1$ witnesses
+outside of a face, we also have Schmidt number $2,3,\dots, k$
+witnesses outside of the face.
+
 \end{ilasabstract}
     
 
@@ -2732,12 +2782,11 @@ Multi-Annual Financing Program for R\&D Units.
 (in {\color{mstitle}MS11: Structured matrix computations and its applications})
         
 \mtskip
-    To solve  boundary value problems by pseudospectral methods with penalty leads to penalized differentiation matrices. 
+    To solve boundary value problems by pseudospectral methods with penalty leads to penalized differentiation matrices. 
 We had proposed a factorization of the inverse of the penalized differentiation matrix  in 2020. 
 The factorization contains a tridiagonal matrix and is  crucial in solving Poisson's equations.  
 However, to solve 2D Poisson's equations, we aim to diagonalize the penalized differentiation matrix.
 Thus, we propose a new factorization  of the  penalized differentiation matrix containing a block diagonal matrix plus low ranks.
-
 \end{ilasabstract}
     
 
@@ -2757,21 +2806,9 @@ This is joint work with M. Arav, H. van der Holst, F. Hall, J. Seo, L. Wang, Y. 
 \end{ilasabstract}
     
 
-\hypertarget{down0345}{}\begin{ilasabstract}
-\talktitle{nan}
-    
-\textbf{Zhao Li}, \info{14:30\textrm{--}15:00 @ SC3001 (June 26, Thursday)} \hfill \hyperlink{up0345}{$\Uparrow$}
-    
-    
-(in {\color{mstitle}MS16: Approximations and errors in Krylov-based solvers})
-        
-\mtskip
-    nan
-\end{ilasabstract}
-    
-
 \hypertarget{down0071}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{A gradient flow method to differentiate between classical and quantum correlations
+}
     
 \textbf{Matthew M. Lin}, \info{14:30\textrm{--}15:00 @ SC3001 (June 23, Monday)} \hfill \hyperlink{up0071}{$\Uparrow$}
     
@@ -2779,7 +2816,9 @@ This is joint work with M. Arav, H. van der Holst, F. Hall, J. Seo, L. Wang, Y. 
 (in {\color{mstitle}MS1: Embracing new opportunities in numerical linear algebra})
         
 \mtskip
-    nan
+    In this talk, we aim to quantify measurement disturbance by minimizing the distinction between input and post-measurement states, enabling us to determine whether the correlations are classical or quantum. Theoretically, we employ a complex-valued gradient flow over Stiefel manifolds for optimization. Our approach applies the well-known Lojasiewicz gradient inequality, guaranteeing the global convergence of the flow from any initial point. Experimental results
+demonstrate that our method can accurately and reliably classify correlations as classical or quantum.
+
 \end{ilasabstract}
     
 
@@ -3082,7 +3121,8 @@ In this way, we propose a natural preconditioning strategy for linear systems wi
     
 
 \hypertarget{down0206}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Dynamic flows and iterative methods for identifying the Choi representation of an unknown quantum channel from partial data
+}
     
 \textbf{Bing-Ze Lu}, \info{16:30\textrm{--}17:00 @ SC0012 (June 24, Tuesday)} \hfill \hyperlink{up0206}{$\Uparrow$}
     
@@ -3090,7 +3130,16 @@ In this way, we propose a natural preconditioning strategy for linear systems wi
 (in {\color{mstitle}MS7: Linear algebra and quantum information science})
         
 \mtskip
-    nan
+    Identifying quantum channels clarifies how quantum states evolve and how information propagates. Because exact reconstruction is NP‑hard, we focus on efficient numerical approximations.
+
+Exploiting the unitary nature of channel dynamics, we cast the problem on the Stiefel manifold—the intrinsic geometric space of real or complex unitary matrices---to devise practical reconstruction algorithms.
+
+\textbf{Part I -- Single-unitary channels} \\
+\noindent When the channel is generated by a single unitary operator, we combine polar decomposition with manifold geometry to achieve exact recovery and delineate the minimal data requirements.
+
+\textbf{Part II -- Multi-unitary channels} \\
+\noindent For channels expressible as convex mixtures of several unitaries, we formulate a gradient‑flow scheme on the Stiefel manifold and prove convergence guarantees, showcasing the method’s accuracy and flexibility.
+
 \end{ilasabstract}
     
 
@@ -3569,9 +3618,7 @@ Math. Comput. Modell, 42(9--10), 1023--1034 (2005).
     
 
 \hypertarget{down0018}{}\begin{ilasabstract}
-\talktitle{Relative entropy preserving maps on positive
-cones in operator algebras and in matrix algebras
-}
+\talktitle{Relative entropy preserving maps on positive cones in operator algebras and in matrix algebras}
     
 \textbf{Lajos Molnár}, \info{12:00\textrm{--}12:30 @ SC0012 (June 23, Monday)} \hfill \hyperlink{up0018}{$\Uparrow$}
     
@@ -4028,7 +4075,8 @@ This is a joint work with Martina Iannacito and Valeria Simoncini.
     
 
 \hypertarget{down0305}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Integrative co-embedding of multi-view data sets
+}
     
 \textbf{Haesun Park}, \info{11:00\textrm{--}11:30 @ SC4011 (June 26, Thursday)} \hfill \hyperlink{up0305}{$\Uparrow$}
     
@@ -4036,20 +4084,9 @@ This is a joint work with Martina Iannacito and Valeria Simoncini.
 (in {\color{mstitle}MS1: Embracing new opportunities in numerical linear algebra})
         
 \mtskip
-    nan
-\end{ilasabstract}
-    
+    An integrative co-embedding method based on constrained low rank approximation is introduced. The method achieves knowledge fusion of multi-type data and projects the various types of objects onto a common lower-dimensional space. This produces a more informed representation that maintains both in-type and across-type semantic proximity between objects.
+The effectiveness of the proposed method is illustrated using examples of document data clustering where we utilize co-embedding of papers, authors, key words, and patient profiling in healthcare data utilizing traditional medical records, as well as patients’ interactions via browsing and searching on healthcare web portals. One important feature of the proposed co-embedding method is its ability to compute embeddings for new, previously unobserved patient data efficiently and effectively, eliminating the need to revisit the entire data set or recomputing the embedding.  
 
-\hypertarget{down0312}{}\begin{ilasabstract}
-\talktitle{nan}
-    
-\textbf{Mirjeta Pasha}, \info{14:00\textrm{--}14:30 @ SC0009 (June 26, Thursday)} \hfill \hyperlink{up0312}{$\Uparrow$}
-    
-    
-(in {\color{mstitle}MS4: Linear algebra methods for inverse problems and data assimilation})
-        
-\mtskip
-    nan
 \end{ilasabstract}
     
 
@@ -5143,7 +5180,8 @@ The purpose of this talk is to present a recent progress on the theory of geomet
     
 
 \hypertarget{down0342}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Parallel-in-Time Kalman Smoothing Using Orthogonal Transformations
+}
     
 \textbf{Sivan Toledo}, \info{15:00\textrm{--}15:30 @ SC2006 (June 26, Thursday)} \hfill \hyperlink{up0342}{$\Uparrow$}
     
@@ -5151,7 +5189,21 @@ The purpose of this talk is to present a recent progress on the theory of geomet
 (in {\color{mstitle}MS13: Advances in QR factorizations})
         
 \mtskip
-    nan
+    The talk will present a numerically-stable parallel-in-time linear 
+Kalman smoother. The smoother uses a novel highly parallel
+QR factorization for a class of structured sparse
+matrices for state estimation, and an adaptation of the SelInv
+selective-inversion algorithm to evaluate the covariance matrices
+of estimated states. Our implementation of the new
+algorithm, using the Threading Building Blocks (TBB) library,
+scales well on both Intel and ARM multi-core servers, achieving
+speedups of up to 47x on 64 cores. The algorithm performs
+more arithmetic than sequential smoothers; consequently it is
+1.8x to 2.5x slower on a single core. The new algorithm is faster
+and scales better than the parallel Kalman smoother proposed
+by Särkkä and García-Fernández in 2021.
+This is joint work with Shahaf Gargir.
+
 \end{ilasabstract}
     
 
@@ -5406,7 +5458,7 @@ The talk is based on joint work with Dmitrii Karp and, partially, Thu Hien Nguye
     
 
 \hypertarget{down0041}{}\begin{ilasabstract}
-\talktitle{Contrastive Principal Component Analysis in High Dimension}
+\talktitle{Contrastive principal component analysis in high dimension}
     
 \textbf{ShaoHsuan Wang}, \info{11:30\textrm{--}12:00 @ SC4011 (June 23, Monday)} \hfill \hyperlink{up0041}{$\Uparrow$}
     
@@ -5417,16 +5469,13 @@ The talk is based on joint work with Dmitrii Karp and, partially, Thu Hien Nguye
     Principal component analysis (PCA) has been widely used in exploratory data analysis. 
 Contrastive PCA (Abid et al., 2018), a generalized method of PCA, is a new tool used to 
 capture features of a target dataset relative to a background dataset while preserving the 
-maximum amount of information contained in the data. With high dimensional data, con- 
-trastive PCA becomes impractical due to its high computational requirement of forming the 
+maximum amount of information contained in the data. With high dimensional data, contrastive PCA becomes impractical due to its high computational requirement of forming the 
 contrastive covariance matrix and associated eigenvalue decomposition for extracting leading 
 components. In this work, we propose a geometric curvilinear-search method to solve this 
-problem and provide a convergence analysis. Our approach oﬀers signiﬁcant computational 
-eﬃciencies. Speciﬁcally, it reduces the time complexity from $O((n \wedge m)p^2 )$ to a more man- 
-ageable $O((n \wedge m)pr)$, where n, m are the sample sizes of the target data and background
-data, respectively, p is the data dimension and r is the number of leading components. Addi- 
-tionally, we streamline the space complexity from $O(p^2)$, necessary for storing the contrastive 
-covariance matrix, to a more economical $O((n \wedge m)p)$, suﬃcient for storing the data alone.
+problem and provide a convergence analysis. Our approach offers significant computational 
+efficiencies. Specifically, it reduces the time complexity from $O((n \wedge m)p^2 )$ to a more manageable $O((n \wedge m)pr)$, where n, m are the sample sizes of the target data and background
+data, respectively, p is the data dimension and r is the number of leading components. Additionally, we streamline the space complexity from $O(p^2)$, necessary for storing the contrastive 
+covariance matrix, to a more economical $O((n \wedge m)p)$, sufficient for storing the data alone.
 Numerical  examples  are  presented  to  show  the  merits  of  the  proposed  algorithm.
 \end{ilasabstract}
     
@@ -5784,10 +5833,7 @@ equal to its maximum nullity.
 (in {\color{mstitle}MS3: Matrix inequalities with applications})
         
 \mtskip
-     In this talk, we first discuss the ranks of the third-order quaternion tensors and present some inequalities for boundaries. Then we consider  SVD and QR decomposition of this quaternion tensors and applications in color images and videos processing. 
- 
- 
-
+    In this talk, we first discuss the ranks of the third-order quaternion tensors and present some inequalities for boundaries. Then we consider SVD and QR decomposition of this quaternion tensors and applications in color images and videos processing. 
 \end{ilasabstract}
     
 
@@ -6122,28 +6168,6 @@ $k$-tridiagonal Toeplitz matrices, $T^{(k)}_n$, where $n=km+s$ and $\det(T^{(1)}
 \end{ilasabstract}
     
 
-\hypertarget{down0086}{}\begin{ilasabstract}
-\talktitle{Resistance distance in directed graphs}
-    
-\textbf{Shivani Goel}, \info{17:00\textrm{--}17:30 @ SC0012 (June 23, Monday)} \hfill \hyperlink{up0086}{$\Uparrow$}
-    
-    
-\mtskip
-    Let $G=(V, E)$ be a strongly connected and balanced digraph with vertex set $V={1,\dotsc,n}$. The Laplacian matrix of $G$ is then the matrix (not necessarily symmetric) $L:=D-A$, where $A$ is the adjacency matrix of $G$ and $D$ is the diagonal matrix such that the row sums and the column sums of $L$ are equal to zero.
-Let $L^{\dag}=[l^{\dag}_{ij}]$ be the Moore-Penrose inverse of $L$.
-We define the resistance between any two vertices $i$ and $j$ of $G$ by $r_{ij}:=l^{\dag}_{ii}+l^{\dag}_{jj}-2l^{\dag}_{ij}$.
-Some interesting properties of the resistance and the corresponding resistance matrix $[r_{ij}]$ will be discussed in the talk.
-
-The classical distance $d_{ij}$ between any two vertices $i$ and $j$ in $G$ is the minimum length of all the
-directed paths joining $i$ and $j$.
-Numerical examples show that
-the resistance distance between $i$ and $j$ is always less than or equal to the classical distance, i.e.
-$r_{ij} \leq d_{ij}$. However, no proof of this inequality is known. In the talk, we will show that this inequality holds for all directed cactus graphs. This is a joint work with Dr. R. Balaji and Professor R. B. Bapat.
-
-Keywords: Laplacian matrix, Moore-Penrose inverse, Balanced directed graph, cofactor sums, Directed cactus graph
-\end{ilasabstract}
-    
-
 \hypertarget{down0417}{}\begin{ilasabstract}
 \talktitle{AMDS symbol-pair constacyclic codes}
     
@@ -6191,10 +6215,10 @@ We proposed the quasi-Newton method with diagonal Jacobian approximation (QN-SDA
 \end{ilasabstract}
     
 
-\hypertarget{down0088}{}\begin{ilasabstract}
+\hypertarget{down0089}{}\begin{ilasabstract}
 \talktitle{Generalizing Wilf's inequality for strongly regular graphs}
     
-\textbf{Hareshkumar Jadav}, \info{16:00\textrm{--}16:30 @ SC0014 (June 23, Monday)} \hfill \hyperlink{up0088}{$\Uparrow$}
+\textbf{Hareshkumar Jadav}, \info{16:30\textrm{--}17:00 @ SC0014 (June 23, Monday)} \hfill \hyperlink{up0089}{$\Uparrow$}
     
     
 \mtskip
@@ -6266,10 +6290,10 @@ Vinay Madhusudanan, Srinivasa Siva Rama Krishna Rao Taduri.
 \end{ilasabstract}
     
 
-\hypertarget{down0112}{}\begin{ilasabstract}
+\hypertarget{down0088}{}\begin{ilasabstract}
 \talktitle{QCLAB: A MATLAB toolbox for quantum numerical linear algebra}
     
-\textbf{Sophia Keip}, \info{16:00\textrm{--}16:30 @ SC3001 (June 23, Monday)} \hfill \hyperlink{up0112}{$\Uparrow$}
+\textbf{Sophia Keip}, \info{16:00\textrm{--}16:30 @ SC0014 (June 23, Monday)} \hfill \hyperlink{up0088}{$\Uparrow$}
     
     
 \mtskip
@@ -6463,10 +6487,10 @@ been partially funded by the Deutsche Forschungsgemeinschaft (DFG)---Project-ID
 \end{ilasabstract}
     
 
-\hypertarget{down0089}{}\begin{ilasabstract}
+\hypertarget{down0090}{}\begin{ilasabstract}
 \talktitle{On order $5$ trace zero doubly stochastic matrices and the corresponding eigenvalue region}
     
-\textbf{Amrita Mandal}, \info{16:30\textrm{--}17:00 @ SC0014 (June 23, Monday)} \hfill \hyperlink{up0089}{$\Uparrow$}
+\textbf{Amrita Mandal}, \info{17:00\textrm{--}17:30 @ SC0014 (June 23, Monday)} \hfill \hyperlink{up0090}{$\Uparrow$}
     
     
 \mtskip
@@ -6814,18 +6838,6 @@ for the distance matrices of trees.
     
 \mtskip
     In nonperturbative formulation of Euclidean signature quantum field theory, the vacuum state is characterized by the Wilsonian renormalization group  flow of Feynman measures. Such a  flow is a family $(\mu_\eta)_{\eta\in\mathcal S}$ of finite measures on Borel sets  of the space of Schwartz distributions $\mathcal S'$, linked by the Wilsonian renormalization group equation $\mu^{}_{\eta*\zeta}=(C_\eta)^{}_{\#}\mu^{}_\zeta$, for every pair Schwartz functions $\zeta,\eta\in \mathcal S$. Here, $C_\eta\zeta:=\eta*\zeta$ stands for the convolution of  the Schwartz functions $\zeta,\eta\in \mathcal{S}$, while $(C_\eta)_{\#}\mu_\zeta$ denotes the corresponding pushforward measure by $C_\eta$. The goal of this talk is to show the existence of an ultimate Borel measure $\mu$ (called the UV limit of the flow), such that for all $\eta\in\mathcal{S}$ the factorization identity $\mu_{\eta}=(C_{\eta})_{\#}\,\mu$ holds.
-\end{ilasabstract}
-    
-
-\hypertarget{down0113}{}\begin{ilasabstract}
-\talktitle{Quantum rational transformations via real-time evolution}
-    
-\textbf{Roel Van Beeumen}, \info{16:30\textrm{--}17:00 @ SC3001 (June 23, Monday)} \hfill \hyperlink{up0113}{$\Uparrow$}
-    
-    
-\mtskip
-    Rational functions are invaluable in scientific computing, offering rapid convergence where polynomial methods often fall short. However, their potential to enhance quantum algorithms remains underexplored. In this talk, we present efficient implementations of rational transformations on quantum hardware. By employing integral representations of the resolvent, we demonstrate that quantum rational transformations can be performed efficiently using the linear-combination-of-unitaries (LCU) method. This approach provides versatile pathways for implementing quantum rational transformations. To illustrate the power of this framework, we develop a quantum rational filtering approach for computing eigenvalues using only real-time quantum dynamics.
-
 \end{ilasabstract}
     
 

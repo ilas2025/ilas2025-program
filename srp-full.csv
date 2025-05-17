@@ -71,7 +71,8 @@ It is shown the NPDo approach is globally convergent to a stationary point
 while the objective function increases monotonically. Along similar lines,
 joint principal SVD-type block-diagonalization is also investigated.
 Numerical experiments will be presented to illustrate the use of the NPDo approach and demonstrate its superiority
-to existing methods for matrices of dimension 200 or larger."
+to existing methods for matrices of dimension 200 or larger.
+"
 P10,SYS Hall,1,Haim,Avron,Haim Avron,2025-06-27 11:00:00,Plenary,,Friday,11:00,12:00,10,100,"Tubal tensor algebra: mathematical foundations and applications
 ","Developed in a series of seminal papers in the early 2010s, the tubal tensor framework provides a clean and effective algebraic setting for tensor computations, supporting matrix-mimetic features such as a tensor Singular Value Decomposition and Eckart–Young-like optimality results. It has proven to be a powerful tool for analyzing inherently multilinear data arising in hyperspectral imaging, medical imaging, neural dynamics, scientific simulations, and more.
 
@@ -110,9 +111,7 @@ S1,SC0012,1,Peter,Semrl,Peter Semrl,2025-06-23 11:00:00,MS12,"Preserver problems
 S1,SC0012,2,Edward,Poon,Edward Poon,2025-06-23 11:00:00,MS12,"Preserver problems, I",Monday,11:30,12:00,101,12,Linear preservers of parallel pairs,"Two vectors $x$,$y$ in a normed space $(\mathcal{X}, \| \cdot \|)$ are said to be parallel if there exists a scalar $c$ with modulus 1 such that $\|x+c y\| = \|x\| + \|y\|$.
 We consider the case of norms on a matrix space (in particular the Ky Fan $k$-norms and the $k$-numerical radius) and characterize the linear bijections on this matrix space which preserve parallel pairs of matrices.
 "
-S1,SC0012,3,Lajos,Molnár,Lajos Molnár,2025-06-23 11:00:00,MS12,"Preserver problems, I",Monday,12:00,12:30,101,12,"Relative entropy preserving maps on positive
-cones in operator algebras and in matrix algebras
-","We consider several concepts of (not only numerical valued) relative entropies on positive cones in $C^*$-algebras. We present recent results showing that surjective transformations between positive cones that preserve any of those quantities necessarily originate from Jordan *-isomorphisms between the underlying full algebras. In the special case of matrix algebras, we consider the problem of relaxing the condition of surjectivity.
+S1,SC0012,3,Lajos,Molnár,Lajos Molnár,2025-06-23 11:00:00,MS12,"Preserver problems, I",Monday,12:00,12:30,101,12,Relative entropy preserving maps on positive cones in operator algebras and in matrix algebras,"We consider several concepts of (not only numerical valued) relative entropies on positive cones in $C^*$-algebras. We present recent results showing that surjective transformations between positive cones that preserve any of those quantities necessarily originate from Jordan *-isomorphisms between the underlying full algebras. In the special case of matrix algebras, we consider the problem of relaxing the condition of surjectivity.
 
 Partly, joint work with Lei Li and Xueyan Yang (Nankai University).
 "
@@ -249,19 +248,16 @@ S1,SC3001,3,Elizabeth,Newman,Elizabeth Newman,2025-06-23 11:00:00,MS18,New metho
 "
 S1,SC4011,1,Shih-Hao,Huang,Shih-Hao Huang,2025-06-23 11:00:00,MS20,Manifold learning and statistical applications,Monday,11:00,11:30,101,20,Coordinate testing for general sufficient dimension reduction methods,"In modern data analysis, the number of covariates is often large, and the relationship between covariates and response is often complex. Parametric regression risks model misspecification, while nonparametric regression suffers from the curse of dimensionality. Sufficient dimension reduction (SDR) regression provides a flexible alternative, summarizing covariate effects through a few linear combinations without imposing a specific functional form. While SDR methods have been extensively studied, coordinate testing, which assesses the contribution of a set of linear combinations of covariates, has been largely overlooked. To address this gap, we propose a novel method that transforms the coordinate testing problem into a dimension testing problem by applying appropriate residualization. Since dimension tests are well-established, this method allows practitioners to leverage existing inference tools within the SDR framework.
 "
-S1,SC4011,2,ShaoHsuan,Wang,ShaoHsuan Wang,2025-06-23 11:00:00,MS20,Manifold learning and statistical applications,Monday,11:30,12:00,101,20,Contrastive Principal Component Analysis in High Dimension,"Principal component analysis (PCA) has been widely used in exploratory data analysis. 
+S1,SC4011,2,ShaoHsuan,Wang,ShaoHsuan Wang,2025-06-23 11:00:00,MS20,Manifold learning and statistical applications,Monday,11:30,12:00,101,20,Contrastive principal component analysis in high dimension,"Principal component analysis (PCA) has been widely used in exploratory data analysis. 
 Contrastive PCA (Abid et al., 2018), a generalized method of PCA, is a new tool used to 
 capture features of a target dataset relative to a background dataset while preserving the 
-maximum amount of information contained in the data. With high dimensional data, con- 
-trastive PCA becomes impractical due to its high computational requirement of forming the 
+maximum amount of information contained in the data. With high dimensional data, contrastive PCA becomes impractical due to its high computational requirement of forming the 
 contrastive covariance matrix and associated eigenvalue decomposition for extracting leading 
 components. In this work, we propose a geometric curvilinear-search method to solve this 
-problem and provide a convergence analysis. Our approach oﬀers signiﬁcant computational 
-eﬃciencies. Speciﬁcally, it reduces the time complexity from $O((n \wedge m)p^2 )$ to a more man- 
-ageable $O((n \wedge m)pr)$, where n, m are the sample sizes of the target data and background
-data, respectively, p is the data dimension and r is the number of leading components. Addi- 
-tionally, we streamline the space complexity from $O(p^2)$, necessary for storing the contrastive 
-covariance matrix, to a more economical $O((n \wedge m)p)$, suﬃcient for storing the data alone.
+problem and provide a convergence analysis. Our approach offers significant computational 
+efficiencies. Specifically, it reduces the time complexity from $O((n \wedge m)p^2 )$ to a more manageable $O((n \wedge m)pr)$, where n, m are the sample sizes of the target data and background
+data, respectively, p is the data dimension and r is the number of leading components. Additionally, we streamline the space complexity from $O(p^2)$, necessary for storing the contrastive 
+covariance matrix, to a more economical $O((n \wedge m)p)$, sufficient for storing the data alone.
 Numerical  examples  are  presented  to  show  the  merits  of  the  proposed  algorithm."
 S1,SC4011,3,Szu-Chi,Chung,Szu-Chi Chung,2025-06-23 11:00:00,MS20,Manifold learning and statistical applications,Monday,12:00,12:30,101,20,A framework for exploring the conformational landscape of cryo-EM using energy-aware pathfinding algorithm,"Cryo-electron microscopy (cryo-EM) is a powerful technique for investigating macromolecular structures and holds great promise for uncovering kinetically preferred transition sequences between conformational states. While such transitions are often explored using two-dimensional energy landscapes, the intrinsic complexity of biomolecular conformations frequently renders low-dimensional representations insufficient. Recent advances in reconstruction models have enabled the characterization of structural heterogeneity from cryo-EM images through high-dimensional latent spaces. However, constructing conformational landscapes in these spaces and identifying preferred transition pathways remain major challenges. 
 
@@ -390,7 +386,10 @@ S2,SC2006,2,Mei-Heng,Yueh,Mei-Heng Yueh,2025-06-23 14:00:00,MS22,Linear algebra 
 S2,SC2006,3,Kristian,Sabo,Kristian Sabo,2025-06-23 14:00:00,MS22,Linear algebra applications in computational geometry,Monday,15:00,15:30,102,22,A method for searching for a globally optimal k-partition of higher-dimensional datasets,"Finding a globally optimal \( k \)-partition of a set is a highly complex optimization problem. In general, except for the special case of one-dimensional data (i.e., data with a single feature), no exact solution method exists. In the one-dimensional case, efficient methods leverage the fact that the problem can be reformulated as a global optimization task for a symmetric Lipschitz-continuous function, which can be solved using the global optimization algorithm DIRECT.   We propose a method for finding a globally optimal \( k \)-partition in the general case (\( n \)-dimensional data, \( n > 1 \)), extending an approach originally designed for solving Lipschitz global optimization for symmetric functions. Our method integrates a global optimization algorithm with linear constraints and the \( k \)-means algorithm. The global optimization component is used solely to generate a high-quality initial approximation for \( k \)-means.   We evaluated our approach on multiple artificial datasets and several benchmark examples from the UCI Machine Learning Repository. The results demonstrate that the proposed method is more efficient compared to some other methods from the literature. "
 S2,SC3001,1,Tzon-Tzer,Lu,Tzon-Tzer Lu,2025-06-23 14:00:00,MS1,Embracing new opportunities in numerical linear algebra,Monday,14:00,14:30,102,1,Uncertainty principle of condition number,"Schaback in 1995 has proved the Uncertainty Principle of radial basis function interpolation, which states that the condition number and the error cannot be both kept small at the same time. Hence it is a Trade-off Principle. It seems to violet our cognition about ill/well-conditioned problems. In this talk we like to extend this principle, i.e. there is no case where the error and the condition number are both small, from interpolation matrices to arbitrary linear systems. The underlying theory behind the conflict between accuracy and stability flips our misconceptions about condition numbers and provides us with a brand-new interpretation of it. 
 "
-S2,SC3001,2,Matthew M.,Lin,Matthew M. Lin,2025-06-23 14:00:00,MS1,Embracing new opportunities in numerical linear algebra,Monday,14:30,15:00,102,1,,
+S2,SC3001,2,Matthew M.,Lin,Matthew M. Lin,2025-06-23 14:00:00,MS1,Embracing new opportunities in numerical linear algebra,Monday,14:30,15:00,102,1,"A gradient flow method to differentiate between classical and quantum correlations
+","In this talk, we aim to quantify measurement disturbance by minimizing the distinction between input and post-measurement states, enabling us to determine whether the correlations are classical or quantum. Theoretically, we employ a complex-valued gradient flow over Stiefel manifolds for optimization. Our approach applies the well-known Lojasiewicz gradient inequality, guaranteeing the global convergence of the flow from any initial point. Experimental results
+demonstrate that our method can accurately and reliably classify correlations as classical or quantum.
+"
 S2,SC3001,3,Li-Gang,Lin,Li-Gang Lin,2025-06-23 14:00:00,MS1,Embracing new opportunities in numerical linear algebra,Monday,15:00,15:30,102,1,Fast SDDRE-based maneuvering-target interception at prespecified orientation,"This talk considers the 3-D guidance law based on target lead angle information and the state-dependent differential Riccati equation (SDDRE) scheme. In an application-oriented manner, it presents theories to significantly improve critical computational performance and thus aims at a fast implementation for impact-angle-constrained interception of agile maneuvering targets. More specifically, regarding the two major computational burdens using SDDRE, we have replaced the burden in numerical applicability checking by a simple, equivalent, and closed-form condition for the entire state space, which is actually the dominant burden as supported by complexity analysis and extensive validations. Notably, the proposed analysis not only complements the early findings of applicability guarantee in literature, but also promotes the efficiency of the proposed philosophy when compared to the classic method, where the latter has caused concerns/reservations due to its feasibility and difficulty. On the other hand, we have largely mitigated the second major burden of SDDRE by -- after exhaustive trials -- selecting the most efficient Riccati-equation solver until the latest benchmarks. Such evaluations are: 1) in favor of a much-less-known achievement, rather than the common QR-based benchmark and 2) subject to both numerical and hardware experiments including, notably, implementations on microcontrollers and field-programmable gate arrays.
 "
 S2,SC4011,1,Guangliang,Chen,Guangliang Chen,2025-06-23 14:00:00,MS20,Manifold learning and statistical applications,Monday,14:00,14:30,102,20,"On parameter tuning for spectral clustering: two simple, fast, and effective criteria","Spectral clustering is a modern, powerful clustering approach with many successful applications. However, it has faced two major challenges -- high computational complexity and parameter tuning. Since its introduction, much effort has been devoted to improving the scalability of spectral clustering, while little research has been conducted on parameter tuning. In this talk, we address the parameter tuning challenge of spectral clustering in a general context. Specifically, we propose two new criteria for tuning the scale parameter used in similarity functions such as Gaussian and cosine. Experiments demonstrate the effectiveness of these tuning techniques. "
@@ -445,21 +444,17 @@ This result has an implicit importance due to the fact that nonsingular tridiago
 
 
 "
-S3,SC0012,3,Shivani,Goel,Shivani Goel,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:00,17:30,103,200,Resistance distance in directed graphs,"Let $G=(V, E)$ be a strongly connected and balanced digraph with vertex set $V={1,\dotsc,n}$. The Laplacian matrix of $G$ is then the matrix (not necessarily symmetric) $L:=D-A$, where $A$ is the adjacency matrix of $G$ and $D$ is the diagonal matrix such that the row sums and the column sums of $L$ are equal to zero.
-Let $L^{\dag}=[l^{\dag}_{ij}]$ be the Moore-Penrose inverse of $L$.
-We define the resistance between any two vertices $i$ and $j$ of $G$ by $r_{ij}:=l^{\dag}_{ii}+l^{\dag}_{jj}-2l^{\dag}_{ij}$.
-Some interesting properties of the resistance and the corresponding resistance matrix $[r_{ij}]$ will be discussed in the talk.
-
-The classical distance $d_{ij}$ between any two vertices $i$ and $j$ in $G$ is the minimum length of all the
-directed paths joining $i$ and $j$.
-Numerical examples show that
-the resistance distance between $i$ and $j$ is always less than or equal to the classical distance, i.e.
-$r_{ij} \leq d_{ij}$. However, no proof of this inequality is known. In the talk, we will show that this inequality holds for all directed cactus graphs. This is a joint work with Dr. R. Balaji and Professor R. B. Bapat.
-
-Keywords: Laplacian matrix, Moore-Penrose inverse, Balanced directed graph, cofactor sums, Directed cactus graph"
+S3,SC0012,3,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:00,17:30,103,200,,
 S3,SC0012,4,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:30,18:00,103,200,,
-S3,SC0014,1,Hareshkumar,Jadav,Hareshkumar Jadav,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:00,16:30,103,200,Generalizing Wilf's inequality for strongly regular graphs,"The clique number $\omega$ is the size of the largest clique in any graph. Determining the clique number is an NP-complete problem, which implies that there is no polynomial-time algorithm to solve it. Wilf's inequality provides a spectral bound for the clique number of simple graphs, given by $\frac{n}{n - \lambda_{1}} \leq \omega$, where $\lambda_1$ is the largest eigenvalue of the adjacency matrix, and $n$ is the number of vertices in the graph. Strengthening this bound, Elphick and Wocjan proposed a conjecture in 2018 that is $\frac{n}{n - \sqrt{s^{+}}} \leq \omega$, where $s^+ = \sum_{\lambda_{i} > 0} \lambda_{i}^2$ and $\lambda_i$ are eigenvalues of the adjacency matrix. In this work, we have settled this conjecture for seven different classes of graphs: (1) Paley graphs which are strongly regular graphs with parameters $srg(4\beta + 1, 2\beta, \beta - 1, \beta)$, where $q$ is a prime power and $q \equiv 1 \pmod{4}$; (2) strongly regular graphs with $\alpha = \beta$ (i.e., $srg(n, d, \beta, \beta)$); (3) the line graph of $K_{m,m}$; (4) the line graph of $K_{n}$; (5) the Cartesian product of strongly regular graphs $G$ with $G$, where $G$ is a strongly regular graph; (6) general Rook's graphs; and (7) Ramanujan graphs, where the second largest eigenvalue follows the property $\lambda_2 \leq 2\sqrt{d-1}$."
-S3,SC0014,2,Amrita,Mandal,Amrita Mandal,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:30,17:00,103,200,On order $5$ trace zero doubly stochastic matrices and the corresponding eigenvalue region," A non-negative square matrix is called a doubly stochastic (DS) matrix if all its row and column sums are exactly equal to $1.$ A vast literature is known for such matrices concerning the eigenvalue region, inverse eigenvalue problem or entry-wise distribution of the non-negative numbers when matrix size or order of the matrix is restricted up to $4,$
+S3,SC0014,1,Sophia,Keip,Sophia Keip,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:00,16:30,103,200,QCLAB: A MATLAB toolbox for quantum numerical linear algebra,"Quantum numerical linear algebra is about solving numerical linear algebra problems on quantum computers - a field that has seen exciting and significant progress in the past few years. Rapid advancements in quantum hardware continue to drive this momentum forward and highlight the fast-paced progress of the field. To facilitate quantum algorithm research, especially as quantum hardware is still maturing, access to robust computational tools is crucial. We introduce QCLAB (\url{https://github.com/QuantumComputingLab/qclab}), an object-oriented MATLAB toolbox for creating, representing and simulating quantum circuits. What sets QCLAB apart is its emphasis on numerical linear algebra, prioritizing numerical stability, efficiency and performance, as well as its seamless integration with MATLAB.
+In this talk, featuring a MATLAB tutorial on QCLAB, we will showcase the key features of QCLAB while providing concrete insights into quantum numerical linear algebra through three landmark quantum algorithms: the Quantum Fourier Transform (QFT), Quantum Phase Estimation (QPE), and Quantum Singular Value Estimation (QSVE). This hands-on introduction is intended to encourage the audience to engage actively with this promising research area. With both beginners and experts in mind, the talk is designed for researchers looking for an accessible entry point into quantum computing and experienced practitioners seeking a tool for rapid prototyping of quantum algorithms.
+
+
+
+\emph{This is joint work with Daan Camps and Roel Van Beeumen}
+"
+S3,SC0014,2,Hareshkumar,Jadav,Hareshkumar Jadav,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:30,17:00,103,200,Generalizing Wilf's inequality for strongly regular graphs,"The clique number $\omega$ is the size of the largest clique in any graph. Determining the clique number is an NP-complete problem, which implies that there is no polynomial-time algorithm to solve it. Wilf's inequality provides a spectral bound for the clique number of simple graphs, given by $\frac{n}{n - \lambda_{1}} \leq \omega$, where $\lambda_1$ is the largest eigenvalue of the adjacency matrix, and $n$ is the number of vertices in the graph. Strengthening this bound, Elphick and Wocjan proposed a conjecture in 2018 that is $\frac{n}{n - \sqrt{s^{+}}} \leq \omega$, where $s^+ = \sum_{\lambda_{i} > 0} \lambda_{i}^2$ and $\lambda_i$ are eigenvalues of the adjacency matrix. In this work, we have settled this conjecture for seven different classes of graphs: (1) Paley graphs which are strongly regular graphs with parameters $srg(4\beta + 1, 2\beta, \beta - 1, \beta)$, where $q$ is a prime power and $q \equiv 1 \pmod{4}$; (2) strongly regular graphs with $\alpha = \beta$ (i.e., $srg(n, d, \beta, \beta)$); (3) the line graph of $K_{m,m}$; (4) the line graph of $K_{n}$; (5) the Cartesian product of strongly regular graphs $G$ with $G$, where $G$ is a strongly regular graph; (6) general Rook's graphs; and (7) Ramanujan graphs, where the second largest eigenvalue follows the property $\lambda_2 \leq 2\sqrt{d-1}$."
+S3,SC0014,3,Amrita,Mandal,Amrita Mandal,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:00,17:30,103,200,On order $5$ trace zero doubly stochastic matrices and the corresponding eigenvalue region," A non-negative square matrix is called a doubly stochastic (DS) matrix if all its row and column sums are exactly equal to $1.$ A vast literature is known for such matrices concerning the eigenvalue region, inverse eigenvalue problem or entry-wise distribution of the non-negative numbers when matrix size or order of the matrix is restricted up to $4,$
  whereas only a little is known for matrices of order $5$ or more except for some sets of doubly structured matrices. 
  %A DS matrix always can be represented as the convex combination of permutation matrices of concerned size.
  
@@ -469,7 +464,6 @@ S3,SC0014,2,Amrita,Mandal,Amrita Mandal,2025-06-23 16:00:00,CT,Contributed talks
  
  
  "
-S3,SC0014,3,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:00,17:30,103,200,,
 S3,SC0014,4,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:30,18:00,103,200,,
 S3,SC1001,1,Aditi,Howlader,Aditi Howlader,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:00,16:30,103,200,The full P-vertex problem for unicyclic graphs,"Let $A=[a_{ij}] \in \mathbb{R}^{n \times n}$ be a real symmetric and nonsingular matrix and $G$ be the underlying graph with the vertex set $\{v_1,\ldots, v_n\}$ and the edge set $\{(v_i,v_j)\colon a_{ij}\neq 0, i\neq j\}$. Let $A(i)$ be the principal submatrix obtained by removing the $i^\text{th}$ row and the $i^\text{th}$ column of $A$. If the nullity of $A(i)$ is unity, then the vertex $v_i$ is called a P-vertex of the matrix $A$. The full P-vertex problem is to determine if there is a nonsingular matrix $A$ such that each vertex of the corresponding graph $G$, is a P-vertex of $A$. In this article, we investigate the full P-vertex problem for unicyclic graphs."
 S3,SC1001,2,Kshitij,Sharma,Kshitij Sharma,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:30,17:00,103,200,Combinatorial description of the inverse of the adjacency matrix of non-bipartite bicyclic graphs,"Barik et al. [On nonsingular trees and a reciprocal eigenvalue property, Linear Multilinear Algebra, 54(6)(2006) 453-465] provided a combinatorial description of the inverse of the adjacency matrix for bipartite graphs in terms of $mm$-alternating paths, enabling deeper exploration of bipartite graph properties. However, for non-bipartite graphs, a similar framework remained an open challenge. In 2022, a combinatorial description was established for non-bipartite unicyclic graphs.
@@ -552,15 +546,8 @@ S3,SC2006,2,Sunyo,Moon,Sunyo Moon,2025-06-23 16:00:00,CT,Contributed talks,Monda
 "
 S3,SC2006,3,Piyush,Verma,Piyush Verma,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:00,17:30,103,200,Laplacian spectral properties of token graphs,"Let $G$ be a graph on $n$ vertices. For a given integer $k$ such that $1\leq k \leq n$, the $k$-token graph $F_k(G)$ of $G$ is defined as the graph whose vertices are the $k$-subsets of the vertex set of $G$, and two of them are adjacent whenever their symmetric difference is a pair of adjacent vertices in $G$. Token graphs have applications in coding theory and quantum mechanics. It was conjectured that for any graph $G$, the algebraic connectivity of $F_k(G)$ is equal to the algebraic connectivity of $G$. This result turned out to be a theorem, as it was proved by using the theory of the continuous Markov chain of random walks and interchange process. However, proving this theorem using algebraic and combinatorial methods is still an open and interesting problem. In this talk, we discuss the algebraic connectivity and Laplacian spectral radius of token graphs. Moreover, we study the Laplacian integral token graphs. This talk is based on joint work with Sasmita Barik."
 S3,SC2006,4,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:30,18:00,103,200,,
-S3,SC3001,1,Sophia,Keip,Sophia Keip,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:00,16:30,103,200,QCLAB: A MATLAB toolbox for quantum numerical linear algebra,"Quantum numerical linear algebra is about solving numerical linear algebra problems on quantum computers - a field that has seen exciting and significant progress in the past few years. Rapid advancements in quantum hardware continue to drive this momentum forward and highlight the fast-paced progress of the field. To facilitate quantum algorithm research, especially as quantum hardware is still maturing, access to robust computational tools is crucial. We introduce QCLAB (\url{https://github.com/QuantumComputingLab/qclab}), an object-oriented MATLAB toolbox for creating, representing and simulating quantum circuits. What sets QCLAB apart is its emphasis on numerical linear algebra, prioritizing numerical stability, efficiency and performance, as well as its seamless integration with MATLAB.
-In this talk, featuring a MATLAB tutorial on QCLAB, we will showcase the key features of QCLAB while providing concrete insights into quantum numerical linear algebra through three landmark quantum algorithms: the Quantum Fourier Transform (QFT), Quantum Phase Estimation (QPE), and Quantum Singular Value Estimation (QSVE). This hands-on introduction is intended to encourage the audience to engage actively with this promising research area. With both beginners and experts in mind, the talk is designed for researchers looking for an accessible entry point into quantum computing and experienced practitioners seeking a tool for rapid prototyping of quantum algorithms.
-
-
-
-\emph{This is joint work with Daan Camps and Roel Van Beeumen}
-"
-S3,SC3001,2,Roel,Van Beeumen,Roel Van Beeumen,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:30,17:00,103,200,Quantum rational transformations via real-time evolution,"Rational functions are invaluable in scientific computing, offering rapid convergence where polynomial methods often fall short. However, their potential to enhance quantum algorithms remains underexplored. In this talk, we present efficient implementations of rational transformations on quantum hardware. By employing integral representations of the resolvent, we demonstrate that quantum rational transformations can be performed efficiently using the linear-combination-of-unitaries (LCU) method. This approach provides versatile pathways for implementing quantum rational transformations. To illustrate the power of this framework, we develop a quantum rational filtering approach for computing eigenvalues using only real-time quantum dynamics.
-"
+S3,SC3001,1,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:00,16:30,103,200,,
+S3,SC3001,2,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:30,17:00,103,200,,
 S3,SC3001,3,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:00,17:30,103,200,,
 S3,SC3001,4,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:30,18:00,103,200,,
 S3,SC4011,1,Alexander,Osinsky,Alexander Osinsky,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:00,16:30,103,200,The existence of close to optimal cross approximations in the Frobenius norm,"It will be shown that there exists a cross $CUR$ approximation with relative error of the order $1+r/n+o(r/n)$, which improves on the best currently known bound of $1+40r/n+o(r/n)$ by Boutsidis and Woodruff. Notably, the generator $U$ in such an approximation is the pseudoinverse of the rank $r$ projection of the submatrix at the intersection of the selected rows and columns, similar to how maximum projective volume approximations are formed. This allows to view any cross approximation algorithm of a similar form as an approximate projection onto subspace of rank $r$ matrices, and as a faster alternative to randomized approximate SVD. In particular, projections with such cross approximations outperform modern matrix completion algorithms, when the fraction of known elements is high enough.
@@ -749,10 +736,7 @@ include discrete inequalities as special cases. Moreover, we obtain the monotoni
 maps involving Hadamard products of operators. As special cases, we get some operator versions of Fiedler matrix inequality.
 "
 S4,SC2006,3,Yang,Zhang,Yang Zhang,2025-06-24 10:30:00,MS3,Matrix inequalities with applications,Tuesday,11:30,12:00,104,3,"On the third-order quaternion tensors and applications
-"," In this talk, we first discuss the ranks of the third-order quaternion tensors and present some inequalities for boundaries. Then we consider  SVD and QR decomposition of this quaternion tensors and applications in color images and videos processing. 
- 
- 
-"
+","In this talk, we first discuss the ranks of the third-order quaternion tensors and present some inequalities for boundaries. Then we consider SVD and QR decomposition of this quaternion tensors and applications in color images and videos processing. "
 S4,SC3001,1,Gilad,Lerman,Gilad Lerman,2025-06-24 10:30:00,MS18,New methods in numerical multilinear algebra,Tuesday,10:30,11:00,104,18,,
 S4,SC3001,2,Jing,Niu,Jing Niu,2025-06-24 10:30:00,MS18,New methods in numerical multilinear algebra,Tuesday,11:00,11:30,104,18,A tensor alternating Anderson--Richardson method for solving multilinear systems with $ \mathcal{M} $-tensors,"It is well-known that a multilinear system with a nonsingular $ \mathcal{M} $-tensor and a positive right-hand side has a unique positive solution.
 Tensor splitting methods are efficient because they do not require computing the Jacobian matrix.
@@ -1048,7 +1032,10 @@ S6,SC0008,4,Geir,Dahl,Geir Dahl,2025-06-24 16:00:00,MS24,Nonnegative and related
 This is joint work with Richard A. Brualdi.
 "
 S6,SC0009,1,Davide,Bianchi,Davide Bianchi,2025-06-24 16:00:00,MS4,Linear algebra methods for inverse problems and data assimilation,Tuesday,16:00,16:30,106,4,,
-S6,SC0009,2,Matthias,Chung,Matthias Chung,2025-06-24 16:00:00,MS4,Linear algebra methods for inverse problems and data assimilation,Tuesday,16:30,17:00,106,4,,
+S6,SC0009,2,Matthias,Chung,Matthias Chung,2025-06-24 16:00:00,MS4,Linear algebra methods for inverse problems and data assimilation,Tuesday,16:30,17:00,106,4,"Data-driven inverse problems via autoencoder
+","Emerging disciplines such as data analytics, machine learning, and uncertainty quantification increasingly depend on efficient computational techniques to address inverse problems. As models grow in complexity and data volumes expand, existing state-of-the-art inference methods are reaching their limitations, highlighting the urgent need for novel approaches.
+Inverse problems in science and engineering remain inherently challenging. While likelihood-free methods offer promising alternatives to traditional inversion techniques, they often face limitations in generalization and accuracy. In this work, we propose a novel paired autoencoder framework as a likelihood-free estimator. Our approach enables efficient solution generation, quality evaluation, and iterative refinement. We demonstrate the effectiveness of the method through applications to full waveform inversion and inverse electromagnetic imaging.
+"
 S6,SC0009,3,Jonas,Bresch,Jonas Bresch,2025-06-24 16:00:00,MS4,Linear algebra methods for inverse problems and data assimilation,Tuesday,17:00,17:30,106,4,Matrix-free stochastic calculation of operator norms without using adjoint---on the way to compute the adjoint mismatch,"Linear inverse problems are of great interest in the last years.
 In this talk, we investigate linear inverse problems where the adjoint of the forward operator is not know exactly.
 Therefore, we focus on the problem of computing the norm of an operator (between finite dimensional Hilbert spaces),
@@ -1070,7 +1057,17 @@ S6,SC0009,4,Tiangang,Cui,Tiangang Cui,2025-06-24 16:00:00,MS4,Linear algebra met
 ","Numerous real-world applications require the estimation, forecasting, and control of dynamic systems using incomplete and indirect observations. These problems can be formulated as state-space models, where the challenge lies in learning the model states and parameters from observed data. We present new tensor-based sequential Bayesian learning methods that jointly estimate parameters and states. Our methods provide manageable error analysis and potentially mitigate the particle degeneracy encountered in many particle-based approaches. Besides offering new insights into algorithmic design, our methods naturally incorporate conditional transports, enabling filtering, smoothing, and parameter estimation within a unified framework.
 "
 S6,SC0012,1,Man-Duen,Choi,Man-Duen Choi,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,16:00,16:30,106,7,,
-S6,SC0012,2,Bing-Ze,Lu,Bing-Ze Lu,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,16:30,17:00,106,7,,
+S6,SC0012,2,Bing-Ze,Lu,Bing-Ze Lu,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,16:30,17:00,106,7,"Dynamic flows and iterative methods for identifying the Choi representation of an unknown quantum channel from partial data
+","Identifying quantum channels clarifies how quantum states evolve and how information propagates. Because exact reconstruction is NP‑hard, we focus on efficient numerical approximations.
+
+Exploiting the unitary nature of channel dynamics, we cast the problem on the Stiefel manifold—the intrinsic geometric space of real or complex unitary matrices---to devise practical reconstruction algorithms.
+
+\textbf{Part I -- Single-unitary channels} \\
+\noindent When the channel is generated by a single unitary operator, we combine polar decomposition with manifold geometry to achieve exact recovery and delineate the minimal data requirements.
+
+\textbf{Part II -- Multi-unitary channels} \\
+\noindent For channels expressible as convex mixtures of several unitaries, we formulate a gradient‑flow scheme on the Stiefel manifold and prove convergence guarantees, showcasing the method’s accuracy and flexibility.
+"
 S6,SC0012,3,Saptak,Bhattacharya,Saptak Bhattacharya,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,17:00,17:30,106,7,,
 S6,SC0012,4,Shao-Hua,Hu,Shao-Hua Hu,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,17:30,18:00,106,7,,
 S6,SC0014,1,Christopher,Beattie,Christopher Beattie,2025-06-24 16:00:00,MS6,Model reduction,Tuesday,16:00,16:30,106,6,Gaussian process regression for the identification of model dynamics,"Standard approximation strategies for Gaussian Process Regression may be linked with optimal spline approximation within the framework of a reproducing kernel Hilbert space determined by a given covariance function associated with a Bayesian prior.   We extend this framework to obtain optimal rational approximants (modeling rational transfer functions) utilizing intrinsic Gaussian processes and Bayesian priors that allow for data-driven modeling of dynamical systems with the management of nonstationary temporal dependence, drift, and observation errors.  I will review elements of a basic framework for Gaussian Process Regression and a version of ``rational kriging'' recently introduced by V. R. Joseph,  connecting this to optimal approximation in reproducing kernel Hilbert spaces with rational kernels, paralleling traditional Gaussian Process Regression approaches.
@@ -1276,7 +1273,24 @@ Friedland, back in 1985.
 "
 S6,SC2006,1,Jamie,Pommersheim,Jamie Pommersheim,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,16:00,16:30,106,30,,
 S6,SC2006,2,Laureano,Gonzalez-Vega,Laureano Gonzalez-Vega,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,16:30,17:00,106,30,,
-S6,SC2006,3,Eunice Y. S.,Chan,Eunice Y. S. Chan,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,17:00,17:30,106,30,,
+S6,SC2006,3,Eunice,Chan,Eunice Chan,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,17:00,17:30,106,30,"A Divide-and-Conquer Framework for Efficient Algebraic Linearizations of Matrix Polynomials
+","In this talk, we explore the integration of the divide-and-conquer (dc) technique into the computation of eigenvalues for matrix polynomials using algebraic linearizations. Algebraic linearizations reduce a matrix polynomial $\mathbf{P}(z) \in \mathbb{C}[z]^{r \times r}$ of degree $s$ into a generalized eigenvalue problem of the form
+\begin{equation*}
+    (z\mathbf{D_L} - \mathbf{L})\mathbf{v} = \mathbf{0} \>,
+\end{equation*}
+where $\mathbf{D_L}$ is block diagonal, $\mathbf{L}$ is block upper Hessenberg, and $\mathbf{P}(z)$ is reconstructed through a resolvent representation:
+\begin{equation*}
+    \mathbf{P}(z)^{-1} = \mathbf{X_L}(z\mathbf{D_L} - \mathbf{L})^{-1}\mathbf{Y_L} \>.
+\end{equation*}
+While algebraic linearizations offer a structured and efficient way to solve polynomial eigenvalue problems, the resulting linearized systems can become computationally demanding for large-scale problems. To overcome this challenge, we incorporate the divide-and-conquer technique, as outlined by Bini and Pan (1992), leveraging its ability to break down eigenvalue computation into smaller, independent subproblems.
+
+We demonstrate how this integration facilitates the efficient computation of eigenvalues for systems such as
+\begin{equation*}
+    \mathbf{h}(z) = z\mathbf{a}(z)\mathbf{d}_0\mathbf{b}(z) + \mathbf{c}_0 \>,
+\end{equation*}
+where $\mathbf{a}(z)$ and $\mathbf{b}(z)$ are matrix polynomials with their own linearizations. This combined approach reduces computational complexity while maintaining numerical stability, making it a scalable and practical solution for large-scale polynomial eigenvalue problems. This talk will highlight the theoretical framework and discuss how this integration enhances the efficiency and robustness of algebraic linearizations.
+
+"
 S6,SC2006,4,Geeta,Chowdhry,Geeta Chowdhry,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,17:30,18:00,106,30,,
 S6,SC3001,1,Shih-Feng,Shieh,Shih-Feng Shieh,2025-06-24 16:00:00,MS11,Structured matrix computations and its applications,Tuesday,16:00,16:30,106,11,,
 S6,SC3001,2,Ching-Sung,Liu,Ching-Sung Liu,2025-06-24 16:00:00,MS11,Structured matrix computations and its applications,Tuesday,16:30,17:00,106,11,"An index search method for solving nonnegative least squares problems
@@ -1284,12 +1298,11 @@ S6,SC3001,2,Ching-Sung,Liu,Ching-Sung Liu,2025-06-24 16:00:00,MS11,Structured ma
 
 "
 S6,SC3001,3,Yung-Ta,Li,Yung-Ta Li,2025-06-24 16:00:00,MS11,Structured matrix computations and its applications,Tuesday,17:00,17:30,106,11,"Factorizations of penalized differentiation matrices
-","To solve  boundary value problems by pseudospectral methods with penalty leads to penalized differentiation matrices. 
+","To solve boundary value problems by pseudospectral methods with penalty leads to penalized differentiation matrices. 
 We had proposed a factorization of the inverse of the penalized differentiation matrix  in 2020. 
 The factorization contains a tridiagonal matrix and is  crucial in solving Poisson's equations.  
 However, to solve 2D Poisson's equations, we aim to diagonalize the penalized differentiation matrix.
-Thus, we propose a new factorization  of the  penalized differentiation matrix containing a block diagonal matrix plus low ranks.
-"
+Thus, we propose a new factorization  of the  penalized differentiation matrix containing a block diagonal matrix plus low ranks."
 S6,SC3001,4,Ching Kai,Lin,Ching Kai Lin,2025-06-24 16:00:00,MS11,Structured matrix computations and its applications,Tuesday,17:30,18:00,106,11,,
 S6,SC4011,1,Igor,Simunec,Igor Simunec,2025-06-24 16:00:00,MS23,Advances in Krylov subspace methods and their applications,Tuesday,16:00,16:30,106,23,Lanczos with compression for symmetric matrix functions,"In this talk we present a low-memory method for the approximation of the action of a symmetric matrix function $f(A)$ on a vector $b$, where the matrix $A$ is large and sparse. 
 The algorithm that we propose combines the Lanczos method for $f(A) b$ with a basis compression procedure involving rational Krylov subspaces, which is employed whenever the basis grows beyond a certain size in order to reduce memory usage. 
@@ -1359,7 +1372,22 @@ equipped with the norm $\|{\bm{f}}\|_{p}=\left(\sum_{\lambda\in \Lambda}\|{\bm{f
 S7,SC0012,3,Izuho,Matsuzaki,Izuho Matsuzaki,2025-06-25 10:30:00,MS35,"Preserver Problems, II",Wednesday,11:30,12:00,107,35,,
 S7,SC0014,1,Raymond,Sze,Raymond Sze,2025-06-25 10:30:00,MS8,Tensor and quantum information science,Wednesday,10:30,11:00,107,8,,
 S7,SC0014,2,Jeroen,Zuiddam,Jeroen Zuiddam,2025-06-25 10:30:00,MS8,Tensor and quantum information science,Wednesday,11:00,11:30,107,8,,
-S7,SC0014,3,Seung-Hyeok,Kye,Seung-Hyeok Kye,2025-06-25 10:30:00,MS8,Tensor and quantum information science,Wednesday,11:30,12:00,107,8,,
+S7,SC0014,3,Seung-Hyeok,Kye,Seung-Hyeok Kye,2025-06-25 10:30:00,MS8,Tensor and quantum information science,Wednesday,11:30,12:00,107,8,"Global locations of Schmidt number witnesses
+","We investigate global locations of Schmidt number witnesses which
+are outside of the convex set of all bi-partite states. Their
+locations are classified by interiors of faces of the convex set of
+all states, by considering the line segments from them to the
+maximally mixed state. In this way, a nonpositive Hermitian matrix
+of trace one is located outside of one and only one face. Faces of
+the convex set of all states are classified by subspaces, which are
+range spaces of states belonging to specific faces. For a given
+subspace, we show that there exist Schmidt number $k+1$ witnesses
+outside of the face arising from this subspace if and only if every
+vector in the orthogonal complement of the subspace has Schmidt rank
+greater than $k$. Once we have Schmidt number $k+1$ witnesses
+outside of a face, we also have Schmidt number $2,3,\dots, k$
+witnesses outside of the face.
+"
 S7,SC1001,1,Milán,Mosonyi,Milán Mosonyi,2025-06-25 10:30:00,MS10,Matrix means and related topics,Wednesday,10:30,11:00,107,10,,
 S7,SC1001,2,Trung Hoa,Dinh,Trung Hoa Dinh,2025-06-25 10:30:00,MS10,Matrix means and related topics,Wednesday,11:00,11:30,107,10,Operator means and quantum divergences,"In this talk, we will explore the use of operator means to construct new quantum divergences. We will also examine the least squares problem in the context of various quantum divergences. Additionally, we will discuss some applications and highlight open questions in this area.
 "
@@ -1400,9 +1428,7 @@ Springer, Cham, 2018.
 
 
 \end{thebibliography}"
-S7,SC1003,3,Sven-Erik,Ekström,Sven-Erik Ekström,2025-06-25 10:30:00,MS19,"Explicit and hidden asymptotic structures, GLT Analysis, and applications",Wednesday,11:30,12:00,107,19,"The spectrum of Toeplitz matrices
-with two off-diagonals
-","Consider the Toplitz matrix $T_n(g_{r,s})$ generated by the symbol $g_{r,s}(\theta)=e^{r\mathbf{i}\theta}+e^{-s\mathbf{i}\theta}$ where $0<r<n$ and $0<s<n$.
+S7,SC1003,3,Sven-Erik,Ekström,Sven-Erik Ekström,2025-06-25 10:30:00,MS19,"Explicit and hidden asymptotic structures, GLT Analysis, and applications",Wednesday,11:30,12:00,107,19,The spectrum of Toeplitz matrices with two off-diagonals,"Consider the Toplitz matrix $T_n(g_{r,s})$ generated by the symbol $g_{r,s}(\theta)=e^{r\mathbf{i}\theta}+e^{-s\mathbf{i}\theta}$ where $0<r<n$ and $0<s<n$.
 The eigenvalues of $T_n(g_{r,s})$ (and eigenvectors) for the case $r=s=1$ (tridiagonal Toeplitz) has been know explicitly for about 100 years. In 2018 the eigenvalues (and eigenvectors) were given also for the case $r=s>1$ by Ekström and Serra-Capizzano.
 In the current presentation we discuss the case $1\leq r<s$, and the eigenvalues of $T_n(g_{r,s})$.  
 We present an algorithm to construct matrices, smaller than the original matrix, that given their eigenvalues we can exactly reconstruct the full spectrum of $T_n(g_{r,s})$. A brief discussion on the ideas behind the algorithm will be given as well as some still unresolved questions. 
@@ -1497,8 +1523,8 @@ S7,SC2006,3,Zhongshan,Li,Zhongshan Li,2025-06-25 10:30:00,MS3,Matrix inequalitie
 ","Let $A$ be an  $m\times n$ real matrix. If the  manifold  consisting of all matrices orthogonally equivalent to $A$ and the manifold consisting of all real matrices having the same sign pattern as $A$ (both considered as embedded submanifolds of $\mathbb R^{m \times n}$),  intersect transversally at $A$, we say that $A$ has the \emph{orthogonal equivalence transversality property} (OETP) and that $A$ is an OETP matrix. By examining the tangent spaces, it can be seen that $A$ has the OETP iff as $S$ and $K$ run over all $m\times m$ and $n\times n$ skew-symmetric matrices, the matrices $AS + KA$ can attain independent and arbitrary values at the positions where the corresponding entries of $A$ are equal to  zero.  Using the normal spaces, it can be shown that $A$ has the OETP iff $X=0$ is the only matrix satisfying the following three conditions $A\circ X=0,$ $AX^T$ is symmetric, and $X^TA$ is symmetric. Many fundamental facts about the OETP matrices are presented. For instance, if $A$ is an OETP matrix, then every superpattern of sgn$(A)$ allows a matrix orthogonally equivalent  to $A$. The direct sum of two square matrices $B$ and $C$ has the OETP iff both $B$ and $C$ have the OETP, and $B$ and $C$ do not have any common singular value.        
 The bidiagonal  zero-nonzero pattern with all entries on the diagonal and  the first superdiagonal nonzero requires the OETP.  
 This is joint work with M. Arav, H. van der Holst, F. Hall, J. Seo, L. Wang, Y. Xu, and  Y. Zhao"
-S7,SC3001,1,Chun-Yueh,Chiang,Chun-Yueh Chiang,2025-06-25 10:30:00,MS11,Structured matrix computations and its applications,Wednesday,10:30,11:00,107,11,"{\bf Title:} Ten Hermitian solutions of anti-Riccati matrix equation arising in anti-LQR problem
-","{\bf Abstract:} In this talk, we consider a class of conjugate discrete-time Riccati equations (CDARE), arising originally
+S7,SC3001,1,Chun-Yueh,Chiang,Chun-Yueh Chiang,2025-06-25 10:30:00,MS11,Structured matrix computations and its applications,Wednesday,10:30,11:00,107,11,"Ten Hermitian solutions of anti-Riccati matrix equation arising in anti-LQR problem
+","In this talk, we consider a class of conjugate discrete-time Riccati equations (CDARE), arising originally
 from the linear quadratic regulation problem for discrete-time antilinear systems. Recently, we have proven
 the existence of the maximal solution to the CDARE with a nonsingular control weighting matrix within
 the framework of a constructive method. Our contribution to the work is to find another meaningful
@@ -1635,8 +1661,13 @@ We demonstrate the potential of the proposed methods on several numerical exampl
 
 "
 S8,SC3001,3,Michael,Saunders,Michael Saunders,2025-06-26 10:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,11:30,12:00,108,16,,
-S8,SC4011,1,Eric King-wah,Chu,Eric King-wah Chu,2025-06-26 10:30:00,MS1,Embracing new opportunities in numerical linear algebra,Thursday,10:30,11:00,108,1,,
-S8,SC4011,2,Haesun,Park,Haesun Park,2025-06-26 10:30:00,MS1,Embracing new opportunities in numerical linear algebra,Thursday,11:00,11:30,108,1,,
+S8,SC4011,1,Eric King-wah,Chu,Eric King-wah Chu,2025-06-26 10:30:00,MS1,Embracing new opportunities in numerical linear algebra,Thursday,10:30,11:00,108,1,"Inverse Iteration for Sylvester Operators
+","We generalize the inverse iteration for matrices  to the (generalized) Sylvester operator $\mathcal{S}(X) \equiv AXB^\top - CXD^\top$, computing the null space or the homogeneous solution to $\mathcal{S}(X)=0$, or the eigen-spaces for the intersecting subspectrum $\Lambda (A, C) \cap \Lambda (D,B)$. Cases with two small matrix pencils in $(A,C)$ and $(D,B)$, a large and a small pencils, and two large pencils, as well as the special cases for the Sylvester and Lyapunov equations, and the linear equation with tensor structures, are  considered. When the solution process for the corresponding Sylvester equation is robust and efficient, the generalized inverse iteration converges in one or two iterations, especially for cases of small dimensions or with semi-simple intersecting eigenvalues. For large examples, especially with derogatory intersecting eigenvalues, the approach performs less well. Illustrative numerical experiments are presented.
+"
+S8,SC4011,2,Haesun,Park,Haesun Park,2025-06-26 10:30:00,MS1,Embracing new opportunities in numerical linear algebra,Thursday,11:00,11:30,108,1,"Integrative co-embedding of multi-view data sets
+","An integrative co-embedding method based on constrained low rank approximation is introduced. The method achieves knowledge fusion of multi-type data and projects the various types of objects onto a common lower-dimensional space. This produces a more informed representation that maintains both in-type and across-type semantic proximity between objects.
+The effectiveness of the proposed method is illustrated using examples of document data clustering where we utilize co-embedding of papers, authors, key words, and patient profiling in healthcare data utilizing traditional medical records, as well as patients’ interactions via browsing and searching on healthcare web portals. One important feature of the proposed co-embedding method is its ability to compute embeddings for new, previously unobserved patient data efficiently and effectively, eliminating the need to revisit the entire data set or recomputing the embedding.  
+"
 S8,SC4011,3,Pengwen,Chen,Pengwen Chen,2025-06-26 10:30:00,MS1,Embracing new opportunities in numerical linear algebra,Thursday,11:30,12:00,108,1,One-bit diffraction tomography,"A few years ago, we proposed a null initialization as one initialization scheme for phase retrieval
 reconstruction. The null initialization can be regarded as one reconstruction from  one-bit measurements. In this talk, we shall
 present a noise-robust framework for 1-bit diffraction tomography, a novel imaging approach that
@@ -1656,7 +1687,7 @@ S9,SC0008,4,Daryl,Granario,Daryl Granario,2025-06-26 13:30:00,MS31,Matrix decomp
 "
 S9,SC0009,1,Daniela,Calvetti,Daniela Calvetti,2025-06-26 13:30:00,MS4,Linear algebra methods for inverse problems and data assimilation,Thursday,13:30,14:00,109,4,The linear algebra of space-time regularization for time-dependent distributed inverse problems,"In Bayesian dynamic ill-posed inverse problem, the a priori belief about the solution may have different characteristics in the spatial and temporal directions.  This is the case, for example, for a  promoting sparsity in space  and  smoothness in the temporal direction. In this talk we will consider dynamic inverse problems where the prior should promote group sparsity  in the spatial direction and some degree of time continuity in time, and we will show how linear algebraic techniques can be used to design robust and computationally efficient algorithms. 
 "
-S9,SC0009,2,Mirjeta,Pasha,Mirjeta Pasha,2025-06-26 13:30:00,MS4,Linear algebra methods for inverse problems and data assimilation,Thursday,14:00,14:30,109,4,,
+S9,SC0009,2,Julianne,Chung,Julianne Chung,2025-06-26 13:30:00,MS4,Linear algebra methods for inverse problems and data assimilation,Thursday,14:00,14:30,109,4,,
 S9,SC0009,3,Fred,Roosta,Fred Roosta,2025-06-26 13:30:00,MS4,Linear algebra methods for inverse problems and data assimilation,Thursday,14:30,15:00,109,4,"Numerical linear algebra and optimization: the interplay between inner and outer iterations
 ","Newton-type methods offer key advantages over first-order optimization, including resilience to ill-conditioning, reduced sensitivity to hyper-parameters, superior local convergence, improved communication efficiency in distributed settings, and affine invariance. However, every iteration of these methods requires solving non-trivial subproblems--an aspect often overlooked. In this talk, we revisit examples of Newton-type methods, highlighting the role of iterative linear algebra subroutines in solving these subproblems, and show how leveraging their theoretical and empirical properties within the inner iterations can eliminate unnecessary safeguards and assumptions, resulting in simpler algorithms and analyses of the outer iterations.
 "
@@ -1850,10 +1881,25 @@ S9,SC2001,4,Milica,Anđelić,Milica Anđelić,2025-06-26 13:30:00,MS21,Linear al
 S9,SC2006,1,Daniel B.,Szyld,Daniel B. Szyld,2025-06-26 13:30:00,MS13,Advances in QR factorizations,Thursday,13:30,14:00,109,13,,
 S9,SC2006,2,Takeshi,Fukaya,Takeshi Fukaya,2025-06-26 13:30:00,MS13,Advances in QR factorizations,Thursday,14:00,14:30,109,13,,
 S9,SC2006,3,Mark,Gates,Mark Gates,2025-06-26 13:30:00,MS13,Advances in QR factorizations,Thursday,14:30,15:00,109,13,,
-S9,SC2006,4,Sivan,Toledo,Sivan Toledo,2025-06-26 13:30:00,MS13,Advances in QR factorizations,Thursday,15:00,15:30,109,13,,
+S9,SC2006,4,Sivan,Toledo,Sivan Toledo,2025-06-26 13:30:00,MS13,Advances in QR factorizations,Thursday,15:00,15:30,109,13,"Parallel-in-Time Kalman Smoothing Using Orthogonal Transformations
+","The talk will present a numerically-stable parallel-in-time linear 
+Kalman smoother. The smoother uses a novel highly parallel
+QR factorization for a class of structured sparse
+matrices for state estimation, and an adaptation of the SelInv
+selective-inversion algorithm to evaluate the covariance matrices
+of estimated states. Our implementation of the new
+algorithm, using the Threading Building Blocks (TBB) library,
+scales well on both Intel and ARM multi-core servers, achieving
+speedups of up to 47x on 64 cores. The algorithm performs
+more arithmetic than sequential smoothers; consequently it is
+1.8x to 2.5x slower on a single core. The new algorithm is faster
+and scales better than the parallel Kalman smoother proposed
+by Särkkä and García-Fernández in 2021.
+This is joint work with Shahaf Gargir.
+"
 S9,SC3001,1,Eda,Oktay,Eda Oktay,2025-06-26 13:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,13:30,14:00,109,16,Mixed precision parallel operations for tensor train arithmetic,"Tensor Train (TT) decomposition is a widely used low-rank tensor factorization technique known for its memory efficiency and scalability in high-dimensional data. Its advantages have motivated the development of various TT-based methods and applications across fields, such as chemistry, quantum physics, and machine learning. However, constructing low-rank tensors and performing operations in TT arithmetic can be computationally intensive, often due to challenges on the cost of tensor construction and the complexity of numerical operations. To address these issues, high-performance computing (HPC) techniques such as parallelism and mixed-precision arithmetic have become essential tools for enhancing computational efficiency and reducing memory and communication requirements in (multi)linear algebra. In this talk, we discuss recent advances in HPC for TT arithmetic and introduce parallel TT operations using mixed-precision arithmetic. We then explore the potential of these developments to improve large-scale tensor computations and discuss their implications for future applications in scientific computing."
 S9,SC3001,2,Oleg,Balabanov,Oleg Balabanov,2025-06-26 13:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,14:00,14:30,109,16,,
-S9,SC3001,3,Zhao,Li,Zhao Li,2025-06-26 13:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,14:30,15:00,109,16,,
+S9,SC3001,3,,,,2025-06-26 13:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,14:30,15:00,109,16,,
 S9,SC3001,4,Ning,Zheng,Ning Zheng,2025-06-26 13:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,15:00,15:30,109,16,Randomized inner iteration preconditioning,"Many scientific computing problems have associated condition numbers that reflect the sensitivity and difficulty of solving the problem numerically. 
 The preconditioning technique replaces a badly conditioned problem with an equivalent problem with a smaller condition number. 
 We propose using randomized iteration algorithms as implicit preconditioners for the Krylov subspace methods to solve linear systems and linear least squares problem. 
