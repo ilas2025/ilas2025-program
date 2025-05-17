@@ -18,6 +18,7 @@
 \usepackage{bm}
 \usepackage{enumitem}
 \usepackage{bibunits}
+\usepackage{twemojis}
 
 \usepackage{tikz}
 \tikzset{
@@ -120,9 +121,26 @@ National Sun Yat-sen University
 %% \node[draw=black] at (0,0) {};
 %% \draw (-6,-3) grid (6,3);
 
+\begin{scope}
+\node[draw=none, red, rectangle, align=center, inner sep=5pt, fill=white] at (-3.4,5.3) {Monkeys often watching you:\\Hide food. Hold bags tight.}
+
+\coordinate (m1) at (0,-2);
+\coordinate (m2) at (-0.2,0.2);
+\coordinate (m3) at (-4,4);
+
+\foreach \i in {1,2,3} {
+  \draw[fill=red, draw=none, opacity=0.5] (m\i) circle[radius=0.8cm];
+  \node[draw=none, scale=5] at (m\i) {\twemoji{monkey}};
+}
+
+\end{scope}
+
 \begin{scope}[very thick, every node/.style={draw=black, inner sep=5pt, circle}]
+\draw[-triangle 45, red, line width=3pt] (0.6,-0.8) -- (-1.4,-1.1) {};
+\node[draw=none, red, rectangle, align=center] (tunnel-text) at (1.5,-0.7) {\bf\sf\large Tunnel\\entrance};
+  
 \node (ms) at (-2.06,0.27) {};
-\node[draw=none, rectangle, align=center] (ms-text) at (-2,5) {\bf\sf\large College of Science\\(Mini-symposia)};
+\node[draw=none, rectangle, align=center] (ms-text) at (0.5,4.5) {\bf\sf\large College of Science\\(Mini-symposia)};
 \draw[->] (ms-text.south) -- (ms.north);
 
 \node (sys) at (-3.39,-1.5) {};
