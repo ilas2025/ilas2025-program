@@ -26,6 +26,23 @@ every node/.style={circle, draw=black, inner sep=2pt}
 }
 \usetikzlibrary{arrows}
 
+\usepackage[most]{tcolorbox}
+\definecolor{ilas2025gold}{HTML}{8d6831}
+\tcbset{
+    frame code={},
+    center title,
+    left=0pt,
+    right=0pt,
+    top=0pt,
+    bottom=0pt,
+    colback=ilas2025gold!40,
+    colframe=white,
+    width=\dimexpr\textwidth\relax,
+    enlarge left by=0mm,
+    boxsep=5pt,
+    arc=0pt,outer arc=0pt,
+    }
+
 \newskip\mt \mt=10pt plus 100pt
 \newcommand{\mtskip}{\vspace{\mt}}
 \newskip\bt \bt=30pt plus 100pt
@@ -156,9 +173,48 @@ National Sun Yat-sen University
 \end{center}
 
 \vfill
-\hrule
-\vspace{2pt}
+%% \hrule
+
+\begin{tcolorbox}
 \begin{center}
+\includegraphics[height=2cm]{logomap/01EDB}
+\hfil
+\includegraphics[height=2cm]{logomap/02ELSEVIER}
+\hfil
+\includegraphics[height=2cm]{logomap/03ILAS}
+\hfil
+\includegraphics[height=2cm]{logomap/04NSTC}
+\hfil
+\includegraphics[height=2cm]{logomap/05NSYSU}
+\hfil
+\includegraphics[height=2cm]{logomap/06SIAM}
+\hfil
+\includegraphics[height=2cm]{logomap/07T&F}
+\hfil
+\includegraphics[height=2cm]{logomap/08TMS}
+\end{center}
+\end{tcolorbox}
+
+%% \noindent
+%% \colorbox{red}{
+%% \centerline{
+%% \includegraphics[height=2cm]{logomap/01EDB}
+%% \hfill
+%% \includegraphics[height=2cm]{logomap/02ELSEVIER}
+%% \hfill
+%% \includegraphics[height=2cm]{logomap/03ILAS}}
+%% }
+
+%% \colorbox{red}{
+%% \begin{center}
+%% \includegraphics[height=2cm]{logomap/04NSTC}
+%% \includegraphics[height=2cm]{logomap/05NSYSU}
+%% \includegraphics[height=2cm]{logomap/06SIAM}
+%% \includegraphics[height=2cm]{logomap/07T&F}
+%% \includegraphics[height=2cm]{logomap/08TMS}
+%% \end{center}
+%% }
+
 %%% SINICA
 %% \begin{tikzpicture}[every node/.style={draw=none,rectangle}]
 %% \node[left] at (0,0) {\includegraphics[scale=0.2]{logomap/AS-grayscale}};
@@ -185,7 +241,6 @@ National Sun Yat-sen University
 %% \node[left] at (0,0) {\includegraphics[scale=0.6]{logomap/MOST-mono}};
 %% \node[right,align=left] at (0,0) {\sf\large Ministry of Science and Technology};
 %% \end{tikzpicture}
-\end{center}
 
 \newpage
 
