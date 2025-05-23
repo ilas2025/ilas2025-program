@@ -356,7 +356,8 @@ convexity of the Berezin range for classes of composition operators acting on so
     
 
 \hypertarget{down0060}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Revisiting an Inverse Problem Proposed by Boor and Golub
+}
     
 \textbf{Natalia Bebiano}, \info{15:00\textrm{--}15:30 @ SC1003 (June 23, Monday)} \hfill \hyperlink{up0060}{$\Uparrow$}
     
@@ -364,7 +365,9 @@ convexity of the Berezin range for classes of composition operators acting on so
 (in {\color{mstitle}MS26: Utilizing structure to achieve low-complexity algorithms for data science, engineering, and physics})
         
 \mtskip
-    nan
+    Let $H= diag(\delta_1, \delta_2, \cdots, \delta_n)$ be a signature matrix, where $\delta_k \in \{-1, +1\}$. Consider $R_n$ endowed with the indefinite inner product $< x, y>H:=< H x, y>= y^T H x$ for all $x, y \in R_n$. A pseudo-Jacobi matrix of order $n$ is a real tridiagonal symmetric matrix with respect to this indefinite inner product. In this paper, the reconstruction of a pair of $n$-by-$n$ pseudo-Jacobi matrices, one obtained from the other by a rank-one modification, is investigated given their prescribed spectra. Necessary and sufficient conditions under which this problem has a solution are presented. As a special case of the obtained results, a related problem for Jacobi matrices proposed by de Boor and Golub is completely solved.
+ 
+This is a joint work with Wei-Ru Xu and Qian-Yu Shu.
 \end{ilasabstract}
     
 
@@ -380,19 +383,6 @@ convexity of the Berezin range for classes of composition operators acting on so
     The computation of an exact and approximate Greatest Common Right Divisor (GCRD) of polynomial matrices is a fundamental problem in control theory and signal processing. While extensive research has been conducted on the Greatest Common Divisors (GCDs) of scalar polynomials, the study of GCRDs in polynomial matrices remains relatively limited. It is important to develop fast and reliable ways to compute both exact and approximate GCRD, especially when dealing with approximate cases where the data is corrupted by noise.\\
 We address the problem of computing both exact and approximate GCRDs for a given set of univariate polynomial matrices $B_1(s), \dots, B_t(s)$. We establish a key theoretical result—proving that the rank deficiency of a particular generalized Sylvester matrix associated with $P(s)$, where $P(s)$ is obtained by stacking $B_1(s), \dots, B_t(s)$ one below the other, corresponds to the degree of the determinant of their GCRD. This equivalence enables us to develop efficient algorithms for computing an exact GCRD using \textit{Effectively Eliminating QR} (EEQR) decomposition and $SVD$ of that particular generalized Sylvester matrix. $SVD$ can handle noise-corrupted data, making it particularly effective for computing an approximate GCRD. This approach leverages the numerical rank of that particular generalized Sylvester matrix to estimate the degree of an approximate GCRD. Both algorithms are simple to develop, easy to understand, and convenient to implement, ensuring scalability.\\
 We validate our results through various numerical examples, demonstrating their effectiveness. These findings have significant implications for applications requiring polynomial matrix factorizations and simplifications in the presence of noise and uncertainty.
-\end{ilasabstract}
-    
-
-\hypertarget{down0380}{}\begin{ilasabstract}
-\talktitle{On the trace norm of $A_{\alpha}$ matrix of directed graphs}
-    
-\textbf{Mushtaq A. Bhat}, \info{16:30\textrm{--}17:00 @ SC2001 (June 26, Thursday)} \hfill \hyperlink{up0380}{$\Uparrow$}
-    
-    
-(in {\color{mstitle}MS21: Linear algebra techniques in graph theory})
-        
-\mtskip
-     Let $D$ be a directed graph (or briefly digraph) of order $n$ with adjacency matrix $A(D)$. For $\alpha\in[0,1)$, the $A_{\alpha}$ matrix of $D$ is defined as $A_{\alpha}(D)=\alpha {\Delta}^{+}(D)+(1-\alpha)A(D)$, where ${\Delta}^{+}(D)=\mbox{diag}~(d_1^{+},d_2^{+},\dots,d_n^{+})$ is the diagonal matrix of vertex out degrees of $D$. Let $\sigma_{1\alpha}(D),\sigma_{2\alpha}(D),\\ \dots,\sigma_{n\alpha}(D)$ be the singular values of $A_{\alpha}(D)$. Then the trace norm of $A_{\alpha}(D)$, which we call the $\alpha$ trace norm of $D$, is defined as $\|A_{\alpha}(D)\|_*=\sum_{i=1}^{n}\sigma_{i\alpha}(D)$. In this talk, we discuss the singular values of some basic digraphs and present a characterization of the digraphs $D$ with $\mbox{Rank}~(A_{\alpha}(D))=1$. As an application of these results, we obtain a lower bound for the trace norm of $A_{\alpha}$ matrix of digraphs and determine the extremal digraphs. In particular, we determine the oriented trees for which the trace norm of $A_{\alpha}$ matrix attains minimum. We obtain a lower bound for the $\alpha$ spectral norm $\sigma_{1\alpha}(D)$ of digraphs and characterize the extremal digraphs. As an application of this result, we obtain an upper bound for the $\alpha$ trace norm of digraphs and characterize the extremal digraphs. 
 \end{ilasabstract}
     
 
@@ -664,9 +654,37 @@ This talk is based on joint work with Adam Berliner, Dale Olesky and Pauline van
 \end{ilasabstract}
     
 
+\hypertarget{down0217}{}\begin{ilasabstract}
+\talktitle{Signal processing of spherical data. From real life to mathematical challenges}
+    
+\textbf{Roberto Cavassi}, \info{16:00\textrm{--}16:30 @ SC1003 (June 24, Tuesday)} \hfill \hyperlink{up0217}{$\Uparrow$}
+    
+    
+(in {\color{mstitle}MS19: Explicit and hidden asymptotic structures, GLT Analysis, and applications})
+        
+\mtskip
+    In signal processing the time-frequency analysis of nonlinear and non-stationary processes, as well as the determination of the unknown number of active sub-signals of a blind-source composite signal are, in general, challenging inverse problem tasks. If we consider data sampled on a sphere, things get even more complicated. This is the reason why just a few techniques have been developed so far to study this kind of data. However, many real-life data are of this nature, like in Geophysics and Physics.
+
+The idea is to extend the Iterative Filtering (IF) algorithm to work on the sphere. IF is a non-stationary signal decomposition method proposed a decade ago [1] to address the problem of extracting time-varying oscillatory components from a non-stationary multicomponent signal. This method proved to be really valuable in many applications, see [2] and references therein, and it was accelerated in what is known as Fast Iterative Filtering (FIF) [3] by leveraging the Toeplitz matrix theory.
+
+In this talk, we introduce the generalization of IF to handle spherical data and show how we can address the question about its convergence [4]. We conclude with some examples of application to geophysical data.
+
+This is joint work with {\em Giovanni Barbarino}, {\em Roberto Cavassi}, {\em Wing S. Li}, {\em Edward J. Timko}, {\em Haomin Zhou}.
+
+[1] L. Lin, Y. Wang, and H. Zhou. ``Iterative filtering as an alternative algorithm for empirical mode decomposition''. Adv. in Adap. Data An., 2009, 1.04, 543-560.
+
+[2] G. Barbarino, A. Cicone. ``Conjectures on spectral properties of ALIF algorithm''. Linear Algebra and its Applications, 2022, 647, 127--152.
+
+[3] A. Cicone, H. Zhou. ``Numerical Analysis for Iterative Filtering with New Efficient Implementations Based on FFT''. Num. Math., 2021, 147 (1), 1--28.
+
+[4] G. Barbarino, R. Cavassi, A. Cicone. Extension and convergence analysis of Iterative Filtering to spherical data. Linear Algebra and its Applications, 2024.
+
+
+\end{ilasabstract}
+    
+
 \hypertarget{down0231}{}\begin{ilasabstract}
-\talktitle{A Divide-and-Conquer Framework for Efficient Algebraic Linearizations of Matrix Polynomials
-}
+\talktitle{A divide-and-conquer framework for efficient algebraic linearizations of matrix polynomials}
     
 \textbf{Eunice Chan}, \info{17:00\textrm{--}17:30 @ SC2006 (June 24, Tuesday)} \hfill \hyperlink{up0231}{$\Uparrow$}
     
@@ -933,7 +951,7 @@ We will discuss related results for arbitrary strongly connected graphs, includi
     
 
 \hypertarget{down0304}{}\begin{ilasabstract}
-\talktitle{Inverse Iteration for Sylvester Operators
+\talktitle{Inverse iteration for Sylvester operators
 }
     
 \textbf{Eric King-wah Chu}, \info{10:30\textrm{--}11:00 @ SC4011 (June 26, Thursday)} \hfill \hyperlink{up0304}{$\Uparrow$}
@@ -989,35 +1007,6 @@ Inverse problems in science and engineering remain inherently challenging. While
         
 \mtskip
     nan
-\end{ilasabstract}
-    
-
-\hypertarget{down0217}{}\begin{ilasabstract}
-\talktitle{Signal processing of spherical data. From real life to mathematical challenges}
-    
-\textbf{Antonio Cicone}, \info{16:00\textrm{--}16:30 @ SC1003 (June 24, Tuesday)} \hfill \hyperlink{up0217}{$\Uparrow$}
-    
-    
-(in {\color{mstitle}MS19: Explicit and hidden asymptotic structures, GLT Analysis, and applications})
-        
-\mtskip
-    In signal processing the time-frequency analysis of nonlinear and non-stationary processes, as well as the determination of the unknown number of active sub-signals of a blind-source composite signal are, in general, challenging inverse problem tasks. If we consider data sampled on a sphere, things get even more complicated. This is the reason why just a few techniques have been developed so far to study this kind of data. However, many real-life data are of this nature, like in Geophysics and Physics.
-
-The idea is to extend the Iterative Filtering (IF) algorithm to work on the sphere. IF is a non-stationary signal decomposition method proposed a decade ago [1] to address the problem of extracting time-varying oscillatory components from a non-stationary multicomponent signal. This method proved to be really valuable in many applications, see [2] and references therein, and it was accelerated in what is known as Fast Iterative Filtering (FIF) [3] by leveraging the Toeplitz matrix theory.
-
-In this talk, we introduce the generalization of IF to handle spherical data and show how we can address the question about its convergence [4]. We conclude with some examples of application to geophysical data.
-
-This is joint work with {\em Giovanni Barbarino}, {\em Roberto Cavassi}, {\em Wing S. Li}, {\em Edward J. Timko}, {\em Haomin Zhou}.
-
-[1] L. Lin, Y. Wang, and H. Zhou. ``Iterative filtering as an alternative algorithm for empirical mode decomposition''. Adv. in Adap. Data An., 2009, 1.04, 543-560.
-
-[2] G. Barbarino, A. Cicone. ``Conjectures on spectral properties of ALIF algorithm''. Linear Algebra and its Applications, 2022, 647, 127--152.
-
-[3] A. Cicone, H. Zhou. ``Numerical Analysis for Iterative Filtering with New Efficient Implementations Based on FFT''. Num. Math., 2021, 147 (1), 1--28.
-
-[4] G. Barbarino, R. Cavassi, A. Cicone. Extension and convergence analysis of Iterative Filtering to spherical data. Linear Algebra and its Applications, 2024.
-
-
 \end{ilasabstract}
     
 
@@ -1095,7 +1084,8 @@ This is joint work with Richard A. Brualdi.
     
 
 \hypertarget{down0121}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Multivariate transforms of totally positive matrices and kernels
+}
     
 \textbf{Sujit Sakharam Damase}, \info{11:00\textrm{--}11:30 @ SC0008 (June 24, Tuesday)} \hfill \hyperlink{up0121}{$\Uparrow$}
     
@@ -1103,7 +1093,8 @@ This is joint work with Richard A. Brualdi.
 (in {\color{mstitle}MS9: Total positivity})
         
 \mtskip
-    nan
+    We will discuss recent results on multivariate transforms of totally positive/nonnegative matrices and kernels, together with some observations that go into their proofs. This is a joint work with Apoorva Khare.
+
 \end{ilasabstract}
     
 
@@ -2138,7 +2129,8 @@ I will present some recent results on the order relations among these matrix mea
     
 
 \hypertarget{down0065}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{The Lambert $W$, the wright $\omega$ and the unwinding number of matrices
+}
     
 \textbf{Bruno Iannazzo}, \info{14:30\textrm{--}15:00 @ SC2001 (June 23, Monday)} \hfill \hyperlink{up0065}{$\Uparrow$}
     
@@ -2146,7 +2138,8 @@ I will present some recent results on the order relations among these matrix mea
 (in {\color{mstitle}MS5: Advances in matrix equations: Theory, computations, and applications})
         
 \mtskip
-    nan
+    The matrix equations $We^W=A$ or $W+\log(W)=A$ are used to define the matrix Lambert $W$ and Wright $\omega$ functions, respectively. We present results on the existence of Lambert $W$ functions with prescribed eigenvalues or with real elements and we provide a characterization of the Wright $\omega$ of a matrix $A$ as the only primary Lambert $W$ of $\exp(A)$, together with links to the matrix equations. By making use of a novel connection between the matrix unwinding number and the matrix sign function, we present a method for evaluating the unwinding number of a real matrix using only real arithmetic.
+
 \end{ilasabstract}
     
 
@@ -2478,19 +2471,6 @@ Belton, Dominique Guillot, and Mihai Putinar.
 \end{ilasabstract}
     
 
-\hypertarget{down0136}{}\begin{ilasabstract}
-\talktitle{nan}
-    
-\textbf{Kshitij Khare}, \info{11:00\textrm{--}11:30 @ SC1003 (June 24, Tuesday)} \hfill \hyperlink{up0136}{$\Uparrow$}
-    
-    
-(in {\color{mstitle}MS26: Utilizing structure to achieve low-complexity algorithms for data science, engineering, and physics})
-        
-\mtskip
-    nan
-\end{ilasabstract}
-    
-
 \hypertarget{down0189}{}\begin{ilasabstract}
 \talktitle{Streaming data tensors efficiently and accurately
 }
@@ -2632,7 +2612,6 @@ vector in the orthogonal complement of the subspace has Schmidt rank
 greater than $k$. Once we have Schmidt number $k+1$ witnesses
 outside of a face, we also have Schmidt number $2,3,\dots, k$
 witnesses outside of the face.
-
 \end{ilasabstract}
     
 
@@ -2746,7 +2725,8 @@ Multi-Annual Financing Program for R\&D Units.
     
 
 \hypertarget{down0054}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Quantum tomography: theory and practice
+}
     
 \textbf{Chi-Kwong Li}, \info{15:00\textrm{--}15:30 @ SC0014 (June 23, Monday)} \hfill \hyperlink{up0054}{$\Uparrow$}
     
@@ -2754,7 +2734,33 @@ Multi-Annual Financing Program for R\&D Units.
 (in {\color{mstitle}MS8: Tensor and quantum information science})
         
 \mtskip
-    nan
+    We study some basic theoretical and implementation issues
+of quantum state tomography problems.
+Under the assumption that one can do 
+measurements of many identical copies of a quantum state
+$\rho$ represented as an $N\times N$ density matrix,
+we show that one can determine (estimate) $\rho$ using the 
+measurements with respect to $N+1$ different bases, 
+i.e,,  the quantum state can be determined diagonal entries of 
+$U_j\rho U_j^\dag$, where $U_j$ is a unitary matrix  for $j = 0, \dots, N$.
+When $N = 2^n$, one may choose unitary $U_0, \dots, U_N$ corresponding
+to a collection of mutually unbiased bases. We show that the recovery of the
+quantum state using such measurements will involve the solving an 
+ill-conditioned linear system. For a more stable scheme in terms of
+measurements and determination of the quantum state from the measurement values,
+we show that one may also use the measurements of 
+$V_j \rho V_j^\dag$ to determine the quantum state for $j = 1, \dots, 3^n$,
+where each $V_j$ corresponds to a local measurement operator,
+i.e., $V_j$ is a tensor product of $2\times 2$ unitary matrices.
+It is proved that $3^n$ is the minimum number of local measurement bases
+one can use to determine an $n$-qubit state.
+Moreover, we show that one may determine $\rho$ by a single measurement
+basis using an ancilla $\rho$ of the same dimension as $\rho$.
+In other words, we can determine $\rho$ using
+the diagonal entries of $U(\sigma \otimes \rho)U^\dag$, where
+$\sigma$ is an $n$-qubit pure state.
+All the above schemes are demonstrated using the IBM online computers.
+
 \end{ilasabstract}
     
 
@@ -3102,8 +3108,7 @@ In this way, we propose a natural preconditioning strategy for linear systems wi
 (in {\color{mstitle}MS1: Embracing new opportunities in numerical linear algebra})
         
 \mtskip
-    Schaback in 1995 has proved the Uncertainty Principle of radial basis function interpolation, which states that the condition number and the error cannot be both kept small at the same time. Hence it is a Trade-off Principle. It seems to violet our cognition about ill/well-conditioned problems. In this talk we like to extend this principle, i.e. there is no case where the error and the condition number are both small, from interpolation matrices to arbitrary linear systems. The underlying theory behind the conflict between accuracy and stability flips our misconceptions about condition numbers and provides us with a brand-new interpretation of it. 
-
+    Schaback, in 1995, proved the Uncertainty Principle of radial basis function interpolation, which states that the condition number and the error cannot be kept small simultaneously. Hence, it is a trade-off principle. It seems to violate our cognition about ill/well-conditioned problems. In this talk, we would like to extend this principle, i.e., there is no case where the error and the condition number are both small, from interpolation matrices to arbitrary linear systems. The underlying theory behind the conflict between accuracy and stability flips our misconceptions about condition numbers and gives us a brand-new understanding of them. 
 \end{ilasabstract}
     
 
@@ -3185,10 +3190,10 @@ This talk will focus on ternary CAOAs with strength $2$, emphasizing the charact
 \end{ilasabstract}
     
 
-\hypertarget{down0137}{}\begin{ilasabstract}
+\hypertarget{down0136}{}\begin{ilasabstract}
 \talktitle{A low-complexity structured neural network approach for dynamical systems}
     
-\textbf{Sirani M. Perera}, \info{11:30\textrm{--}12:00 @ SC1003 (June 24, Tuesday)} \hfill \hyperlink{up0137}{$\Uparrow$}
+\textbf{Sirani M. Perera}, \info{11:00\textrm{--}11:30 @ SC1003 (June 24, Tuesday)} \hfill \hyperlink{up0136}{$\Uparrow$}
     
     
 (in {\color{mstitle}MS26: Utilizing structure to achieve low-complexity algorithms for data science, engineering, and physics})
@@ -3442,21 +3447,6 @@ Joint work with Xu Li, Lanzhou University of Technology, China.
 \end{ilasabstract}
     
 
-\hypertarget{down0047}{}\begin{ilasabstract}
-\talktitle{Convergence properties of sequences related to the Ando-Li-Mathias construction and to the weighted Cheap mean}
-    
-\textbf{Jie Meng}, \info{14:30\textrm{--}15:00 @ SC0009 (June 23, Monday)} \hfill \hyperlink{up0047}{$\Uparrow$}
-    
-    
-(in {\color{mstitle}MS29: Matrix functions and related topics})
-        
-\mtskip
-    Sequences defining a weighted matrix geometric mean are investigated and their convergence speed is analyzed.
-The superlinear convergence of a weighted mean based on the Ando-Li-Mathias (ALM) construction is proved. A weighted Cheap mean is defined and conditions on the weights for linear or superlinear convergence of order at least three are provided.
-
-\end{ilasabstract}
-    
-
 \hypertarget{down0056}{}\begin{ilasabstract}
 \talktitle{nan}
     
@@ -3614,6 +3604,19 @@ Math. Comput. Modell, 42(9--10), 1023--1034 (2005).
 \end{thebibliography}
         \end{bibunit}
         
+\end{ilasabstract}
+    
+
+\hypertarget{down0192}{}\begin{ilasabstract}
+\talktitle{Tucker decomposition with temporal regularization for motion capture data completion}
+    
+\textbf{Souad Mohaoui}, \info{15:00\textrm{--}15:30 @ SC3001 (June 24, Tuesday)} \hfill \hyperlink{up0192}{$\Uparrow$}
+    
+    
+(in {\color{mstitle}MS18: New methods in numerical multilinear algebra})
+        
+\mtskip
+    Tensor decompositions are powerful frameworks for analyzing high-dimensional data by factorizing multi-way arrays into smaller, interpretable components. In particular, Tucker decomposition has emerged as a tool for modeling multi-dimensional data, helping to uncover underlying patterns, especially in the presence of missing data. In this study, we leverage Tucker decomposition for the completion of motion capture (MoCap) data, which is inherently multi-dimensional and characterized by complex temporal dependencies. MoCap data often suffers from gaps due to missing markers during the recording process, leading to the need for efficient and accurate gap-filling methods. We propose two gap-filling algorithms based on Tucker decomposition: Tucker and TuckerTNN. These methods exploit the low-rank properties of MoCap tensors. To address the computational challenges associated with traditional smoothness regularization, we introduce a temporal nuclear norm regularization in the TuckerTNN model, which provides a more efficient solution for large-scale MoCap datasets. We evaluate the proposed algorithms using the publicly available HDM05 MoCap dataset.
 \end{ilasabstract}
     
 
@@ -4433,19 +4436,6 @@ Obviously, the results obtained hold for the corresponding column  completion pr
 \end{ilasabstract}
     
 
-\hypertarget{down0162}{}\begin{ilasabstract}
-\talktitle{Preservation of orthogonality by unitary and isometric dilations}
-    
-\textbf{Saikat Roy}, \info{14:00\textrm{--}14:30 @ SC0012 (June 24, Tuesday)} \hfill \hyperlink{up0162}{$\Uparrow$}
-    
-    
-(in {\color{mstitle}MS12: Preserver problems, I})
-        
-\mtskip
-    In this talk, we will focus on the orthogonality (in the sense of Birkhoff-James) relation of two contractions and that of their unitary (isometric) dilations. In particular, the theme of the talk is ``whether the orthogonality relation between two contractions is preserved by their unitary and isometric dilations." In the process, we consider the Sch\"{a}ffer unitary dilations, Ando dilation for a commuting pair of contractions and regular unitary dilations. In this direction, we construct the unitary dilation of a contraction and show that such kinds of unitary dilation preserve the orthogonality relation of two basic contractions.
-\end{ilasabstract}
-    
-
 \hypertarget{down0269}{}\begin{ilasabstract}
 \talktitle{Linear-time algorithm for finding the Frobenius normal form of symmetric Toeplitz matrices.}
     
@@ -5030,15 +5020,19 @@ Numerical experiments on several mesh models demonstrate the accuracy and stabil
     
 
 \hypertarget{down0250}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Characterizing high Schmidt number witnesses in arbitrary dimensions system
+}
     
-\textbf{Raymond Sze}, \info{10:30\textrm{--}11:00 @ SC0014 (June 25, Wednesday)} \hfill \hyperlink{up0250}{$\Uparrow$}
+\textbf{Raymond Nung-Sing Sze}, \info{10:30\textrm{--}11:00 @ SC0014 (June 25, Wednesday)} \hfill \hyperlink{up0250}{$\Uparrow$}
     
     
 (in {\color{mstitle}MS8: Tensor and quantum information science})
         
 \mtskip
-    nan
+    In this talk, we will present an efficient analytical tool for characterizing high Schmidt number witnesses for bipartite quantum states in arbitrary dimensions.
+Our methods not only offer viable mathematical methods for constructing high-dimensional Schmidt number witnesses in theory but also simplify the quantification of entanglement and dimensionality.
+Most notably, we develop high-dimensional Schmidt number witnesses within arbitrary-dimensional systems, with our Schmidt witness coefficients relying solely on the operator Schmidt coefficient. 
+
 \end{ilasabstract}
     
 
@@ -5149,10 +5143,10 @@ classes; Quasi-complete graphs; Quasi-stars.
 \end{ilasabstract}
     
 
-\hypertarget{down0161}{}\begin{ilasabstract}
+\hypertarget{down0162}{}\begin{ilasabstract}
 \talktitle{On homeomorphisms between geometric structure spaces of primitive $C^*$-algebras}
     
-\textbf{Ryotaro Tanaka}, \info{13:30\textrm{--}14:00 @ SC0012 (June 24, Tuesday)} \hfill \hyperlink{up0161}{$\Uparrow$}
+\textbf{Ryotaro Tanaka}, \info{14:00\textrm{--}14:30 @ SC0012 (June 24, Tuesday)} \hfill \hyperlink{up0162}{$\Uparrow$}
     
     
 (in {\color{mstitle}MS12: Preserver problems, I})
@@ -5180,7 +5174,7 @@ The purpose of this talk is to present a recent progress on the theory of geomet
     
 
 \hypertarget{down0342}{}\begin{ilasabstract}
-\talktitle{Parallel-in-Time Kalman Smoothing Using Orthogonal Transformations
+\talktitle{Parallel-in-time Kalman smoothing using orthogonal transformations
 }
     
 \textbf{Sivan Toledo}, \info{15:00\textrm{--}15:30 @ SC2006 (June 26, Thursday)} \hfill \hyperlink{up0342}{$\Uparrow$}
@@ -5266,7 +5260,8 @@ This is joint work with Davide Palitta, Ivica Naki\'{c} and Jens Saak.
     
 
 \hypertarget{down0288}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Semidefinite programming bounds on the size of entanglement-assisted codeword stabilized quantum codes
+}
     
 \textbf{Pin-Chieh Tseng}, \info{11:30\textrm{--}12:00 @ SC1001 (June 26, Thursday)} \hfill \hyperlink{up0288}{$\Uparrow$}
     
@@ -5274,7 +5269,8 @@ This is joint work with Davide Palitta, Ivica Naki\'{c} and Jens Saak.
 (in {\color{mstitle}MS34: Combinatorics, association scheme, and graphs})
         
 \mtskip
-    nan
+    The Terwilliger algebra has been used to obtain upper bounds on the size of classical codes. In this paper, we construct semidefinite programming constraints for quantum codes. Applying this method, we give the table of upper bounds of the size of entanglement-assisted codeword stabilized codes. Moreover, we also give an interpretation of the Shor-Laflamme weight enumerators $\{A_{j}\}$ and quantum shadow enumerators for codeword stabilized codes. It is a joint work with Ching-Yi Lai and Wei-Hsuan Yu.
+
 \end{ilasabstract}
     
 
@@ -5348,21 +5344,6 @@ with Abhilash Saha, Leona Tilis, and Adam Van Tuyl.
 \mtskip
     Multiple orthogonal polynomials (MOPs) arise in various applications, including approximation theory, random matrix theory, and numerical integration. To define MOPs, one needs orthogonality conditions with respect to multiple measures. In this talk, we restrict our attention to the case of two measures. These MOPs satisfy recurrence relations, and we focus specifically on the stepline recurrence relation.
 We derive an inverse eigenvalue problem: given some initial spectral data, retrieve the recurrence matrix associated with the stepline recurrence relation. Several techniques for solving this inverse problem are proposed, and numerical illustrations are provided to demonstrate their correctness.
-
-\end{ilasabstract}
-    
-
-\hypertarget{down0388}{}\begin{ilasabstract}
-\talktitle{Mixed precision strategies for preconditioned GMRES
-}
-    
-\textbf{Bastien Vieublé}, \info{16:30\textrm{--}17:00 @ SC3001 (June 26, Thursday)} \hfill \hyperlink{up0388}{$\Uparrow$}
-    
-    
-(in {\color{mstitle}MS16: Approximations and errors in Krylov-based solvers})
-        
-\mtskip
-    The Generalized Minimal Residual methods (GMRES) for the solution of general square linear systems $Ax = b$ is often combined with a preconditioner to improve the convergence speed and the overall computing performance of the method. Successful mixed precision implementations for the application of the preconditioner inside GMRES have been previously proposed: certain strategy prescribes to apply the preconditioner in low precision to reduce overall time and memory consumption, other strategies propose to apply the preconditioner in higher precision to improve robustness and accuracy. These existing studies tend to focus on one kind of preconditioner combined with one kind of preconditioning technique (left-, right-, and flexible-preconditioning). In this talk, we propose to unify most of the state-of-the-art mixed precision implementations for preconditioned GMRES under the same comprehensive theory and give a clear and exhaustive list of the possible strategies to set the precisions and how they compare numerically. To achieve this, we derive new descriptive bounds for the attainable forward errors of the computed solutions. From the study of these bounds, we uncover yet unknown mixed precision implementations that achieve new tradeoffs between computing performance and accuracy. As importantly, we explain that there are critical differences in robustness and accuracy between left-, right-, and flexible-preconditioning for a same given set of precisions and that, therefore, the choice between the three preconditioning techniques has higher stakes in mixed precision. We substantiate our theoretical findings with a comprehensive experimental study on random dense and SuiteSparse matrices with various preconditioners.
 
 \end{ilasabstract}
     
@@ -5480,19 +5461,6 @@ Numerical  examples  are  presented  to  show  the  merits  of  the  proposed  a
 \end{ilasabstract}
     
 
-\hypertarget{down0297}{}\begin{ilasabstract}
-\talktitle{nan}
-    
-\textbf{Wei Wang}, \info{11:30\textrm{--}12:00 @ SC2001 (June 26, Thursday)} \hfill \hyperlink{up0297}{$\Uparrow$}
-    
-    
-(in {\color{mstitle}MS2: Combinatorial matrix theory})
-        
-\mtskip
-    nan
-\end{ilasabstract}
-    
-
 \hypertarget{down0316}{}\begin{ilasabstract}
 \talktitle{Linear maps preserving disjoint idempotents
 }
@@ -5510,7 +5478,8 @@ In this talk, I will present a characterization of linear maps on ${\bf M}_n(F)$
     
 
 \hypertarget{down0058}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Structural constraints on response matrices of passive electrical networks
+}
     
 \textbf{Aaron Welters}, \info{14:00\textrm{--}14:30 @ SC1003 (June 23, Monday)} \hfill \hyperlink{up0058}{$\Uparrow$}
     
@@ -5518,7 +5487,8 @@ In this talk, I will present a characterization of linear maps on ${\bf M}_n(F)$
 (in {\color{mstitle}MS26: Utilizing structure to achieve low-complexity algorithms for data science, engineering, and physics})
         
 \mtskip
-    nan
+    In this talk, we discuss the problem of realizing a passive electrical network (circuit) with a given response matrix. We begin by considering resistor-only networks and present the well-known solution using a star network with one interior node. Then, we introduce the long-standing open problem associated with two-element-kind networks (e.g., RC, RL, or LC networks). Next, we present a theorem that provides necessary conditions for a matrix to be a response matrix viewed as both a structured matrix and as a rational multivariate matrix function of the network parameters. Finally, we conclude with some additional open problems and highlight our recent work on these problems. This talk is based on joint work with Fernando Guevara Vasquez (Univ. of Utah) and Graeme W.\ Milton (Univ. of Utah).  
+
 \end{ilasabstract}
     
 
@@ -5834,23 +5804,6 @@ equal to its maximum nullity.
         
 \mtskip
     In this talk, we first discuss the ranks of the third-order quaternion tensors and present some inequalities for boundaries. Then we consider SVD and QR decomposition of this quaternion tensors and applications in color images and videos processing. 
-\end{ilasabstract}
-    
-
-\hypertarget{down0346}{}\begin{ilasabstract}
-\talktitle{Randomized inner iteration preconditioning}
-    
-\textbf{Ning Zheng}, \info{15:00\textrm{--}15:30 @ SC3001 (June 26, Thursday)} \hfill \hyperlink{up0346}{$\Uparrow$}
-    
-    
-(in {\color{mstitle}MS16: Approximations and errors in Krylov-based solvers})
-        
-\mtskip
-    Many scientific computing problems have associated condition numbers that reflect the sensitivity and difficulty of solving the problem numerically. 
-The preconditioning technique replaces a badly conditioned problem with an equivalent problem with a smaller condition number. 
-We propose using randomized iteration algorithms as implicit preconditioners for the Krylov subspace methods to solve linear systems and linear least squares problem. 
-Theoretical justifications of the preconditioned GMRES are presented. 
-Numerical experiments on overdetermined and underdetermined linear systems show that the proposed method is superior to the other classical preconditioners in terms of total CPU time.
 \end{ilasabstract}
     
 
@@ -6540,17 +6493,6 @@ This talk is based on joint work with Parteek Kumar.
     We introduce a new family of Cayley graphs arising from a collection of subsets of a finite group. It is a generalization of a Cayley graph and a bi-Cayley  graphs, so we call it a $t$-Cayley graph. Let ${\mathcal{R}}$ be direct products of finite matrix rings.
  We work on  unitary $(t-1)$-matching $t$-Cayley graph of ${\mathcal{R}}$ and its complement graph. We show that the graphs are hyperenergetic and obtain a criterion on $t$ and the rings ${\mathcal{R}}$ for each graph being a Ramanujan graph.  Moreover, we show that the unitary $(t-1)$-matching $t$-Cayley graph of ${\mathcal{R}}$ is always periodic and also
   characterize $t$ and the rings ${\mathcal{R}}$ such that its corresponding unitary $(t-1)$-matching $t$-Cayley graph has perfect state transfer between vertices.
-\end{ilasabstract}
-    
-
-\hypertarget{down0118}{}\begin{ilasabstract}
-\talktitle{Tucker decomposition with temporal regularization for motion capture data completion}
-    
-\textbf{Souad Mohaoui}, \info{17:00\textrm{--}17:30 @ SC4011 (June 23, Monday)} \hfill \hyperlink{up0118}{$\Uparrow$}
-    
-    
-\mtskip
-    Tensor decompositions are powerful frameworks for analyzing high-dimensional data by factorizing multi-way arrays into smaller, interpretable components. In particular, Tucker decomposition has emerged as a tool for modeling multi-dimensional data, helping to uncover underlying patterns, especially in the presence of missing data. In this study, we leverage Tucker decomposition for the completion of motion capture (MoCap) data, which is inherently multi-dimensional and characterized by complex temporal dependencies. MoCap data often suffers from gaps due to missing markers during the recording process, leading to the need for efficient and accurate gap-filling methods. We propose two gap-filling algorithms based on Tucker decomposition: Tucker and TuckerTNN. These methods exploit the low-rank properties of MoCap tensors. To address the computational challenges associated with traditional smoothness regularization, we introduce a temporal nuclear norm regularization in the TuckerTNN model, which provides a more efficient solution for large-scale MoCap datasets. We evaluate the proposed algorithms using the publicly available HDM05 MoCap dataset.
 \end{ilasabstract}
     
 
