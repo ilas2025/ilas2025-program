@@ -1,18 +1,14 @@
 import pypandoc
 import pandas as pd
-def convert_latex_to_html(latex_content):
+def convert_latex_to_markdown(latex_str):
     """
-    Convert LaTeX content to HTML using pypandoc.
-    
-    :param latex_content: str, LaTeX content to convert
-    :return: str, converted HTML content
+    Convert LaTeX string to Markdown using pypandoc.
     """
     try:
-        html_content = pypandoc.convert_text(latex_content, 'html', format='latex')
-        return html_content
-    except Exception as e:
-        print(f"Error converting LaTeX to HTML: {e}")
-        return None
+        # Attempt to convert the LaTeX string to Markdown
+        return pypandoc.convert_text(latex_str, 'markdown', format='latex')
+    except:
+        return f"Conversion error, original LaTeX retained: {latex_str}"
 srp_df=pd.read_csv("srp-full.csv")
-srp_df['ABSTRACT'] = srp_df['ABSTRACT'].apply(convert_latex_to_html)
+srp_df['ABSTRACT'] = srp_df['ABSTRACT'].apply(convert_latex_to_markdown)
 srp_df.to_csv("srp-full-converted.csv", index=False)
