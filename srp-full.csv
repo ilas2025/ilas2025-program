@@ -83,24 +83,25 @@ In the talk, I will discuss the mathematical foundations of the tubal tensor fra
 "
 S1,SC0008,1,Shaun,Fallat,Shaun Fallat,2025-06-23 11:00:00,MS9,Total positivity,Monday,11:00,11:30,101,9,Preservers of totally positive and totally nonnegative matrices,"A matrix is called totally nonnegative (positive) if all its minors are nonnegative (positive). In this talk we consider functions that preserve that class of totally nonnegative (positive) matrices. This subject has rightfully received significant attention over the years, including previous studies on characterizing surjective linear preservers and more recent interesting inquiries into various types of entry-wise preservers for this class of matrices. Building upon the basic fact that the class of totally nonnegative (positive) matrices forms a semigroup we highlight some existing work and investigate and report on some recent progress concerning multiplicative maps that preserve this semigroup of positive matrices.
 "
-S1,SC0008,2,Shivangi,Yadav,Shivangi Yadav,2025-06-23 11:00:00,MS9,Total positivity,Monday,11:30,12:00,101,9,Linear preservers of sign regularity,"The classification of linear maps that act on a space of bounded linear operators and preserve certain functions, subsets, relations, etc. has a long history, beginning with Frobenius, who characterized in 1897 the  determinant-preserving linear maps on matrix algebras. In this talk, I will present a classification of all surjective linear mappings $\mathcal{L}:\mathbb{R}^{m\times n}\to\mathbb{R}^{m\times n}$ that preserve: (i)~sign regularity and (ii)~sign regularity with a given sign pattern, as well as (iii)~strict versions of these. As a special case of our results, we recover the characterization of linear preservers for the class of square totally positive and totally non-negative matrices (by Berman--Hershkowitz--Johnson in 1985). This is a joint work with Projesh Nath Choudhury.
-"
-S1,SC0008,3,Apoorva,Khare,Apoorva Khare,2025-06-23 11:00:00,MS9,Total positivity,Monday,12:00,12:30,101,9,"Univariate preservers of totally positive matrices and kernels
+S1,SC0008,2,Apoorva,Khare,Apoorva Khare,2025-06-23 11:00:00,MS9,Total positivity,Monday,11:30,12:00,101,9,"Univariate preservers of totally positive matrices and kernels
 ","We will discuss recent results on preservers of totally
 positive/nonnegative matrices and kernels, together with some
 observations that go into their proofs. Partly joint with Alexander
 Belton, Dominique Guillot, and Mihai Putinar. 
 "
+S1,SC0008,3,Sujit Sakharam,Damase,Sujit Sakharam Damase,2025-06-23 11:00:00,MS9,Total positivity,Monday,12:00,12:30,101,9,"Multivariate transforms of totally positive matrices and kernels
+","We will discuss recent results on multivariate transforms of totally positive/nonnegative matrices and kernels, together with some observations that go into their proofs. This is a joint work with Apoorva Khare.
+"
 S1,SC0009,1,Fumio,Hiai,Fumio Hiai,2025-06-23 11:00:00,MS29,Matrix functions and related topics,Monday,11:00,11:30,101,29,Joint concavity/convexity of matrix trace functions for geometric type means,"In this talk we consider the quasi extensions of the weighted geometric type means, including
 \begin{align*}
 &G_{\alpha,p}(A,B):=(A^p\#_\alpha B^p)^{1/p},
-\ \mbox{the quasi-weighted geometric mean}, \\
+\ \text{the quasi-weighted geometric mean}, \\
 &SG_{\alpha,p}(A,B):=(A^p\#_\alpha B^p)^{1/p},
-\ \mbox{the quasi-weighted spectral geometric mean}, \\
+\ \text{the quasi-weighted spectral geometric mean}, \\
 &R_{\alpha,p}(A,B):=\bigl(B^{{\frac{1-\alpha}{2}}p}A^{\alpha p}B^{{\frac{1-\alpha}{2}}p}\bigr)^{1/p},
-\ \mbox{the R\'enyi mean}, \\
+\ \text{the R\'enyi mean}, \\
 &LE_\alpha(A,B):=\exp(\alpha\log A+(1-\alpha)\log B),
-\ \mbox{the weighted Log-Euclidean mean},
+\ \text{the weighted Log-Euclidean mean},
 \end{align*}
 where $\alpha>0$ is the weight parameter and $p>0$ is the parameter of the quasi extension. We aim at determining the range of the parameters $\alpha,p$ under which the trace function $\mathrm{Tr}\,\mathcal{M}_{\alpha,p}(A,B)$ is jointly concave (also jointly convex) for each $\mathcal{M}_{\alpha,p}$ from the above quasi-weighted geometric type means. Our discussions are in strong relation to the monotonicity property (or date-processing inequality) of quantum divergences in quantum information.
 "
@@ -225,7 +226,7 @@ S1,SC1005,3,Lavanya,Selvaganesh,Lavanya Selvaganesh,2025-06-23 11:00:00,MS15,Gra
 
 "
 S1,SC2001,1,Richard A.,Brualdi,Richard A. Brualdi,2025-06-23 11:00:00,MS2,Combinatorial matrix theory,Monday,11:00,11:30,101,2,(Reverse-)Grassmannian permutation matrices,"A {\it Grassmannian permutation} $i_1i_2\cdots i_n$  is a permutation of $\{1,2,\ldots,n\}$  with at most one descent $i_{k+1}<i_k$; a {\it reverse-Grassmannian} has at most one ascent $i_{k+1}>i_k$. We consider reverse-Grassmannians ({revG}'s) and their corresponding permutation matrices.The number of such revG's is $2^n-n$ which includes the only permutation $n(n-1)\cdots 1$ without any ascents (the reverse-diagonal matrix or Hankel diagonal matrix $L_n$). An $n\times n$ $(0,1)$-matrix $A$  with total support  (every 1 of $A$ belongs to a permutationn matrix $P\le A$) is a {\it revG-blocker} provided that there does not exist a revG permutation matrix $P\le A$. Such a revG-blocker must contain at least $n$ 0's.
-We determine a Frobenius-K\""onig-type theorem for revG-blockers with exactly $n$ 0's. Just as the convex polytope $\Omega_n$ of $n\times n$ doubly stochastic matrices gives continuous analogues of permutation matrices, the convex hull $\Omega_n(\mbox{revG})$ of the $n\times n$ revG's gives continuous analogues of revGs. $\Omega_n(\mbox{revG})$ has the same dimension as $\Omega_n$ since there is a basis of the $n\times n$ permutation matrices consisting of revGs. (This talk is based on ongoing work with Lei Cao.)"
+We determine a Frobenius-K\""onig-type theorem for revG-blockers with exactly $n$ 0's. Just as the convex polytope $\Omega_n$ of $n\times n$ doubly stochastic matrices gives continuous analogues of permutation matrices, the convex hull $\Omega_n(\text{revG})$ of the $n\times n$ revG's gives continuous analogues of revGs. $\Omega_n(\text{revG})$ has the same dimension as $\Omega_n$ since there is a basis of the $n\times n$ permutation matrices consisting of revGs. (This talk is based on ongoing work with Lei Cao.)"
 S1,SC2001,2,Jane,Breen,Jane Breen,2025-06-23 11:00:00,MS2,Combinatorial matrix theory,Monday,11:30,12:00,101,2,"Measuring the impact of a single transition on Kemeny's constant
 ","Kemeny's constant is a measure of the expected length of a random trip between states of a Markov chain, and is a useful quantifier of the mixing properties of the Markov chain. By examining how the value of Kemeny's constant changes when the probability transition matrix is perturbed, one can determine the transitions which have the greatest impact on the connectivity of the Markov chain. This has been shown to be useful in a wide range of applications, including road network dynamics and social network decomposition. In this talk, we give an overview of several methods to determine the importance of a single transition to the value of Kemeny's constant and discuss some applications.
 "
@@ -263,43 +264,14 @@ S1,SC4011,3,Szu-Chi,Chung,Szu-Chi Chung,2025-06-23 11:00:00,MS20,Manifold learni
 
 In this study, we propose a novel framework for identifying preferred trajectories within high-dimensional conformational landscapes. Our method formulates the problem as a graph-based search for minimum energy paths, where edge weights are computed from local energy estimates derived from density in high-dimensional space. We demonstrate the effectiveness of this approach by accurately identifying transition states in both synthetic and experimental datasets exhibiting continuous conformational changes. To facilitate future research and reproducibility, we provide a modular implementation of our framework at https://github.com/tengyulin/energy\_aware\_pathfinding/.
 "
-S2,SC0008,1,Jorge,Delgado Gracia,Jorge Delgado Gracia,2025-06-23 14:00:00,MS9,Total positivity,Monday,14:00,14:30,102,9,Computations with high relative accuracy for the collocation matrices of q-Jacobi polynomials,"In this talk the bidiagonal decomposition of the Collocation Matrices of q-Jacobi Polynomials will be presented.
-In addition, it will be shown that this bidiagonal decomposition can be constructed with high relative accuracy (HRA)
-in many cases.
-Then, for these cases, the bidiagonal decomposition will be used to solve with HRA the following linear algebra
-problems: computation of the inverse, the eigenvalues and the singular values of those collocation matices, and
-the solution of some related linear systems of equations.
-
-This is a joint work with Jorge Delgado, Héctor Orera and Juan Manuel Peña."
+S2,SC0008,1,Shivangi,Yadav,Shivangi Yadav,2025-06-23 14:00:00,MS9,Total positivity,Monday,14:00,14:30,102,9,Linear preservers of sign regularity,"The classification of linear maps that act on a space of bounded linear operators and preserve certain functions, subsets, relations, etc. has a long history, beginning with Frobenius, who characterized in 1897 the  determinant-preserving linear maps on matrix algebras. In this talk, I will present a classification of all surjective linear mappings $\mathcal{L}:\mathbb{R}^{m\times n}\to\mathbb{R}^{m\times n}$ that preserve: (i)~sign regularity and (ii)~sign regularity with a given sign pattern, as well as (iii)~strict versions of these. As a special case of our results, we recover the characterization of linear preservers for the class of square totally positive and totally non-negative matrices (by Berman--Hershkowitz--Johnson in 1985). This is a joint work with Projesh Nath Choudhury.
+"
 S2,SC0008,2,Dmitrii,Karp,Dmitrii Karp,2025-06-23 14:00:00,MS9,Total positivity,Monday,14:30,15:00,102,9,Unimodality preservation by ratios of functional series and integral transforms,"Elementary, but very useful lemma due to Biernacki and Krzy\.{z} (1955) asserts that the ratio of two power series inherits monotonicity from that of the sequence of ratios of their respective  coefficients. Over the last two decades it has been realized that, under some additional assumptions, similar claims hold for more general ratios of series and integral
 transforms as well as for unimodality in place of monotonicity. In the talk, we discuss conditions on the functional sequence and the kernel of an integral transform ensuring the preservation property. Numerous series and integral transforms appearing in applications satisfy our sufficient conditions, including Dirichlet, factorial (and $q$-factorial) series, inverse factorial series, Laplace, Mellin and generalized Stieltjes transforms, among many others.  We illustrate our results by ratios of generalized hypergeometric functions and Nuttall's $Q$ functions.  The key role in our considerations is played by the notion of sign regularity.
 
 The talk is based on the the joint work with Anna Vishnyakova and Yi Zhang. 
 "
-S2,SC0008,3,Anna,Vishnyakova,Anna Vishnyakova,2025-06-23 14:00:00,MS9,Total positivity,Monday,15:00,15:30,102,9,"On total positivity of sequences generated by 
-real polynomials and $q$-polynomials
-","Let $P, P(0) >0,$ be a real polynomial of degree $m.$ It is easy to check that
-$$ \sum_{k=0}^\infty P(k) x^k =\frac{Q_m(x)}{(1-x)^{m+1}},  $$
-where $Q_m$ is a real polynomial of degree at most $m.$
-
-We will discuss the following problem: for which $P$ the sequence 
-$(P(k))_{k=0}^\infty$ is totally positive? According to the famous 
-theorem by Aissen, Schoenberg, Whitney and Edrei it happens if and
-only if all the zeros of $Q_m$ are real and non-positive.
-
-The following statement is one of our results.
-
-{\bf Statement}  {\it Let $P(x) =(x+\alpha_1)(x+\alpha_2)\cdot \ldots \cdot (x+\alpha_m),$  where $0\leq \alpha_1 \leq \alpha_2 \leq \ldots \leq \alpha_m,$ and for every $j=1, 2, \ldots, m-1$ we have $ \alpha_{j+1} - \alpha_j \leq 1.$  Then the sequence $(P(k))_{k=0}^\infty$ is totally positive. }
-
-We will also discuss the sequences of the form 
-$$\left((1-c_1 q^k)(1-c_2 q^k)\cdot \ldots \cdot (1-c_m q^k) x^k\right)_{k=0}^\infty, $$ 
-where  $0< q < 1,  q< c_j < 1.$
-
-The talk is based on joint work with Dmitrii Karp and, partially, Thu Hien Nguyen.
-
-
-
-"
+S2,SC0008,3,Tanvi,Jain,Tanvi Jain,2025-06-23 14:00:00,MS9,Total positivity,Monday,15:00,15:30,102,9,Signatures of eigenvalues of some special class of matrices,"Let $r$ be any real number and for any $n$ let $p_1,\ldots,p_n$ be distinct positive numbers. A Kwong matrix is the $n\times n$ matrix whose $(i,j)$ entry is $(p_i^r+p_j^r)/(p_i+p_j).$ We determine the signatures of eigenvalues of all such matrices. We especially focus on eigenvalue behaviour  with respect to another class of matrices -- Loewner matrices, and discuss the differences in strict sign regularity of these two classes of matrices. This is based on a joint work with Rajendra Bhatia."
 S2,SC0009,1,Masatoshi,Ito,Masatoshi Ito,2025-06-23 14:00:00,MS29,Matrix functions and related topics,Monday,14:00,14:30,102,29,The weighted power difference mean and its generalization,"Pal, Singh, Moslehian and Aujla (2016) introduced the weighted logarithmic mean for two positive numbers
  or operators on a complex Hilbert space, which is based on an extension of the Hermite-Hadamard inequality.
 Furuichi and Minculete (2020) obtained a refinement of the inequality by Pal et al.
@@ -312,7 +284,8 @@ In this talk, based on these arguments,
 Moreover, we generalize these results from the viewpoint of a transpose symmetric path.
 
 "
-S2,SC0009,2,Manisha,Devi,Manisha Devi,2025-06-23 14:00:00,MS29,Matrix functions and related topics,Monday,14:30,15:00,102,29,On the eigenvalues of the matrix $[f(g(p_i-p_j))]$,"We prove that if $g:\mathcal{R}\rightarrow[0,\infty)$ is a conditionally negative definite function and $f:[0,\infty)\rightarrow[0,\infty)$ is a Bernstein function, then the function $f\circ g$ is conditionally negative definite. The inertia of the matrix $[f(g(p_i-p_j))]$ is $(1,0,n-1)$ if $g(x)=0$ only for $x=0$ and $f$ is non-linear. A new and easy proof is also presented to demonstrate that the matrix $[\log(1-p_ip_j)]$ is negative definite for $n$ distinct positive real numbers $p_i<1, ~\forall~i$. Numerous more relevant results are discussed. These results supplements and unifies previous findings for operator monotone functions demonstrated by several authors, including Dyn, Goodman and Michelli, Bhatia and Jain, Garg and Aujla, and Garg and Agarwal."
+S2,SC0009,2,Manisha,Devi,Manisha Devi,2025-06-23 14:00:00,MS29,Matrix functions and related topics,Monday,14:30,15:00,102,29,On the eigenvalues of the matrix $[f(g(p_i-p_j))]$,"We prove that if $g:\mathcal{R}\rightarrow[0,\infty)$ is a conditionally negative definite function and $f:[0,\infty)\rightarrow[0,\infty)$ is a Bernstein function, then the function $f\circ g$ is conditionally negative definite. The inertia of the matrix $[f(g(p_i-p_j))]$ is $(1,0,n-1)$ if $g(x)=0$ only for $x=0$ and $f$ is non-linear. A new and easy proof is also presented to demonstrate that the matrix $[\log(1-p_ip_j)]$ is negative definite for $n$ distinct positive real numbers $p_i<1, ~\forall~i$. Numerous more relevant results are discussed. These results supplements and unifies previous findings for operator monotone functions demonstrated by several authors, including Dyn, Goodman and Michelli, Bhatia and Jain, Garg and Aujla, and Garg and Agarwal.
+"
 S2,SC0009,3,Aedan Jarrod,Potot,Aedan Jarrod Potot,2025-06-23 14:00:00,MS29,Matrix functions and related topics,Monday,15:00,15:30,102,29,"Schur-Horn theorem and Ky Fan principle for symplectic eigenvalues
 ","In matrix theory, the Schur and Horn theorems reveal that majorization
 is the precise relationship between the diagonal entries and the eigenvalues
@@ -367,10 +340,10 @@ S2,SC1001,1,Luís,Machado,Luís Machado,2025-06-23 14:00:00,MS10,Matrix means an
 To keep the scope manageable, we focus on the standard sphere \(S^2\) in \(\mathbb{R}^3\) with three points, introducing new ideas beyond minimizing squared geodesic distances. These ideas also emerge from known formulas for the mean of points forming regular geodesic polygons, such as equilateral geodesic triangles. As an initial step, we apply this approach to Euclidean spaces. \\
 Theoretical results are supported by numerical experiments and illustrated with meaningful plots.\\ \\
 "
-S2,SC1001,2,Vatsalkumar,Mer,Vatsalkumar Mer,2025-06-23 14:00:00,MS10,Matrix means and related topics,Monday,14:30,15:00,102,10,Multi-variable  alternative means of positive definite matrices," In the 1980s, Kubo and Ando introduced the operator mean of positive operators. Since
-their pioneering work on two-variable operator means, various construction methods for multi-variable geometric means have been developed. P\'alfia later defined multi-variable operator means as the unique solution to the following equation \begin{equation}\label{E:Karcher f}
+S2,SC1001,2,Vatsalkumar,Mer,Vatsalkumar Mer,2025-06-23 14:00:00,MS10,Matrix means and related topics,Monday,14:30,15:00,102,10,Multi-variable alternative means of positive definite matrices,"In the 1980s, Kubo and Ando introduced the operator mean of positive operators. Since
+their pioneering work on two-variable operator means, various construction methods for multi-variable geometric means have been developed. P\'alfia later defined multi-variable operator means as the unique solution to the following equation \begin{equation*}\label{E:Karcher f}
 \sum_{i=1}^{m} w_{i} f( X^{-1/2} A_{i} X^{-1/2} )= 0,
-\end{equation}
+\end{equation*}
 where $f$ is  arbitrary operator monotone function.
 Recently, a new theory of alternative means for positive definite matrices has been developed, which includes the weighted spectral geometric mean and the Wasserstein mean. We define and study multi-variable alternative means of positive
 definite matrices, with a particular focus on the multi-variable spectral geometric mean.
@@ -573,10 +546,7 @@ for all positive integers $k$, then the eigenvalues of $A$ are positive.
 "
 S3,SC2001,2,Sushmitha,P,Sushmitha P,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:30,17:00,103,200,Some extensions of the class of $Q$-matrices,"A real square matrix $A$ is called a $Q$-matrix if LCP$(A,q)$ has a solution for all $q\in \mathbb{R}^n$, i.e., for every vector $q$, there exists an $x\in \mathbb{R}^n$ such that $x\geq 0$, $Ax+q\geq 0$ and $x^T(Ax+q)=0$. A well known result states that a $Q$-matrix with nonpositive off-diagonal entries is inverse nonnegative. In this talk, we shall look at properties of two classes of matrices that extend the inverse nonnegativity of the $Q$-matrices to the generalized inverse of a matrix. We shall also look at a new result for the class of $Q$-matrices.
 "
-S3,SC2001,3,Falguni,Roy,Falguni Roy,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:00,17:30,103,200,Schur and Hurwitz diagonal stability of parametric interval matrices,"Consider the parametric interval matrix
-$A(\mathbf{c})=\Big\{A^{(0)}+\displaystyle \sum_{k=1}^{l}c_kA^{(k)}\in \mathbb{R}^{n \times n}:c\in\mathbf{c}\Big\}$, where $\mathbf{c}$ is an interval vector. This work focuses primarily on the generalized matrix diagonal stability, i.e., Schur / Hurwitz diagonal stability relative to the $p$-norm ( $SDS_p$ / $HDS_p$) introduced in [1], for three newly defined subclasses of the parametric interval matrix $A(\mathbf{c})$.
-  First, a necessary and sufficient condition is given for $SDS_p$ and $HDS_p$ of $A(\mathbf{c})$ based on the vertex matrices of $A(\mathbf{c})$. Next, some verifiable sufficient conditions for $SDS_p$ and $HDS_p$  of the first subclass $\mathcal{A}_1(\mathbf{c})$ are given using majorant matrices. Using majorant matrices, the necessary and sufficient condition for $SDS_p$ is obtained for the second subclass $\mathcal{A}_2(\mathbf{c})$ and $HDS_p$ for the third subclass $\mathcal{A}_3(\mathbf{c})$, respectively. From these, it is shown that $SDS_p$ / $HDS_p$ for complex interval matrices is a special case. Methods for finding a common diagonal matrix that meets conditions $SDS_p$ / $HDS_p$ and the robustness analysis of $SDS_p$ / $HDS_p$ are also discussed.
-"
+S3,SC2001,3,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:00,17:30,103,200,,
 S3,SC2001,4,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:30,18:00,103,200,,
 S3,SC2006,1,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:00,16:30,103,200,,
 S3,SC2006,2,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,16:30,17:00,103,200,,
@@ -597,12 +567,40 @@ In this talk we introduce the TTCrossOrth algorithm, which optimizes the TT-cros
 "
 S3,SC4011,3,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:00,17:30,103,200,,
 S3,SC4011,4,,,,2025-06-23 16:00:00,CT,Contributed talks,Monday,17:30,18:00,103,200,,
-S4,SC0008,1,Olga,Katkova,Olga Katkova,2025-06-24 10:30:00,MS9,Total positivity,Tuesday,10:30,11:00,104,9,An analog of multiplier sequences for the set of totally positive sequences,"A real sequence $(b_k)_{k=0}^\infty$ is called totally positive if all minors of the infinite matrix $\| b_{j-i} \|_{i,j=0}^\infty$ are
-nonnegative (here $b_k = 0$ for $k<0$). We investigate the following problem posed by Alan Sokal: to describe the set of sequences $(a_k)_{k=0}^\infty$ such that for every totally positive sequence $(b_k)_{k=0}^\infty$ the sequence $(a_k b_k)_{k=0}^\infty$ is also totally positive. We obtain the description of such sequences $(a_k)_{k=0}^\infty$ in two cases: when the generating function of the sequence $\sum_{k=0}^\infty a_k z^k$ has at least one pole, and when the sequence $(a_k)_{k=0}^\infty$ has no more than 4 nonzero terms."
-S4,SC0008,2,Sujit Sakharam,Damase,Sujit Sakharam Damase,2025-06-24 10:30:00,MS9,Total positivity,Tuesday,11:00,11:30,104,9,"Multivariate transforms of totally positive matrices and kernels
-","We will discuss recent results on multivariate transforms of totally positive/nonnegative matrices and kernels, together with some observations that go into their proofs. This is a joint work with Apoorva Khare.
+S4,SC0008,1,Anna,Vishnyakova,Anna Vishnyakova,2025-06-24 10:30:00,MS9,Total positivity,Tuesday,10:30,11:00,104,9,"On total positivity of sequences generated by 
+real polynomials and $q$-polynomials
+","Let $P, P(0) >0,$ be a real polynomial of degree $m.$ It is easy to check that
+$$ \sum_{k=0}^\infty P(k) x^k =\frac{Q_m(x)}{(1-x)^{m+1}},  $$
+where $Q_m$ is a real polynomial of degree at most $m.$
+
+We will discuss the following problem: for which $P$ the sequence 
+$(P(k))_{k=0}^\infty$ is totally positive? According to the famous 
+theorem by Aissen, Schoenberg, Whitney and Edrei it happens if and
+only if all the zeros of $Q_m$ are real and non-positive.
+
+The following statement is one of our results.
+
+{\bf Statement}  {\it Let $P(x) =(x+\alpha_1)(x+\alpha_2)\cdot \ldots \cdot (x+\alpha_m),$  where $0\leq \alpha_1 \leq \alpha_2 \leq \ldots \leq \alpha_m,$ and for every $j=1, 2, \ldots, m-1$ we have $ \alpha_{j+1} - \alpha_j \leq 1.$  Then the sequence $(P(k))_{k=0}^\infty$ is totally positive. }
+
+We will also discuss the sequences of the form 
+$$\left((1-c_1 q^k)(1-c_2 q^k)\cdot \ldots \cdot (1-c_m q^k) x^k\right)_{k=0}^\infty, $$ 
+where  $0< q < 1,  q< c_j < 1.$
+
+The talk is based on joint work with Dmitrii Karp and, partially, Thu Hien Nguyen.
+
+
+
 "
-S4,SC0008,3,Tanvi,Jain,Tanvi Jain,2025-06-24 10:30:00,MS9,Total positivity,Tuesday,11:30,12:00,104,9,Signatures of eigenvalues of some special class of matrices,"Let $r$ be any real number and for any $n$ let $p_1,\ldots,p_n$ be distinct positive numbers. A Kwong matrix is the $n\times n$ matrix whose $(i,j)$ entry is $(p_i^r+p_j^r)/(p_i+p_j).$ We determine the signatures of eigenvalues of all such matrices. We especially focus on eigenvalue behaviour  with respect to another class of matrices -- Loewner matrices, and discuss the differences in strict sign regularity of these two classes of matrices. This is based on a joint work with Rajendra Bhatia."
+S4,SC0008,2,Olga,Katkova,Olga Katkova,2025-06-24 10:30:00,MS9,Total positivity,Tuesday,11:00,11:30,104,9,An analog of multiplier sequences for the set of totally positive sequences,"A real sequence $(b_k)_{k=0}^\infty$ is called totally positive if all minors of the infinite matrix $\| b_{j-i} \|_{i,j=0}^\infty$ are
+nonnegative (here $b_k = 0$ for $k<0$). We investigate the following problem posed by Alan Sokal: to describe the set of sequences $(a_k)_{k=0}^\infty$ such that for every totally positive sequence $(b_k)_{k=0}^\infty$ the sequence $(a_k b_k)_{k=0}^\infty$ is also totally positive. We obtain the description of such sequences $(a_k)_{k=0}^\infty$ in two cases: when the generating function of the sequence $\sum_{k=0}^\infty a_k z^k$ has at least one pole, and when the sequence $(a_k)_{k=0}^\infty$ has no more than 4 nonzero terms."
+S4,SC0008,3,Jorge,Delgado Gracia,Jorge Delgado Gracia,2025-06-24 10:30:00,MS9,Total positivity,Tuesday,11:30,12:00,104,9,Computations with high relative accuracy for the collocation matrices of q-Jacobi polynomials,"In this talk the bidiagonal decomposition of the Collocation Matrices of q-Jacobi Polynomials will be presented.
+In addition, it will be shown that this bidiagonal decomposition can be constructed with high relative accuracy (HRA)
+in many cases.
+Then, for these cases, the bidiagonal decomposition will be used to solve with HRA the following linear algebra
+problems: computation of the inverse, the eigenvalues and the singular values of those collocation matices, and
+the solution of some related linear systems of equations.
+
+This is a joint work with Jorge Delgado, Héctor Orera and Juan Manuel Peña."
 S4,SC0009,1,Miran,Jeong,Miran Jeong,2025-06-24 10:30:00,MS29,Matrix functions and related topics,Tuesday,10:30,11:00,104,29,New weighted spectral geometric mean and quantum divergence,"A new class of weighted spectral geometric means has recently been introduced. In this talk, we present its inequalities in terms of the L\""{o}wner order, operator
 norm, and trace.
 Moreover, we establish a log-majorization relationship between the new spectral geometric mean, and the R\'{e}nyi relative operator entropy.
@@ -697,7 +695,15 @@ The spectral geometric mean \(\natural_t\) and the Bures–Wasserstein mean \(\d
 \end{align*}
 Moreover, the Alpha Procrustes mean is closely related to the Bures–Wasserstein mean. 
 I will present some recent results on the order relations among these matrix means. A few affirmative order relations and a few counterexamples will be explored."
-S4,SC1001,3,Trung Dung,Vuong,Trung Dung Vuong,2025-06-24 10:30:00,MS10,Matrix means and related topics,Tuesday,11:30,12:00,104,10,,
+S4,SC1001,3,Vuong Trung,Dung,Vuong Trung Dung,2025-06-24 10:30:00,MS10,Matrix means and related topics,Tuesday,11:30,12:00,104,10,Comparing the new spectral geometric mean with other means,"In this talk, we introduce a new family of weighted spectral geometric means for positive definite matrices, defined by
+
+$$
+F_t(A, B)=\left(A^{-1} \sharp_t B\right)^{1 / 2} A^{2-2 t}\left(A^{-1} \sharp_t B\right)^{1 / 2}, \quad t \in[0,1],
+$$
+
+where $A$ and $B$ are positive definite matrices, and $\sharp_t$ denotes the weighted geometric mean. We investigate fundamental properties of $F_t(A, B)$, establish several matrix inequalities, and prove a LieTrotter type formula for this new mean. Furthermore, we present some comparisons between $F_t(A, B)$ and the classical arithmetic, geometric, and harmonic means, considering both the standard case $t \in$ $[0,1]$ and the extended case $t \notin[0,1]$.
+
+This is joint work with Prof. Trung Hoa Dinh and Prof. Tin Yau Tam."
 S4,SC1003,1,Ilias,Kotsireas,Ilias Kotsireas,2025-06-24 10:30:00,MS26,"Utilizing structure to achieve low-complexity algorithms for data science, engineering, and physics",Tuesday,10:30,11:00,104,26,"A low-complexity algorithm to search for Legendre pairs
 ","Legendre pairs constitute an important combinatorial object that can be used to construct Hadamard matrices. 
 In our LAA paper, we studied the matrix equation of Legendre pairs and its properties, focusing on the spectra of the matrices involved, utilizing Gershgorin circles. Legendre pairs are characterized by two invariants related to the discrete Fourier transform (DFT) matrix. We propose a low-complexity fast Fourier transform (FFT)-like algorithm to compute the product of the DFT matrix with each sequence of the Legendre pair. By utilizing the FFT-like algorithm, we present a low-time complexity algorithm to search for Legendre pairs. We present numerical results from our C implementation of the FFT-like algorithm, which offers a lower time complexity for finding Legendre pairs compared to traditional combinatorial algorithms. 
@@ -782,18 +788,10 @@ S4,SC2006,3,Yang,Zhang,Yang Zhang,2025-06-24 10:30:00,MS3,Matrix inequalities wi
 S4,SC3001,1,Gilad,Lerman,Gilad Lerman,2025-06-24 10:30:00,MS18,New methods in numerical multilinear algebra,Tuesday,10:30,11:00,104,18,"An outlier-robust PCA method with applications to computer vision
 ","Robust subspace recovery (RSR), or outlier-robust PCA, aims to identify a low-dimensional subspace in datasets corrupted by outliers—an essential task for fundamental matrix estimation in computer vision. Despite numerous approaches, RSR faces two main challenges: heuristic methods like RANSAC often outperform mathematically rigorous approaches, and as outlier fractions grow, the problem becomes computationally intractable, with limited theoretical guarantees. We introduce the subspace-constrained Tyler's estimator (STE), which fuses Tyler's M-estimator with the fast median subspace method. Our analysis establishes that STE, when properly initialized, achieves effective subspace recovery even in challenging regimes previously lacking theoretical guarantees. We further demonstrate STE's competitive performance in fundamental matrix estimation and relate it to broader structure-from-motion (SfM) challenges. 
 "
-S4,SC3001,2,Jing,Niu,Jing Niu,2025-06-24 10:30:00,MS18,New methods in numerical multilinear algebra,Tuesday,11:00,11:30,104,18,A tensor alternating Anderson--Richardson method for solving multilinear systems with $ \mathcal{M} $-tensors,"It is well-known that a multilinear system with a nonsingular $ \mathcal{M} $-tensor and a positive right-hand side has a unique positive solution.
-Tensor splitting methods are efficient because they do not require computing the Jacobian matrix.
-Anderson acceleration is also a Jacobian-free technique. 
-The Alternating Anderson--Richardson (AAR) method is also a Jacobian-free method for solving linear systems.
-Inspired by the AAR method,
-we propose a tensor AAR method for solving multilinear systems.
-Specifically, we first present a tensor Richardson method, then apply Anderson acceleration and derive a tensor Anderson--Richardson method, finally, we periodically employ the tensor Anderson--Richardson method within the tensor Richardson method and propose a tensor AAR method.
-Numerical experiments show that the proposed method outperforms some tensor splitting methods.
-"
-S4,SC3001,3,Jingmei,Qiu,Jingmei Qiu,2025-06-24 10:30:00,MS18,New methods in numerical multilinear algebra,Tuesday,11:30,12:00,104,18,"Efficient Galerkin interpolative tensor train decomposition of high order tensors
+S4,SC3001,2,Jingmei,Qiu,Jingmei Qiu,2025-06-24 10:30:00,MS18,New methods in numerical multilinear algebra,Tuesday,11:00,11:30,104,18,"Efficient Galerkin interpolative tensor train decomposition of high order tensors
 ","High-dimensional functions and tensors frequently arise in scientific computing and data science, yet their low-rank representations are often obscured by noise and numerical instability. This work addresses the fundamental challenge of constructing accurate and robust tensor train (TT) decompositions without incurring the curse of dimensionality (CoD). We propose an efficient Galerkin interpolative framework that integrates a randomized range-finding strategy with adaptive pivot selection to identify low-dimensional structure in high-order tensors. Our method avoids explicit enumeration of the full tensor and leverages hierarchical structure to construct the TT format with near-optimal complexity. Despite its reduced computational cost, the proposed approach retains competitive accuracy, robustness, and stability compared to state-of-the-art full complexity algorithms. Numerical experiments demonstrate its effectiveness in capturing low-rank structure across a range of high-dimensional benchmark problems.
 "
+S4,SC3001,3,,,,2025-06-24 10:30:00,MS18,New methods in numerical multilinear algebra,Tuesday,11:30,12:00,104,18,,
 S4,SC4011,1,Sing-Yuan,Yeh,Sing-Yuan Yeh,2025-06-24 10:30:00,MS20,Manifold learning and statistical applications,Tuesday,10:30,11:00,104,20,Landmark diffusion accelerates alternating diffusion maps for multi-sensor fusion,"Alternating Diffusion (AD) is a commonly applied diffusion-based sensor fusion algorithm. While it has been successfully applied to various problems, its computational burden remains limited. Inspired by the landmark diffusion idea considered in the Robust and Scalable Embedding via Landmark Diffusion (ROSELAND), we propose a variation of AD, called Landmark AD (LAD), which captures the essence of AD while offering superior computational efficiency. Through a series of theoretical analyses, we investigate the sample complexity of LAD within the manifold setup. We then apply LAD to address the automatic sleep stage annotation problem using two electroencephalogram channels, demonstrating its efficacy in practical applications.
 "
 S4,SC4011,2,Yu-Jie,Huang,Yu-Jie Huang,2025-06-24 10:30:00,MS20,Manifold learning and statistical applications,Tuesday,11:00,11:30,104,20,Application of VoxelMorph and SynthMorph for multitype 3D medical image registration,"In this work, we explore the application of VoxelMorph and SynthMorph for 3D medical image registration. VoxelMorph provides a deep learning-based framework that utilizes deformable pairwise registration, enabling the alignment of complex anatomical structures through continuous deformation fields. By modeling transformations as smooth manifolds, VoxelMorph facilitates precise, non-rigid alignment, making it well-suited for capturing intricate deformations in medical images. SynthMorph further extends this approach, offering a robust method for image registration across diverse MRI contrasts, effectively handling variations in image intensities without relying on acquired imaging data. We investigate how these deformable models can be integrated into existing medical imaging workflows to enhance multi-type image registration, improving the alignment of images with varying anatomical and contrast properties."
@@ -806,11 +804,11 @@ S5,SC0008,4,,,,2025-06-24 13:30:00,,,Tuesday,15:00,15:30,105,1000,,
 S5,SC0009,1,Yuki,Seo,Yuki Seo,2025-06-24 13:30:00,MS29,Matrix functions and related topics,Tuesday,13:30,14:00,105,29,"Matrix trace inequalities related to quantum Tsallis relative entropies
 ","Let ${\mathbb M}_n = {\mathbb M}_n({\mathbb C})$ be the algebra of $n\times n$ complex matrices. For $\rho \in {\mathbb M}_n$, we write $\rho \geq 0$ if $\rho$ is positive semidefinite and $\rho >0$ if $\rho$ is positive definite. For two Hermitian matrices $\rho$ and $\sigma$ in ${\mathbb M}_n$, we write $\rho \geq \sigma$ if $\rho - \sigma \geq 0$, and $\rho > \sigma$ if $\rho - \sigma >0$. This is called the L\""{o}wner partial order for Hermitian matrices. Let ${\mathbb S}_n = {\mathbb S}_n({\mathbb C})$ be the set of all density matrices, which mean  positive definite matrices with trace one. The matrix $\alpha$-geometric mean of two positive definite matrices $\rho$ and $\sigma$ is defined by
 \[
-\rho\ \sharp_{\alpha}\ \sigma = \rho^{1/2}(\rho^{-1/2}\sigma \rho^{-1/2})^{\alpha}\rho^{1/2}\qquad \mbox{for $\alpha \in [0,1]$}.
+\rho\ \sharp_{\alpha}\ \sigma = \rho^{1/2}(\rho^{-1/2}\sigma \rho^{-1/2})^{\alpha}\rho^{1/2}\qquad \text{for $\alpha \in [0,1]$}.
 \]
 We use the notation $\natural_{\alpha}$ for the binary operation
 \[
-\rho\ \natural_{\alpha}\ \sigma = \rho^{1/2}(\rho^{-1/2}\sigma \rho^{-1/2})^{\alpha}\rho^{1/2}\qquad \mbox{for $\alpha \not\in [0,1]$},
+\rho\ \natural_{\alpha}\ \sigma = \rho^{1/2}(\rho^{-1/2}\sigma \rho^{-1/2})^{\alpha}\rho^{1/2}\qquad \text{for $\alpha \not\in [0,1]$},
 \]
 that has formula in common with $\sharp_{\alpha}$. Notice that the geodesic connecting two points on the differentiable manifold ${\mathbb P}_n$ of positive definite matrices is the matrix $\alpha$-geometric mean.\\
 \quad In this talk, we show matrix trace inequalities related to two quantum Tsallis relative entropies of all real order: For density matrices $\rho$ and $\sigma$ in ${\mathbb S}_n$, and each $\alpha \in {\mathbb R}\backslash \{0\}$, the quantum Tsallis relative entropy ${\rm D}_{\alpha}(\rho|\sigma)$ due to Abe is defined by 
@@ -823,9 +821,7 @@ NT_{\alpha}(\rho|\sigma)=-{\rm Tr}\left(\frac{\rho\ \natural_{\alpha}\ \sigma-\r
 \]
 If $\rho$ and $\sigma$ commute, then we have ${\rm D}_{\alpha}(\rho|\sigma)=NT_{\alpha}(\rho|\sigma)$. Then we show the order relation between two quantum Tsallis relative entropies $D_{\alpha}$ and $NT_{\alpha}$ of all real order $\alpha \in {\mathbb R}$ and a $1$-parameter extension of the path connecting them of all real order.\\
 {\bf e-mail:} yukis@cc.osaka-kyoiku.ac.jp"
-S5,SC0009,2,Athul,Augustine,Athul Augustine,2025-06-24 13:30:00,MS29,Matrix functions and related topics,Tuesday,14:00,14:30,105,29,Composition operators and convexity of their Berezin range on functional Hilbert spaces,"We discuss the convexity of the range of the Berezin transform. Berezin range of a bounded linear operator $T$ acting on a reproducing kernel Hilbert space $\mathcal{H}$ is the set $B(T)$ := $\{\langle T\hat{k}_{x},\hat{k}_{x} \rangle_{\mathcal{H}} : x \in X\}$, where $\hat{k}_{x}$ is the normalized reproducing kernel for $\mathcal{H}$ at $x \in X$. The \textit{numerical range} of a bounded linear operator $T$ on a Hilbert space $\mathcal{H}$ is defined as $W(A):= \{\langle Tu,u\rangle : \|u\| = 1 \}.$ By Toeplitz-Hausdorff theorem, the numerical range of a linear operator on a Hilbert space is always convex.  It is easy to observe that the Berezin range of an operator $T$ is always a subset of the numerical range of $T$. In general, the Berezin range of an operator is not convex. Primarily, we focus on characterizing 
-convexity of the Berezin range for classes of composition operators acting on some functional Hilbert spaces.
-"
+S5,SC0009,2,,,,2025-06-24 13:30:00,MS29,Matrix functions and related topics,Tuesday,14:00,14:30,105,29,,
 S5,SC0009,3,,,,2025-06-24 13:30:00,MS29,Matrix functions and related topics,Tuesday,14:30,15:00,105,29,,
 S5,SC0009,4,,,,2025-06-24 13:30:00,MS29,Matrix functions and related topics,Tuesday,15:00,15:30,105,29,,
 S5,SC0012,1,,,,2025-06-24 13:30:00,MS12,"Preserver problems, I",Tuesday,13:30,14:00,105,12,,
@@ -959,7 +955,7 @@ S5,SC1003,1,Valerio,Loi,Valerio Loi,2025-06-24 13:30:00,MS19,"Explicit and hidde
 2. They enable the solution of linear systems in \(\mathcal{O}(n \log n)\) arithmetic operations.\\
 In this way, we propose a natural preconditioning strategy for linear systems with coefficient matrix \(A_n\). We provide detailed singular value and spectral analyses of the preconditioned matrix sequences and validate our approach through numerical experiments concerning the convergence of various (preconditioned) Krylov solvers.
 "
-S5,SC1003,2,Sean,Hon,Sean Hon,2025-06-24 13:30:00,MS19,"Explicit and hidden asymptotic structures, GLT Analysis, and applications",Tuesday,14:00,14:30,105,19,An optimal preconditioned MINRES method for nonsymmetric multilevel block Toeplitz systems with applications,"In this talk, we introduce a novel preconditioning strategy for solving multilevel block Toeplitz systems, with applications to nonlocal evolutionary fractional diffusion equations. We show that the Hermitian part of certain nonsymmetric systems serves as an ideal preconditioner. By transforming the nonsymmetric block Toeplitz system into a symmetric block Hankel system using a symmetrization technique, we propose a symmetric positive definite block Tau preconditioner that is efficiently implemented using the discrete sine transform. We prove that this approach enables mesh-size-independent convergence with eigenvalues of the preconditioned matrices contained in specific intervals around $\pm 1$. Numerical results will be presented to demonstrate the method's efficiency in terms of iterations and computation time. This is joint work with Grigorios Tachyridis."
+S5,SC1003,2,Sean,Hon,Sean Hon,2025-06-24 13:30:00,MS19,"Explicit and hidden asymptotic structures, GLT Analysis, and applications",Tuesday,14:00,14:30,105,19,An optimal parallel-in-time preconditioner for parabolic optimal control problems,"In this talk, we propose a novel diagonalization-based preconditioner for the all-at-once linear system arising from the optimal control problem of parabolic equations. The proposed preconditioner is constructed using an $\epsilon$-circulant modification of the rotated block diagonal preconditioning technique, which can be efficiently diagonalized via fast Fourier transforms in a parallel-in-time fashion. When the generalized minimal residual method is applied to the preconditioned system, we show that, with an appropriate choice of $\epsilon$, the convergence rate achieves linearity, independent of the matrix size and the regularization parameter. This is joint work with Xue-Lei Lin and Po Yin Fung."
 S5,SC1003,3,Rosita Luisa,Sormani,Rosita Luisa Sormani,2025-06-24 13:30:00,MS19,"Explicit and hidden asymptotic structures, GLT Analysis, and applications",Tuesday,14:30,15:00,105,19,GLT-based preconditioning for nonsymmetric Toeplitz systems,"Preconditioning for Toeplitz systems has been a prominent area of research for several decades, with many efficient preconditioners available in the real symmetric or Hermitian case. However, the real nonsymmetric setting remains less explored due to the challenges associated with analyzing the eigenvalues and, consequently, the convergence behavior of iterative solvers. To address this, we employ a symmetrization technique that permutes the coefficient matrix into a real symmetric Hankel structure, whose eigenvalue distribution is known. Then, by leveraging Generalized Locally Toeplitz (GLT) theory, we develop a novel preconditioning strategy that involves centrosymmetric preconditioners, such as those derived from the $\tau$ algebra. This approach constitutes a general framework, as it relies solely on the generating function of the Toeplitz matrix, provided that it is defined. We extend all theoretical results to both the multilevel and block settings and demonstrate their effectiveness through numerical experiments on space-fractional diffusion equations, providing several examples to critically evaluate the performance of the proposed preconditioners.
 
 \begin{thebibliography}{2}
@@ -1098,7 +1094,7 @@ for the latter problem we can prove a convergence rate.
 S6,SC0009,4,Tiangang,Cui,Tiangang Cui,2025-06-24 16:00:00,MS4,Linear algebra methods for inverse problems and data assimilation,Tuesday,17:30,18:00,106,4,"Tensor-train methods for sequential state and parameter estimation in state-space models
 ","Numerous real-world applications require the estimation, forecasting, and control of dynamic systems using incomplete and indirect observations. These problems can be formulated as state-space models, where the challenge lies in learning the model states and parameters from observed data. We present new tensor-based sequential Bayesian learning methods that jointly estimate parameters and states. Our methods provide manageable error analysis and potentially mitigate the particle degeneracy encountered in many particle-based approaches. Besides offering new insights into algorithmic design, our methods naturally incorporate conditional transports, enabling filtering, smoothing, and parameter estimation within a unified framework.
 "
-S6,SC0012,1,Man-Duen,Choi,Man-Duen Choi,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,16:00,16:30,106,7,,
+S6,SC0012,1,Man-Duen,Choi,Man-Duen Choi,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,16:00,16:30,106,7,Quantum Information in terms of two by two matrices,This provides the down-to-earth description of quantum computers in terms of two by two matrices.
 S6,SC0012,2,Bing-Ze,Lu,Bing-Ze Lu,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,16:30,17:00,106,7,"Dynamic flows and iterative methods for identifying the Choi representation of an unknown quantum channel from partial data
 ","Identifying quantum channels clarifies how quantum states evolve and how information propagates. Because exact reconstruction is NP‑hard, we focus on efficient numerical approximations.
 
@@ -1110,7 +1106,8 @@ Exploiting the unitary nature of channel dynamics, we cast the problem on the St
 \textbf{Part II -- Multi-unitary channels} \\
 \noindent For channels expressible as convex mixtures of several unitaries, we formulate a gradient‑flow scheme on the Stiefel manifold and prove convergence guarantees, showcasing the method’s accuracy and flexibility.
 "
-S6,SC0012,3,Saptak,Bhattacharya,Saptak Bhattacharya,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,17:00,17:30,106,7,,
+S6,SC0012,3,Saptak,Bhattacharya,Saptak Bhattacharya,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,17:00,17:30,106,7,Approximate recoverability and the quantum data processing inequality,"In this talk, we discuss the quantum data processing inequality and its refinements that are physically meaningful in the context of approximate recoverability. An important conjecture regarding this due to Seshadreesan et. al. in J. Phys. A: Math. Theor. 48 (2015) is disproved, our approach to the problem relying heavily on log-convexity techniques. We then prove some sharp inequalities capturing universal approximate recoverability with the Petz recovery map for the sandwiched quasi and R\'enyi relative entropies for the parameter $t =2$. Our techniques also lead to some interesting inequalities with conditional expectations and partial traces, which can be of independent interest.
+"
 S6,SC0012,4,Shao-Hua,Hu,Shao-Hua Hu,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,17:30,18:00,106,7,Quasi-probability simulation in quantum information processing,"Quasi-probability simulation is a technique that allows us to simulate the statistical outcomes of the target state or operation from restricted resources.
 The examples include error mitigation, circuit cutting, wire cutting, etc.
 However, this technique has the cost of the sampling overhead, in which we need an additional number of samples to reach the same statistical accuracy.
@@ -1318,7 +1315,12 @@ independently posed by R. Brualdi and A. Hoffman, as well as F.
 Friedland, back in 1985.
 "
 S6,SC2006,1,Jamie,Pommersheim,Jamie Pommersheim,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,16:00,16:30,106,30,,
-S6,SC2006,2,Laureano,Gonzalez-Vega,Laureano Gonzalez-Vega,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,16:30,17:00,106,30,,
+S6,SC2006,2,Laureano,Gonzalez-Vega,Laureano Gonzalez-Vega,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,16:30,17:00,106,30,On Bohemian correlation matrices,"Bohemian matrices are families of matrices whose entries come from a fixed discrete set of
+small integers. A symmetric matrix is a correlation matrix if it has ones on the diagonal and
+its eigenvalues are nonnegative. We will introduce a new characterization of correlation
+matrices that will be used to show that the number of Bohemian Correlation Matrices over -
+1, 0 and 1 corresponds to OEIS A000110 and to solve some correlation matrix completion
+problems."
 S6,SC2006,3,Eunice,Chan,Eunice Chan,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,17:00,17:30,106,30,A divide-and-conquer framework for efficient algebraic linearizations of matrix polynomials,"In this talk, we explore the integration of the divide-and-conquer (dc) technique into the computation of eigenvalues for matrix polynomials using algebraic linearizations. Algebraic linearizations reduce a matrix polynomial $\mathbf{P}(z) \in \mathbb{C}[z]^{r \times r}$ of degree $s$ into a generalized eigenvalue problem of the form
 \begin{equation*}
     (z\mathbf{D_L} - \mathbf{L})\mathbf{v} = \mathbf{0} \>,
@@ -1339,9 +1341,9 @@ where $\mathbf{a}(z)$ and $\mathbf{b}(z)$ are matrix polynomials with their own 
 S6,SC2006,4,Geeta,Chowdhry,Geeta Chowdhry,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,17:30,18:00,106,30,Inner and outer Bohemian inverses,"A matrix $A$ is known as the Bohemian matrix with respect to a population \textbf{P} if all its entries are restricted to the set \textbf{P}. A matrix $X$ is known as the Inner Bohemian inverse (resp. Outer Bohemian inverse) of $A$ with respect to a population \textbf{P} if it satisfies $AXA=A$ (resp. $XAX=X$) and the entries of $X$ are restricted to the set \textbf{P}.
 Recently, the Inner Bohemian inverses of some structured matrices have been studied with respect to the general population \textbf{P} containing $\{0,1,-1\}$ in [1]. We have worked on the Inner and outer Bohemian inverses of the extended class of Bohemian matrices. We have characterized some classes of Bohemian matrices with respect to the population \textbf{P}$=\{0,1,-1\}$ and have found results for their Inner and outer Bohemian inverses along with the cardinalities of the sets of Inner and outer Bohemian inverses when the population is fixed to \textbf{P}$=\{0,1,-1\}$ which in turn simplifies the cardinality results obtained in [1]. Additionally, for higher rank Bohemian matrices with respect to the population \textbf{P}$=\{0,1,-1\}$, we have found Inner and Outer Bohemian inverses of a specified class of Bohemian matrices.
 
-\mbox{[1]} Eunice Y. S. Chan, Robert M. Corless, Laureano González-Vega, J. Rafael Sendra, and Juana Sendra. : Inner Bohemian inverses, Applied Mathematics and Computation, 421:126945, May 2022.
+\text{[1]} Eunice Y. S. Chan, Robert M. Corless, Laureano González-Vega, J. Rafael Sendra, and Juana Sendra. : Inner Bohemian inverses, Applied Mathematics and Computation, 421:126945, May 2022.
 "
-S6,SC3001,1,Shih-Feng,Shieh,Shih-Feng Shieh,2025-06-24 16:00:00,MS11,Structured matrix computations and its applications,Tuesday,16:00,16:30,106,11,,
+S6,SC3001,1,Shih-Feng,Shieh,Shih-Feng Shieh,2025-06-24 16:00:00,MS11,Structured matrix computations and its applications,Tuesday,16:00,16:30,106,11,Computation of the shortest path on Stiefel manifolds,"The Stiefel manifold, the set of orthonormal matrices, plays a crucial role in optimization and geometric analysis. This paper investigates the computation of geodesics on Stiefel manifolds using canonical metrics. We consider the tangent space structure and explore different inner product choices, including Euclidean and canonical formulations. By deriving explicit geodesic equations and proposing an algorithm for their efficient computation, we establish monotonicity properties that enhance numerical stability. "
 S6,SC3001,2,Ching-Sung,Liu,Ching-Sung Liu,2025-06-24 16:00:00,MS11,Structured matrix computations and its applications,Tuesday,16:30,17:00,106,11,"An index search method for solving nonnegative least squares problems
 ","We introduce a novel Index Search Method (ISM) for efficiently solving Nonnegative Least Squares (NNLS) problems. ISM employs a two-level iterative structure: an outer iteration that updates the estimated index set of the nonzero components in the solution, and an inner iteration that solves associated subproblems to refine the solution within this index set. A key feature of ISM is that the objective function value decreases monotonically across iterations, ensuring that the index sets do not repeat and the optimal solution is reached in finitely many steps. The dominant computational cost lies in solving normal equations during the inner iterations. We also present numerical results to demonstrate the efficiency and reliability of the proposed method, supporting our theoretical findings.
 
@@ -1383,7 +1385,7 @@ Numerical experiments show that the behavior of the proposed algorithm is compar
 
 
 \begin{itemize}
-\item[1] A. A. Casulli, F. H., D. Kressner, Lanczos with Rational Krylov compression for symmetric Lyapunov equations, In preparation.
+\item[1] A. A. Casulli, F. H., D. Kressner, Lanczos with compression for symmetric matrix Lyapunov equations, arXiv:2505.22498, 2025.
 \item[2] B. Beckermann, An error analysis for rational Galerkin projection applied to the Sylvester
 equation, SIAM J. Numer. Anal., 49 (2011), pp. 2430--2450. 
 \item[3] A. A. Casulli and I. Simunec. A low-memory Lanczos method with rational
@@ -1622,8 +1624,7 @@ Suppose $A \in M_{2n}(F)$.
 We say that $A$ is $\phi_S$-orthogonal if $A$ is nonsingular and $\phi_S(A)=A^{-1}$; and $A$ is $\phi_S$-symmetric if $\phi_S(A)=A$.
 We say that $A$ has a $\phi_S$ polar decomposition if $A=XY$ for some $\phi_S$-orthogonal $X \in M_{2n}(F)$ and $\phi_S$-symmetric $Y \in M_{2n}(F)$.
 We give necessary and sufficient conditions for an $X \in M_{2n}(F)$ to have a $\phi_S$ polar decomposition."
-S8,SC0009,1,Ryan,O'Loughlin,Ryan O'Loughlin,2025-06-26 10:30:00,MS33,"Norms of matrices, numerical range, applications of functional analysis to matrix theory",Thursday,10:30,11:00,108,33,"The Numerical Range as a Spectral Set
-","I will first give a background on Crouzeix's Conjecture, which is an open conjecture which bounds the norm of a polynomial applied to a matrix by an unknown constant multiplied by the supremum of the polynomial over the numerical range of the matrix. I will present new recently published results on Crouzeix's Conjecture which improve the best known constant for low dimensional matrices.
+S8,SC0009,1,Ryan,O'Loughlin,Ryan O'Loughlin,2025-06-26 10:30:00,MS33,"Norms of matrices, numerical range, applications of functional analysis to matrix theory",Thursday,10:30,11:00,108,33,The numerical range as a spectral set,"I will first give a background on Crouzeix's Conjecture, which is an open conjecture which bounds the norm of a polynomial applied to a matrix by an unknown constant multiplied by the supremum of the polynomial over the numerical range of the matrix. I will present new recently published results on Crouzeix's Conjecture which improve the best known constant for low dimensional matrices.
 "
 S8,SC0009,2,Jyoti,Rani,Jyoti Rani,2025-06-26 10:30:00,MS33,"Norms of matrices, numerical range, applications of functional analysis to matrix theory",Thursday,11:00,11:30,108,33,On the generalizations of $q$-numerical range and radius,"Let $\mathcal{B(H)}$ be the $C^*$ algebra of all bounded linear operators acting on the Hilbert space $(\mathcal{H}, \langle .,. \rangle )$ equipped with the operator norm. For any $T \in \mathcal{B(H)}$, 
 a generalization of the classical numerical range, namely $q$-numerical range was introduced by Marcus and Andresen in 1977 on $n$- dimensional unitary space. In 1984, the convexity of $q$-numerical range was proved by Nam-Kiu Tsing. The $q$-numerical range of $T \in \mathcal{B}(\mathcal{H})$ is defined by 
@@ -1660,8 +1661,8 @@ In this talk, we will investigate the bijective linear preservers of matrices in
 S8,SC0014,1,Sooyeong,Kim,Sooyeong Kim,2025-06-26 10:30:00,MS8,Tensor and quantum information science,Thursday,10:30,11:00,108,8,"Quasiorthogonality of commutative algebras
 ","The notion of quasiorthogonality for operator algebras was introduced to provide a quantitative measure of the geometric relationships between algebras. Pivotal to the development and motivation for considering quasiorthogonality were applications in quantum information theory. We deepen the theory of quasiorthogonal operator algebras through an analysis of the commutative algebra case. We give a new approach to calculate the measure of orthogonality between two such subalgebras of matrices, based on a matrix-theoretic notion we introduce that has a connection to complex Hadamard matrices. We also show how this new tool can yield significant information on the general non-commutative case.
 "
-S8,SC0014,2,Albert,Rico,Albert Rico,2025-06-26 10:30:00,MS8,Tensor and quantum information science,Thursday,11:00,11:30,108,8,,
-S8,SC0014,3,Zehua,Lai,Zehua Lai,2025-06-26 10:30:00,MS8,Tensor and quantum information science,Thursday,11:30,12:00,108,8,,
+S8,SC0014,2,Zehua,Lai,Zehua Lai,2025-06-26 10:30:00,MS8,Tensor and quantum information science,Thursday,11:00,11:30,108,8,,
+S8,SC0014,3,,,,2025-06-26 10:30:00,MS8,Tensor and quantum information science,Thursday,11:30,12:00,108,8,,
 S8,SC1001,1,Sho,Suda,Sho Suda,2025-06-26 10:30:00,MS34,"Combinatorics, association scheme, and graphs",Thursday,10:30,11:00,108,34,"On $(2s-1)$-designs with $s$-distances in the Hamming association schemes
 ","It was shown by Delsarte that a $(2s-2)$-design with $s$-distances in a Hamming association scheme 
 induces an $s$-classes association scheme. 
@@ -1999,7 +2000,7 @@ S9,SC3001,4,,,,2025-06-26 13:30:00,MS16,Approximations and errors in Krylov-base
 S9,SC4011,1,Shinya,Miyajima,Shinya Miyajima,2025-06-26 13:30:00,MS1,Embracing new opportunities in numerical linear algebra,Thursday,13:30,14:00,109,1,Some norm bounds on the complimentary error matrix functions,"Let $A \in \mathbf{C}^{n \times n}$ be a square matrix such that ${\rm Re}(\lambda) > |{\rm Im}(\lambda)|$, $\forall \lambda \in \sigma(A)$, where $\sigma(A)$ is the spectrum of $A$. 
 The error matrix function ${\rm erf}(A)$ and complimentary error matrix function ${\rm erfc}(A)$, which are introduced in \cite{Cortes}, are defined as 
 $$
-{\rm erf}(A) := \frac{2A}{\sqrt{\pi}}\int_{0}^{1} e^{-(Av)^{2}} dv \quad \mbox{and} \quad {\rm erfc}(A) := \frac{2A}{\sqrt{\pi}}\int_{1}^{\infty} e^{-(Av)^{2}} dv,
+{\rm erf}(A) := \frac{2A}{\sqrt{\pi}}\int_{0}^{1} e^{-(Av)^{2}} dv \quad \text{and} \quad {\rm erfc}(A) := \frac{2A}{\sqrt{\pi}}\int_{1}^{\infty} e^{-(Av)^{2}} dv,
 $$
 respectively. 
 
@@ -2035,7 +2036,7 @@ The purpose of this talk is to present the following norm bounds:
 \item upper bounds on $\|{\rm erf}(A) - {\rm erf}(B)\|_2$ and $\|{\rm erfc}(A) - {\rm erfc}(B)\|_2$, where $B \in \mathbf{C}^{n \times n}$, under an assumption, and 
 \item upper bounds on 
 $$
-\left\|{\rm erf}(A) - \frac{2A}{\sqrt{\pi}}\sum_{k=0}^{m}\frac{(-1)^k A^{2k}}{k! (2k+1)}\right\|_2 \ \mbox{and} \ 
+\left\|{\rm erf}(A) - \frac{2A}{\sqrt{\pi}}\sum_{k=0}^{m}\frac{(-1)^k A^{2k}}{k! (2k+1)}\right\|_2 \ \text{and} \ 
 \left\|{\rm erfc}(A) - \left(I - \frac{2A}{\sqrt{\pi}}\sum_{k=0}^{m}\frac{(-1)^kA^{2k}}{k!(2k+1)}\right)\right\|_2,
 $$ 
 where $m$ is a nonnegative integer, under an assumption. 
@@ -2080,7 +2081,7 @@ S10,SC0008,3,Sivakumar,K.C.,Sivakumar K.C.,2025-06-26 16:00:00,MS24,Nonnegative 
 S10,SC0008,4,Raphael,Loewy,Raphael Loewy,2025-06-26 16:00:00,MS24,Nonnegative and related families of matrices,Thursday,17:30,18:00,110,24,On cones of polynomials preserving nonnegative matrices,"We consider polynomials preserving nonnegative matrices. Let $n$ be a positive integer and
 
 \begin{equation*}
-{\mathcal{P}}_{n}=\{p \in {{\mathbb{R}}}[x]: p(A)\geq 0 \mbox{ for all~}  A \geq 0, A \in {\mathbb{R}}^{n,n}\}.
+{\mathcal{P}}_{n}=\{p \in {{\mathbb{R}}}[x]: p(A)\geq 0 \text{ for all }  A \geq 0, A \in {\mathbb{R}}^{n,n}\}.
 \end{equation*}
 ${\mathcal{P}}_{n}$ was defined by Loewy and London, motivated by the Nonnegative Inverse Eigenvalue Problem (NIEP), but is of independent interest. Clearly, ${\mathcal{P}}_{n}$ is a closed, convex cone.
 
@@ -2111,7 +2112,7 @@ S10,SC0012,1,Chung-Yun,Hsieh,Chung-Yun Hsieh,2025-06-26 16:00:00,MS7,Linear alge
 Reference: C.-Y. Hsieh, R. Uola, P. Skrzypczyk, {\em Quantum complementarity: A novel resource for unambiguous exclusion and encryption}, arXiv:2309.11968.
 "
 S10,SC0012,2,Ngoc Muoi,Bui,Ngoc Muoi Bui,2025-06-26 16:00:00,MS7,Linear algebra and quantum information science,Thursday,16:30,17:00,110,7,On entanglement-breaking quantum channels,"Entanglement breaking (EB) channel is a completely positive and trace-preserving linear operator that disrupts the entanglement between the input system with any system. Examples of EB channels include depolarizing channels, quantum-classical channels, etc. We will discuss some characterizations of the class of EB channels for finite- and infinite-dimensional quantum systems. In particular, we show some sufficient conditions for channels to be EB."
-S10,SC0012,3,Hsien-Yi,Hsieh,Hsien-Yi Hsieh,2025-06-26 16:00:00,MS7,Linear algebra and quantum information science,Thursday,17:00,17:30,110,7,,
+S10,SC0012,3,Hsien-Yi,Hsieh,Hsien-Yi Hsieh,2025-06-26 16:00:00,MS7,Linear algebra and quantum information science,Thursday,17:00,17:30,110,7,Machine learning enhanced quantum state tomography,"Quantum state tomography is a fundamental tool in quantum information science, enabling the characterization and diagnosis of quantum states through numerical methods. In this work, we explore the use of machine learning techniques to accelerate the inference of continuous-variable (CV) quantum states. Specifically, we demonstrate how convolutional neural networks (CNNs) can be employed to efficiently infer compressed representations of CV quantum states. Furthermore, we present a machine-learning-assisted framework for Bayesian quantum state tomography, which enhances reconstruction accuracy and computational efficiency. We also discuss recent advances in operator learning methods and examine the mathematical behavior of learning CV quantum states in function space."
 S10,SC0012,4,Sang-Gyun,Youn,Sang-Gyun Youn,2025-06-26 16:00:00,MS7,Linear algebra and quantum information science,Thursday,17:30,18:00,110,7,,
 S10,SC0014,1,Steffen W. R.,Werner,Steffen W. R. Werner,2025-06-26 16:00:00,MS5,"Advances in matrix equations: Theory, computations, and applications",Thursday,16:00,16:30,110,5,Efficiently solving nonstandard Riccati equations via indefinite factorizations,"The continuous-time symmetric algebraic Riccati equation (CARE) is a special
 type of nonlinear matrix-valued equation and an essential component
@@ -2254,8 +2255,7 @@ products,
 %
 We characterize the inner products for which this holds.
 "
-S10,SC2006,4,David,Sossa,David Sossa,2025-06-26 16:00:00,MS28,"From matrix theory to Euclidean Jordan algebras, FTvN systems, and beyond",Thursday,17:30,18:00,110,28,"Commutation principles for optimization problems involving strictly Schur-convex functions in Euclidean Jordan algebras
-","In this talk, we present several commutation principles for optimizers of shifts of spectral functions in the context of Euclidean Jordan Algebras (EJAs). For instance, we show that under certain assumptions, if $\bar x$ is a (local) optimizer of $F(x-a)$ for $x\in\Omega$, where $\Omega\subset \mathcal V$ is a spectral set of an EJA $\mathcal V$, $a\in \mathcal V$ and $F:\mathcal V\rightarrow \mathbb{R}$ is a strictly Schur-convex spectral function, then $a$ and $\bar x$ operator commute. We make no further assumption on the smoothness of $F$; instead, we take advantage of the smoothness (Lie structure) of the Automorphism group of $\mathcal V$ and make use of majorization techniques for the eigenvalues of elements in EJAs. Our approach allows us to deal with several problems considered in the literature, related to strictly convex spectral functions and strictly convex spectral norms. In particular, we use our commutation principles to analyze the problem of minimizing the condition number in EJAs."
+S10,SC2006,4,,,,2025-06-26 16:00:00,MS28,"From matrix theory to Euclidean Jordan algebras, FTvN systems, and beyond",Thursday,17:30,18:00,110,28,,
 S10,SC3001,1,,,,2025-06-26 16:00:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,16:00,16:30,110,16,,
 S10,SC3001,2,,,,2025-06-26 16:00:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,16:30,17:00,110,16,,
 S10,SC3001,3,,,,2025-06-26 16:00:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,17:00,17:30,110,16,,
@@ -2326,7 +2326,7 @@ S11,SC0014,1,Samapti,Pratihar,Samapti Pratihar,2025-06-27 08:00:00,CT,Contribute
 S11,SC0014,2,Bibekananda,Sitha,Bibekananda Sitha,2025-06-27 08:00:00,CT,Contributed talks,Friday,08:30,09:00,111,200,Dual core-EP generalized inverse and decomposition,"In this work, we introduce a new type of generalized inverse called dual core-EP generalized inverse (in short DCEPGI) for dual square matrices. We analyze the existence and uniqueness of the DCEPGI inverse and its compact formula using dual Drazin and dual MP inverses. Moreover, some characterizations using core-EP  decomposition are obtained. We present a new dual matrix decomposition named the dual core-EP decomposition for square dual matrices. In addition, some relationships with other dual generalized inverses are established. Solutions to some inconsistent system of linear dual equations are derived. 
 "
 S11,SC0014,3,,,,2025-06-27 08:00:00,CT,Contributed talks,Friday,09:00,09:30,111,200,,
-S11,SC1001,1,Anusree,Sreedharan,Anusree Sreedharan,2025-06-27 08:00:00,CT,Contributed talks,Friday,08:00,08:30,111,200,Hyperbolic wavelets and multiresolution in $A_{\alpha}^{2} (\mathbb{D})$,"We examine rational Blaschke functions that are capable to formulate a Multiresolution on the weighted Bergman space of the open unit disc $A_{\alpha}^{2} (\mathbb{D})$. We construct a rational orthogonal wavelet system that generates the levels of the multiresolution. The levels of the multiresolution are finite dimensional, which makes it easier to find a basis on each level. We can approximate any $f \in A_{\alpha}^{2} (\mathbb{D})$ by the projection operator on the $n^{\mbox{th}}$ resolution level. The projection will be an interpolation operator and whose coefficients can be computed through the evaluation of $f$ on a given set of points in the unit disc. We extend the results to weighted Bergman space of upper half plane and we introduce a numerical method to compute the coefficients when the values of $f$ are given on a set of points in the upper half-plane. "
+S11,SC1001,1,Anusree,Sreedharan,Anusree Sreedharan,2025-06-27 08:00:00,CT,Contributed talks,Friday,08:00,08:30,111,200,Hyperbolic wavelets and multiresolution in $A_{\alpha}^{2} (\mathbb{D})$,"We examine rational Blaschke functions that are capable to formulate a Multiresolution on the weighted Bergman space of the open unit disc $A_{\alpha}^{2} (\mathbb{D})$. We construct a rational orthogonal wavelet system that generates the levels of the multiresolution. The levels of the multiresolution are finite dimensional, which makes it easier to find a basis on each level. We can approximate any $f \in A_{\alpha}^{2} (\mathbb{D})$ by the projection operator on the $n^{\text{th}}$ resolution level. The projection will be an interpolation operator and whose coefficients can be computed through the evaluation of $f$ on a given set of points in the unit disc. We extend the results to weighted Bergman space of upper half plane and we introduce a numerical method to compute the coefficients when the values of $f$ are given on a set of points in the upper half-plane. "
 S11,SC1001,2,Akash,Kalita,Akash Kalita,2025-06-27 08:00:00,CT,Contributed talks,Friday,08:30,09:00,111,200,Pretty good fractional revival on abelian Cayley graphs,"Let $\Gamma$ be a graph with the adjacency matrix $A$. The transition matrix of $\Gamma$, denoted $H(t)$, is defined as $H(t) := \exp(-\textbf{i}tA)$, where $t \in \mathbb{R}$ and $\textbf{i} := \sqrt{-1}$. The graph $\Gamma$ exhibits pretty good fractional revival (PGFR) between the vertices $a$ and $b$ if there exists a sequence $\{t_k\}$ in $\mathbb{R}$ such that $\lim_{k\to\infty} H(t_k){\textbf{e}_{a}} = \alpha{\textbf{e}_{a}} + \beta{\textbf{e}_{b}}$, where $\alpha, \beta(\neq 0) \in \mathbb{C}$ with $|\alpha|^2 + |\beta|^2 = 1$. In particular, if $\alpha = 0$, then $\Gamma$ exhibits pretty good state transfer (PGST) between $a$ and $b$. In this study, we first present a necessary and sufficient condition for the existence of PGFR on Cayley graphs over abelian groups. Using that necessary and sufficient condition, we prove that complement of a cycle on $2 p^s$ vertices, where $p$ is an odd prime and $s$ is a positive integer, exhibits PGFR.  In the class of unitary Cayley graphs, we prove that an unitary Cayley graph on $n$ ($n \geq 8$) vertices exhibits PGFR if and only if $n = 2p$, where $p$ is an odd prime. The preceding two classes of circulant graphs provide infinitely many circulant graphs exhibiting PGFR that fails to exhibits PGST. Further we obtain more circulant graphs exhibiting PGFR. We also obtain some classes of circulant graphs not exhibiting PGFR. Some of our results generalize the results of Chan et al. [Pretty good quantum fractional revival in paths and cycles. \textit {Algebr. Comb.} 4(6) (2021), 989-1004.] for cycles.        
 "
 S11,SC1001,3,Sriram,Balasubramanian,Sriram Balasubramanian,2025-06-27 08:00:00,CT,Contributed talks,Friday,09:00,09:30,111,200,On noncommutative partial convexity,"In this talk, we will discuss the structure of matrix-valued (free) polynomials in several freely noncommuting variables that enjoy certain partial  convexity properties. "
@@ -2380,40 +2380,7 @@ In this talk, we will apply a two-grid SDC method to multi-order FDEs and presen
 Numerical experiments are included to illustrate the theoretical results.
 This work is based on joint research with Professor Ming-Cheng Shiue.
 "
-S11,SC1005,1,Ana,Luzón,Ana Luzón,2025-06-27 08:00:00,CT,Contributed talks,Friday,08:00,08:30,111,200,Riordan matrices' structures,"In this talk, I will present how to construct matrices of the Riordan group by row, column, and diagonal. We will look at some Riordan matrices in particular, including their bi-infinite expressions. These constructions will lead to recurrence formulas, numerical identities, group isomorphisms, special subgroups, Lie groups,  commutators, involutions, etc.
-
-%\begin{thebibliography}{99}
-%
-%\normalsize
-%
-%
-%
-%\bibitem{Lie} {G.-S. Cheon, A. Luz\'{o}n, M. A. Mor\'{o}n, L. F. Prieto-Martinez and M. Song}
-%{\it Finite and infinite dimensional Lie group structures on Riordan
-%groups.} {Adv. Math. }{ 319}{ (2017) } {522-566}.
-%
-%
-%\bibitem{2ways} A.Luz\'{o}n. Iterative processes related to Riordan arrays:
-%The reciprocation and the inversion of power series. Discrete Math. 310 (2010), 3607--3618.
-%
-%\bibitem{Constr}
-%{A. Luz\'{o}n, D. Merlini, M. A. Mor\'{o}n and R. Sprugnoli.} {\it
-%Identities induced by Riordan arrays. } {Linear Algebra Appl. }{
-%436} { (2012) } {631-647}.
-%
-%\bibitem{formula}
-%{A. Luz\'{o}n, M. A. Mor\'{o}n and L. F. Prieto-Martinez.} {\it A formula to
-%construct all involutions in Riordan matrix groups. } {Linear
-%Algebra Appl. }{533} { (2017) } {397-417}.
-%
-%
-%\bibitem{Lie} {A. Luz\'{o}n, M. A. Mor\'{o}n, and L. F. Prieto-Martinez}
-%{\it Commmutators and commutator subgroups of the Riordan group.} {Adv. Math. }{ 428}{ (2023) } {522-566}.
-%
-%
-%\end{thebibliography}
-
-"
+S11,SC1005,1,Ana,Luzón,Ana Luzón,2025-06-27 08:00:00,CT,Contributed talks,Friday,08:00,08:30,111,200,,
 S11,SC1005,2,Arunava,Mandal,Arunava Mandal,2025-06-27 08:00:00,CT,Contributed talks,Friday,08:30,09:00,111,200,Roots of elements in a matrix groups,"Let $F_r$ be a free group of $r$-generators, and $w\in F_r.$ For every group $G$, one defines a ``word map'' $w: G^r\to G$. Let $w(G)$ denote the image of this map. In recent times, it emerged as one of the potential research areas, and produced several astonishing results. Though it has a long history dating back to A. Borel, it has attracted a significant amount of attention, especially after the settlement of the long-standing Ore’s conjecture (which states that every element of a finite non-abelian simple group is a commutator). Note that if $G$ is a field, this is nothing else than a linear form with integer coefficients in $r$ variables. Thus the study of $w(G)$ can be thought of as finding solutions to equations in objects belonging to the category of groups. For non-abelian $G$, word maps are more subtle objects and a lot of effort has been required to unravel some of their properties. Fix an integer $k\geq 2$ and consider the word $x^k\in F_1$. The corresponding word map is called a power map and it has been studied for several decades in various contexts. A remarkable result by McCrudden connects the power map with the exponential map. McCrudden's result states that, for a connected Lie group $G$, $g\in G$ has roots of all orders if and only if $g$ is contained in a one-parameter subgroup (and hence $g=\exp(X)$). In this talk, we will discuss the analogous result for a linear algebraic group over non-Archimedean local field $F$ with any characteristic.  We discuss our recent result about when an element $g\in G(F)\subset GL(V)$ admits roots of all orders? Also, we will discuss the above theme in the context of linear algebraic groups over global fields.
 This talk is based on joint work with Parteek Kumar."
 S11,SC1005,3,Saikat,Mukherjee,Saikat Mukherjee,2025-06-27 08:00:00,CT,Contributed talks,Friday,09:00,09:30,111,200,Weaving phase retrieval and weaving norm retrieval in tensor product space,"Phase retrieval and norm retrieval sequences for Hilbert spaces were introduced by Balan et al. in 2006 and by Bahmanpour et al. in 2015, respectively. In signal processing, phase retrieval plays a crucial role in reconstructing a signal from its intensity measurements. Similarly, norm retrieval restores the norm of a signal from its intensity measurements. Bemrose et al., in 2016, instigated weaving frames for Hilbert spaces. Weaving phase and norm retrieval sequences for a Hilbert space were recently studied by Dowerah et al. In this paper we study weaving phase and weaving norm retrieval sequences in the tensor product of Hilbert spaces defined by Folland, in the year 1995, as a space of bounded antilinear maps between Hilbert spaces. Several characterizations and methods of construction of weaving phase and norm retrieval sequences in tensor product spaces are discussed. 
@@ -2444,7 +2411,7 @@ S11,SC2006,2,Nikolai,Krivulin,Nikolai Krivulin,2025-06-27 08:00:00,CT,Contribute
 S11,SC2006,3,Deb,Sarkar,Deb Sarkar,2025-06-27 08:00:00,CT,Contributed talks,Friday,09:00,09:30,111,200,Results on strong coupled best proximity point with application to non-linear differential equation,"Fixed point theory plays very crucial role in different fields specially in functional analysis. In this paper, some results on strong coupled best proximity point using some new inequalities have been established. A suitable example has also been given supporting the result. In consequences, a result of strong coupled fixed point has been given. Also, an application to non-linear differential equation has been shown. "
 S11,SC3001,1,Francis Joseph,Campena,Francis Joseph Campena,2025-06-27 08:00:00,CT,Contributed talks,Friday,08:00,08:30,111,200,On the shadow graph operation: a generalization of double graphs and its spectrum,"In 2007, E. Munarini et al defined the notion of the double of a graph. The double of a connected graph $G$ denoted $\mathcal{D}_2(G)$  is constructed by taking two copies of $G$ say $G'$ and $G''$ and joining by an edge each vertex $v'$ in $G'$ to the neighbors of the corresponding vertex $v''$ in $G''$. This was later generalized by M. Marino and N. Salvi.\\~\\
 \indent In this study, we define a graph operation called shadow graph of $G$ and $H$ denoted by $G \text{\small$ \blacksquare $} H.$ This naturally generalizes this notion of a double graph in the sense that the double of a graph is just the shadow graph of $G$ with a path of order 2, $G\text{\small$ \blacksquare $} P_2$, and the generalized double is simply the shadow graph of $G$ with the complete graph on $m$ vertices. $G\text{\small$ \blacksquare $} K_m$. We determine the spectrum of $G\text{\small$ \blacksquare $} H$  in relation to the spectrum of $G$ and $H$. "
-S11,SC3001,2,Shanmugapriya,A,Shanmugapriya A,2025-06-27 08:00:00,CT,Contributed talks,Friday,08:30,09:00,111,200,On proper cones in finite dimensional vector spaces,"Let $K$ be a proper cone in $\mathbb{R}^n$, its dual is defined as $K^*=\{y\in \mathbb{R}^n|\langle x,y\rangle\geq 0, ~\mbox{for all}~ x\in K\}$. Two cones $K_1$ and $K_2$ are said to be isomorphic if there exists an invertible linear map $L:\mathbb{R}^n\rightarrow \mathbb{R}^n$ such that  $L(K_1)=K_2$. For a cone $K$, the complementarity set is defined as $C(K)=\{(x,a)|x\in K, a\in K^*,\langle x,a \rangle=0\}$. A linear transformation $L$ is said to be Lyapunov-like transformation on $K$ if $\langle L(x), a \rangle=0$, for all $(x,a)\in C(K)$. The set of all Lyapunov-like transformations $LL(K)$ forms a vector space and its dimension is called the Lyapunov rank $\beta(K)$ of a cone $K$. In one of our recent works, we constructed non-isomorphic proper polyhedral cones using Lyapunov rank. Our results used the fact that isomorphic cones have same Lyapunov rank.  We know that the converse of this statement is not true. In this work, we discuss  when the converse of this statement is true. 
+S11,SC3001,2,Shanmugapriya,A,Shanmugapriya A,2025-06-27 08:00:00,CT,Contributed talks,Friday,08:30,09:00,111,200,On proper cones in finite dimensional vector spaces,"Let $K$ be a proper cone in $\mathbb{R}^n$, its dual is defined as $K^*=\{y\in \mathbb{R}^n|\langle x,y\rangle\geq 0, ~\text{for all}~ x\in K\}$. Two cones $K_1$ and $K_2$ are said to be isomorphic if there exists an invertible linear map $L:\mathbb{R}^n\rightarrow \mathbb{R}^n$ such that  $L(K_1)=K_2$. For a cone $K$, the complementarity set is defined as $C(K)=\{(x,a)|x\in K, a\in K^*,\langle x,a \rangle=0\}$. A linear transformation $L$ is said to be Lyapunov-like transformation on $K$ if $\langle L(x), a \rangle=0$, for all $(x,a)\in C(K)$. The set of all Lyapunov-like transformations $LL(K)$ forms a vector space and its dimension is called the Lyapunov rank $\beta(K)$ of a cone $K$. In one of our recent works, we constructed non-isomorphic proper polyhedral cones using Lyapunov rank. Our results used the fact that isomorphic cones have same Lyapunov rank.  We know that the converse of this statement is not true. In this work, we discuss  when the converse of this statement is true. 
 "
 S11,SC3001,3,Smrati,Pandey,Smrati Pandey,2025-06-27 08:00:00,CT,Contributed talks,Friday,09:00,09:30,111,200,Spectral properties of the eccentricity matrix of graph products,"Let $G$ be a connected and simple graph. The eccentricity of a vertex $u \in G$, $(e(u))$, is defined as the maximum distance from $u$ to any other vertex $v \in G$ in the graph. The eccentricity matrix, $\epsilon(G)$ is derived from the distance matrix whose $(u, v)$-th entry is equal to $d(u, v)$ if $d(u, v)$ is the minimum of $\{e(u), e(v)\}$, and is zero otherwise. Note that $d(u, v)$ is the distance between the vertices $u$ and $v$. A graph $G$ is said to be self centered if the eccentricity of each vertex of $G$ is same. 
 
