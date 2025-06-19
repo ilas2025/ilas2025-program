@@ -43,8 +43,8 @@ In the first topic, the graph is a regular grid, and the specific features of th
 
 In the second topic, the graph is typically a road map of a city or region. Thus, the Toeplitz structure of the associated transition probability matrix is lost. However, the sparsity and band structure of this matrix will allow us to easily compute a centrality measure of the edges defined in terms of Kemeny's constant of the associated Markov chain. The effectiveness of the model and the solution algorithms is tested on the road maps of Pisa and Tuscany.
 "
-P7,SYS Hall,1,Fan,Chung,Fan Chung,2025-06-26 08:00:00,Plenary,,Thursday,08:00,09:00,7,100,Clustering in graphs with high clustering coefficients,"Many real world networks possess the so-called small world phenomenon where every node is relatively close to every other node and have a large clustering coefficient, i.e., friends of friends are likely friends. The task of learning an adequate similarity measure on various feature spaces often involves  graphs with high clustering coefficients.
-We investigate the clustering effect in sparse  clustering graphs by examining the structural and spectral  properties as well as the enumeration  of patterns. In addition, we consider random graph models for clustering graphs that can be use to analyze the behavior of complex networks."
+P7,SYS Hall,1,Fan,Chung,Fan Chung,2025-06-26 08:00:00,Plenary,,Thursday,08:00,09:00,7,100,Linear algebra methods for Boolean functions,"We consider Boolean functions that maps binary strings of length $n$ to $\{\mathtt{True}, \mathtt{False}\}$.
+We examine a number of analytic and combinatorial properties of Boolean functions and organize these properties into a hierarchy of equivalence classes in a similar style as quasi-random graphs.  In addition, we will relate these properties to various extant notions of pseudo-randomness for Boolean functions."
 P8,SYS Hall,1,Karen,Meagher,Karen Meagher,2025-06-26 09:00:00,Plenary,,Thursday,09:00,10:00,8,100,"Using algebra to prove Erd\H{o}s-Ko-Rado type theorems
 ","My research focuses on variations of the Erd\H{o}s-Ko-Rado (EKR) theorem. The question was to determine the largest set of subsets of size $k$ from $\{1,2,\dots,n\}$, with the property that any two of the $k$-subsets have non-empty intersection. The Erd\H{o}s-Ko-Rado (EKR) theorem states that a largest such set can only be formed by taking all $k$-subsets that contain a common fixed point.
 
@@ -306,7 +306,29 @@ D_f(P,Q) = \max_i \big( f(q_i) - f(p_i) \big),
 \]
 where \(f\colon [0,1]\to [0,1]\) is a continuous, strictly increasing function with \(f(0)=0\) and \(f(1)=1\). Under mild regularity assumptions on \(f\), the quasimetric space $(\Delta_N,D_f)$ has a Finslerian structure and admits geodesics (both forward and backward) between any two points. Moreover, the function \(D_f\) is monotone under bistochastic maps.
 "
-S2,SC0014,2,Gilad,Gour,Gilad Gour,2025-06-23 14:00:00,MS8,Tensor and quantum information science,Monday,14:30,15:00,102,8,Tensors structures in single-shot quantum information: from convex splits to induced divergences,"Recent advances in quantum information theory reveal the power of tensor structures in communication and coding tasks. In this talk, I present two results that reformulate key protocols using tools from matrix analysis: an equality-based version of the convex split lemma, relying on collision mutual information derived from the sandwiched R\'enyi relative entropy of order $2$, and the induced divergence, a new family of smoothed quantum divergences. These developments yield sharper achievability bounds for state merging, splitting, and communication over quantum channels, while highlighting the central role of the collision relative entropy in quantum information."
+S2,SC0014,2,Karol,Życzkowski,Karol Życzkowski,2025-06-23 14:00:00,MS8,Tensor and quantum information science,Monday,14:30,15:00,102,8,Blockwise bistochastic matrices and operator majorisation,"As any discrete dynamics in classical simplex  $\Delta_N$
+can be described by a stochastic matrix,  $p'=Sp$,
+we introduce an analogous dynamics in the space of 
+quantum measurements, often referred to as positive operator-valued measurement (POVM).
+Such a measurement is defined by set of positive operators, $P_j = P_j^{\dagger}\ge 0$,
+summing to identity, $\sum_i P_i={\mathbbm I}$. Transformations in the set of quantum measurements can be described by blockwise stochastic transition matrices 
+$\bf T$, composed of positive definite blocks, $T_{ij}=T_{ij}^*$, that sum columnwise to
+identity, $\sum_i T_{ij}= {\mathbbm I}$. 
+The notion of sequential block product of matrices 
+$P'={\bf T} * P$, 
+induces the transformation,
+$P'_i = \sum_j \sqrt{P_j} T_{ij}  \sqrt{P_j}$
+which corresponds to a sequence of quantum measurements. 
+
+Imposing additionally the dual condition that the sum of blocks in each row is equal
+to identity we arrive at blockwise bistochastic matrices, sometimes called 
+quantum magic squares. Analyzing their dynamical properties, we formulate a quantum
+analog of the Ostrowski description of the classical Birkhoff polytope and introduce
+the notion of operator  majorization. Our framework
+provides a dynamical characterization of the set of blockwise bistochastic
+matrices and establishes a resource theory in the set of quantum measurements.
+
+* joint work with Albert Rico (Barcelona), Moises Moran (Ankara) and Shmuel Fridland (Chicago) "
 S2,SC0014,3,Chi-Kwong,Li,Chi-Kwong Li,2025-06-23 14:00:00,MS8,Tensor and quantum information science,Monday,15:00,15:30,102,8,"Quantum tomography: theory and practice
 ","We study some basic theoretical and implementation issues
 of quantum state tomography problems.
@@ -1076,7 +1098,13 @@ S6,SC0008,4,Geir,Dahl,Geir Dahl,2025-06-24 16:00:00,MS24,Nonnegative and related
   In particular, all its  extreme points of $\mathcal{P}^*$ are determined. 
 This is joint work with Richard A. Brualdi.
 "
-S6,SC0009,1,Davide,Bianchi,Davide Bianchi,2025-06-24 16:00:00,MS4,Linear algebra methods for inverse problems and data assimilation,Tuesday,16:00,16:30,106,4,,
+S6,SC0009,1,Davide,Bianchi,Davide Bianchi,2025-06-24 16:00:00,MS4,Linear algebra methods for inverse problems and data assimilation,Tuesday,16:00,16:30,106,4,A data-dependent regularization method based on the graph Laplacian,"Differential operators are widely used for regularizing ill-posed problems in imaging. In this work, we propose a variational method that embeds a graph Laplacian operator in the regularization term. The novelty of this approach lies in constructing the graph Laplacian based on a preliminary approximation of the solution, obtained using any existing reconstruction method from the literature. Consequently, the regularization term becomes both data- and noise-adaptive.
+
+We demonstrate that the proposed method is both regularizing and stable, enabling high-quality approximations of the ground truth solution. Notably, when combined with a deep neural network (DNN), this approach achieves outstanding results by integrating the regularization properties of the method with the accuracy of a well-trained DNN. 
+
+This presentation is primarily based on the work [1].
+
+[1] D. Bianchi, D. Evangelista, S. Aleotti, M. Donatelli, E. L. Piccolomini, and W. Li, “A data-dependent regularization method based on the graph Laplacian,” SIAM Journal on Scientific Computing, vol. 47, no. 2, pp. C369–C398, 2025."
 S6,SC0009,2,Matthias,Chung,Matthias Chung,2025-06-24 16:00:00,MS4,Linear algebra methods for inverse problems and data assimilation,Tuesday,16:30,17:00,106,4,"Data-driven inverse problems via autoencoder
 ","Emerging disciplines such as data analytics, machine learning, and uncertainty quantification increasingly depend on efficient computational techniques to address inverse problems. As models grow in complexity and data volumes expand, existing state-of-the-art inference methods are reaching their limitations, highlighting the urgent need for novel approaches.
 Inverse problems in science and engineering remain inherently challenging. While likelihood-free methods offer promising alternatives to traditional inversion techniques, they often face limitations in generalization and accuracy. In this work, we propose a novel paired autoencoder framework as a likelihood-free estimator. Our approach enables efficient solution generation, quality evaluation, and iterative refinement. We demonstrate the effectiveness of the method through applications to full waveform inversion and inverse electromagnetic imaging.
@@ -1101,7 +1129,7 @@ for the latter problem we can prove a convergence rate.
 S6,SC0009,4,Tiangang,Cui,Tiangang Cui,2025-06-24 16:00:00,MS4,Linear algebra methods for inverse problems and data assimilation,Tuesday,17:30,18:00,106,4,"Tensor-train methods for sequential state and parameter estimation in state-space models
 ","Numerous real-world applications require the estimation, forecasting, and control of dynamic systems using incomplete and indirect observations. These problems can be formulated as state-space models, where the challenge lies in learning the model states and parameters from observed data. We present new tensor-based sequential Bayesian learning methods that jointly estimate parameters and states. Our methods provide manageable error analysis and potentially mitigate the particle degeneracy encountered in many particle-based approaches. Besides offering new insights into algorithmic design, our methods naturally incorporate conditional transports, enabling filtering, smoothing, and parameter estimation within a unified framework.
 "
-S6,SC0012,1,Man-Duen,Choi,Man-Duen Choi,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,16:00,16:30,106,7,Quantum Information in terms of two by two matrices,This provides the down-to-earth description of quantum computers in terms of two by two matrices.
+S6,SC0012,1,Man-Duen,Choi,Man-Duen Choi,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,16:00,16:30,106,7,Quantum information in terms of two by two matrices,This provides the down-to-earth description of quantum computers in terms of two by two matrices.
 S6,SC0012,2,Bing-Ze,Lu,Bing-Ze Lu,2025-06-24 16:00:00,MS7,Linear algebra and quantum information science,Tuesday,16:30,17:00,106,7,"Dynamic flows and iterative methods for identifying the Choi representation of an unknown quantum channel from partial data
 ","Identifying quantum channels clarifies how quantum states evolve and how information propagates. Because exact reconstruction is NP‑hard, we focus on efficient numerical approximations.
 
@@ -1321,13 +1349,12 @@ of arcs. This result resolves a problem
 independently posed by R. Brualdi and A. Hoffman, as well as F.
 Friedland, back in 1985.
 "
-S6,SC2006,1,Jamie,Pommersheim,Jamie Pommersheim,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,16:00,16:30,106,30,,
+S6,SC2006,1,Jamie,Pommersheim,Jamie Pommersheim,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,16:00,16:30,106,30,Distinct spectra of integer matrices and closed walk matrices of graphs,"Recent work with A. Abrams, Z. Landau, and N. Srivastava gave an explicit construction of $n\times n$ matrices with entries in $[0,h]$ with two eigenvalues separated by an extremely small gap, at most $h^{-n^2/16 + o(n^2)}$. A result of the construction is a large collection, roughly $h^{n^2/4}$ matrices with height bounded by $h$, all of which have distinct characteristic polynomials. If one is interested in $0$-$1$ matrices, the construction produces a collection of roughly $2^{n^2/16}$ matrices with distinct characteristic polynomials. A natural question is whether one can
+achieve a similar result for symmetric matrices of bounded height or symmetric $0$-$1$ matrices, i.e, adjacency matrices of graphs. This talk will explore these results and questions, as well as related questions about the closed walk matrix of a graph."
 S6,SC2006,2,Laureano,Gonzalez-Vega,Laureano Gonzalez-Vega,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,16:30,17:00,106,30,On Bohemian correlation matrices,"Bohemian matrices are families of matrices whose entries come from a fixed discrete set of
 small integers. A symmetric matrix is a correlation matrix if it has ones on the diagonal and
 its eigenvalues are nonnegative. We will introduce a new characterization of correlation
-matrices that will be used to show that the number of Bohemian Correlation Matrices over -
-1, 0 and 1 corresponds to OEIS A000110 and to solve some correlation matrix completion
-problems."
+matrices that will be used to show that the number of Bohemian Correlation Matrices over $-1$, $0$ and $1$ corresponds to OEIS A000110 and to solve some correlation matrix completion problems."
 S6,SC2006,3,Eunice,Chan,Eunice Chan,2025-06-24 16:00:00,MS30,"Bohemian matrices: Theory, applications, and explorations",Tuesday,17:00,17:30,106,30,A divide-and-conquer framework for efficient algebraic linearizations of matrix polynomials,"In this talk, we explore the integration of the divide-and-conquer (dc) technique into the computation of eigenvalues for matrix polynomials using algebraic linearizations. Algebraic linearizations reduce a matrix polynomial $\mathbf{P}(z) \in \mathbb{C}[z]^{r \times r}$ of degree $s$ into a generalized eigenvalue problem of the form
 \begin{equation*}
     (z\mathbf{D_L} - \mathbf{L})\mathbf{v} = \mathbf{0} \>,
@@ -1361,7 +1388,11 @@ We had proposed a factorization of the inverse of the penalized differentiation 
 The factorization contains a tridiagonal matrix and is  crucial in solving Poisson's equations.  
 However, to solve 2D Poisson's equations, we aim to diagonalize the penalized differentiation matrix.
 Thus, we propose a new factorization  of the  penalized differentiation matrix containing a block diagonal matrix plus low ranks."
-S6,SC3001,4,Ching Kai,Lin,Ching Kai Lin,2025-06-24 16:00:00,MS11,Structured matrix computations and its applications,Tuesday,17:30,18:00,106,11,,
+S6,SC3001,4,Ching-Kai,Lin,Ching-Kai Lin,2025-06-24 16:00:00,MS11,Structured matrix computations and its applications,Tuesday,17:30,18:00,106,11,Estimation of noise covariances in Kalman filtering by structure preserving doubling algorithm,"Nowadays, with the rapid development of aerospace, military, and autonomous vehicles, Kalman filtering has emerged as a prevalent technique for real-time object detection and tracking. However, practical implementation encounters challenges due to the unknown state noise covariance matrix and measurement noise covariance matrix, leading to degraded prediction accuracy. Therefore, efficient and swift estimation methods are imperative.
+
+Over the years, various approaches have been proposed, categorized into Bayesian, maximum likelihood, covariance matching, and correlation techniques. Among these, Autocovariance Least-Squares (ALS) is widely employed. Nonetheless, its application to high-dimensional problems can be time-consuming, hampering the real-time predictability of Kalman filtering.
+
+In the speak, we propose a novel method that integrates techniques from Mehra's and Lingyi Zhang's teams, augmented by Structure-Preserving Doubling Algorithms (SDA). This modified approach not only significantly enhances computational speed but also preserves the symmetric semi-normal nature of the noise covariance matrix. Finally, experimental results demonstrate that our modified method achieves a speed improvement of 2 to 4 times compared to ALS."
 S6,SC4011,1,Igor,Simunec,Igor Simunec,2025-06-24 16:00:00,MS23,Advances in Krylov subspace methods and their applications,Tuesday,16:00,16:30,106,23,Lanczos with compression for symmetric matrix functions,"In this talk we present a low-memory method for the approximation of the action of a symmetric matrix function $f(A)$ on a vector $b$, where the matrix $A$ is large and sparse. 
 The algorithm that we propose combines the Lanczos method for $f(A) b$ with a basis compression procedure involving rational Krylov subspaces, which is employed whenever the basis grows beyond a certain size in order to reduce memory usage. 
 This method has essentially the same convergence behaviour as Lanczos, with the addition of an error term that depends on rational approximation of the function $f$ and is typically negligible. 
@@ -1435,7 +1466,9 @@ S7,SC0014,1,Raymond Nung-Sing,Sze,Raymond Nung-Sing Sze,2025-06-25 10:30:00,MS8,
 Our methods not only offer viable mathematical methods for constructing high-dimensional Schmidt number witnesses in theory but also simplify the quantification of entanglement and dimensionality.
 Most notably, we develop high-dimensional Schmidt number witnesses within arbitrary-dimensional systems, with our Schmidt witness coefficients relying solely on the operator Schmidt coefficient. 
 "
-S7,SC0014,2,Jeroen,Zuiddam,Jeroen Zuiddam,2025-06-25 10:30:00,MS8,Tensor and quantum information science,Wednesday,11:00,11:30,107,8,,
+S7,SC0014,2,Sooyeong,Kim,Sooyeong Kim,2025-06-25 10:30:00,MS8,Tensor and quantum information science,Wednesday,11:00,11:30,107,8,"Quasiorthogonality of commutative algebras
+","The notion of quasiorthogonality for operator algebras was introduced to provide a quantitative measure of the geometric relationships between algebras. Pivotal to the development and motivation for considering quasiorthogonality were applications in quantum information theory. We deepen the theory of quasiorthogonal operator algebras through an analysis of the commutative algebra case. We give a new approach to calculate the measure of orthogonality between two such subalgebras of matrices, based on a matrix-theoretic notion we introduce that has a connection to complex Hadamard matrices. We also show how this new tool can yield significant information on the general non-commutative case.
+"
 S7,SC0014,3,Seung-Hyeok,Kye,Seung-Hyeok Kye,2025-06-25 10:30:00,MS8,Tensor and quantum information science,Wednesday,11:30,12:00,107,8,"Global locations of Schmidt number witnesses
 ","We investigate global locations of Schmidt number witnesses which
 are outside of the convex set of all bi-partite states. Their
@@ -1665,10 +1698,8 @@ S8,SC0012,3,Sushil,Singla,Sushil Singla,2025-06-26 10:30:00,MS35,"Preserver Prob
 In this talk, we will investigate the bijective linear preservers of matrices in $M_n(\mathbb F)$, which are products of at most two, or three, or four involutions. This is a joint work with Chi-Kwong Li and Tejbir Lohan.
 
 "
-S8,SC0014,1,Sooyeong,Kim,Sooyeong Kim,2025-06-26 10:30:00,MS8,Tensor and quantum information science,Thursday,10:30,11:00,108,8,"Quasiorthogonality of commutative algebras
-","The notion of quasiorthogonality for operator algebras was introduced to provide a quantitative measure of the geometric relationships between algebras. Pivotal to the development and motivation for considering quasiorthogonality were applications in quantum information theory. We deepen the theory of quasiorthogonal operator algebras through an analysis of the commutative algebra case. We give a new approach to calculate the measure of orthogonality between two such subalgebras of matrices, based on a matrix-theoretic notion we introduce that has a connection to complex Hadamard matrices. We also show how this new tool can yield significant information on the general non-commutative case.
-"
-S8,SC0014,2,Zehua,Lai,Zehua Lai,2025-06-26 10:30:00,MS8,Tensor and quantum information science,Thursday,11:00,11:30,108,8,,
+S8,SC0014,1,,,,2025-06-26 10:30:00,MS8,Tensor and quantum information science,Thursday,10:30,11:00,108,8,,
+S8,SC0014,2,,,,2025-06-26 10:30:00,MS8,Tensor and quantum information science,Thursday,11:00,11:30,108,8,,
 S8,SC0014,3,,,,2025-06-26 10:30:00,MS8,Tensor and quantum information science,Thursday,11:30,12:00,108,8,,
 S8,SC1001,1,Sho,Suda,Sho Suda,2025-06-26 10:30:00,MS34,"Combinatorics, association scheme, and graphs",Thursday,10:30,11:00,108,34,"On $(2s-1)$-designs with $s$-distances in the Hamming association schemes
 ","It was shown by Delsarte that a $(2s-2)$-design with $s$-distances in a Hamming association scheme 
@@ -1978,22 +2009,7 @@ unpivoting QR, while maintaining good accuracy in many practical
 rank-deficient cases. We present the algorithm and its implementation
 for various hardware architectures, and compare the accuracy and
 performance for application-derived problems."
-S9,SC2006,4,Sivan,Toledo,Sivan Toledo,2025-06-26 13:30:00,MS13,Advances in QR factorizations,Thursday,15:00,15:30,109,13,"Parallel-in-time Kalman smoothing using orthogonal transformations
-","The talk will present a numerically-stable parallel-in-time linear 
-Kalman smoother. The smoother uses a novel highly parallel
-QR factorization for a class of structured sparse
-matrices for state estimation, and an adaptation of the SelInv
-selective-inversion algorithm to evaluate the covariance matrices
-of estimated states. Our implementation of the new
-algorithm, using the Threading Building Blocks (TBB) library,
-scales well on both Intel and ARM multi-core servers, achieving
-speedups of up to 47x on 64 cores. The algorithm performs
-more arithmetic than sequential smoothers; consequently it is
-1.8x to 2.5x slower on a single core. The new algorithm is faster
-and scales better than the parallel Kalman smoother proposed
-by Särkkä and García-Fernández in 2021.
-This is joint work with Shahaf Gargir.
-"
+S9,SC2006,4,,,,2025-06-26 13:30:00,MS13,Advances in QR factorizations,Thursday,15:00,15:30,109,13,,
 S9,SC3001,1,Eda,Oktay,Eda Oktay,2025-06-26 13:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,13:30,14:00,109,16,Mixed precision parallel operations for tensor train arithmetic,"Tensor Train (TT) decomposition is a widely used low-rank tensor factorization technique known for its memory efficiency and scalability in high-dimensional data. Its advantages have motivated the development of various TT-based methods and applications across fields, such as chemistry, quantum physics, and machine learning. However, constructing low-rank tensors and performing operations in TT arithmetic can be computationally intensive, often due to challenges on the cost of tensor construction and the complexity of numerical operations. To address these issues, high-performance computing (HPC) techniques such as parallelism and mixed-precision arithmetic have become essential tools for enhancing computational efficiency and reducing memory and communication requirements in (multi)linear algebra. In this talk, we discuss recent advances in HPC for TT arithmetic and introduce parallel TT operations using mixed-precision arithmetic. We then explore the potential of these developments to improve large-scale tensor computations and discuss their implications for future applications in scientific computing."
 S9,SC3001,2,Oleg,Balabanov,Oleg Balabanov,2025-06-26 13:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,14:00,14:30,109,16,,
 S9,SC3001,3,Sofia,Sukmaniuk,Sofia Sukmaniuk,2025-06-26 13:30:00,MS16,Approximations and errors in Krylov-based solvers,Thursday,14:30,15:00,109,16,Generalized minimal residual method with flexible Arnoldi process,"We present an extension of the Arnoldi process for subspaces \({\mathcal L}_k\) with a chain \({\mathcal L}_{i-1} \subset {\mathcal L}_i\), for \(i = \overline{2 \dots k}\). As it takes place in the Arnoldi process, it produces an orthonormal basis for \({\mathcal L}_k + A {\mathcal L}_k\), where the basis for \({\mathcal L}_k\) is formed by its first \(\dim {\mathcal L}_k\) vectors. Moreover, the basis for \({\mathcal L}_i\) is represented using the first \(\dim {\mathcal L}_i\) vectors of the basis for \({\mathcal L}_k\), for all \(i = \overline{1 \dots k}\). This enhancement enables a universal GMRES extension, where ${\mathcal L}_k$ and $A{\mathcal L}_k$ greatly coincide.  The extension is suitable for systems with multiple right-hand sides, allowing dynamic block size changes and on-the-fly integration of new right-hand sides. It also supports deflated restarts with any selected deflation strategy and a flexible preconditioner. Since all essential bases are compactly represented within a common basis, memory and computational demands are minimal relative to constructing the common basis.
@@ -2082,30 +2098,8 @@ S10,SC0008,2,Hitesh,Kumar,Hitesh Kumar,2025-06-26 16:00:00,MS24,Nonnegative and 
 \end{enumerate}
 The results are based on joint work with several people: Saieed Akbari, Bojan Mohar,  Shivaramakrishna Pragada, and Hanmeng Zhan.
 "
-S10,SC0008,3,Sivakumar,K.C.,Sivakumar K.C.,2025-06-26 16:00:00,MS24,Nonnegative and related families of matrices,Thursday,17:00,17:30,110,24,"Inverse $Z$-matrices with the bi-diagonal south-west structure
-","Two new matrix classes are introduced; inverse cyclic matrices and bi-diagonal south-west matrices. An interesting relation is established between these classes. Applications to two classes of inverse $Z$-matrices are provided.
-"
-S10,SC0008,4,Raphael,Loewy,Raphael Loewy,2025-06-26 16:00:00,MS24,Nonnegative and related families of matrices,Thursday,17:30,18:00,110,24,On cones of polynomials preserving nonnegative matrices,"We consider polynomials preserving nonnegative matrices. Let $n$ be a positive integer and
-
-\begin{equation*}
-{\mathcal{P}}_{n}=\{p \in {{\mathbb{R}}}[x]: p(A)\geq 0 \text{ for all }  A \geq 0, A \in {\mathbb{R}}^{n,n}\}.
-\end{equation*}
-${\mathcal{P}}_{n}$ was defined by Loewy and London, motivated by the Nonnegative Inverse Eigenvalue Problem (NIEP), but is of independent interest. Clearly, ${\mathcal{P}}_{n}$ is a closed, convex cone.
-
-\medskip
-Given any polynomial $p$, we identify $p$ with its sequence of coefficients. In order to consider only finite dimensional vector spaces, we restrict the degree of the polynomials. Given a positive integer $m$, define
-
-\begin{equation*}
-{\mathcal{P}}_{n,m}=\{p \in {\mathcal{P}}_{n} : degree(p) \leq m \}.
-\end{equation*}
-Then, ${\mathcal{P}}_{n,m}$ can be thought as a cone in ${\mathbb{R}}^{m+1}$.
-
-\medskip
-It is clear that any polynomial with nonnegative coefficients is in ${\mathcal{P}}_{n}$. Therefore, the number, relative size and distribution of the negative coefficients of polynomials in ${\mathcal{P}}_{n}$ are of significant interest. Clark and Paparella showed that if $p \in {\mathcal{P}}_{n}$, then its first and last $n$ coefficients must be nonnegative. Hence, ${\mathcal{P}}_{n,m}$ is a simplicial cone, for any $0 < m <2n$.
-
-\medskip
-Let $m \geq 2n$. Then, ${\mathcal{P}}_{n,m}$ contains polynomials with negative coefficients. For example, there exists $a > 0$ such that $1+x+x^{2}+\cdots+x^{n-1}-ax^{n}+x^{n+1}+\cdots+x^{2n} \in {\mathcal{P}}_{n,2n}$ (the question of the optimal $a$ is of interest).
-It follows that the structure of ${\mathcal{P}}_{n,m}$ is nontrivial. We consider its face structure, and in particular the one dimensional faces, that is, the extreme rays. Using some information on the possible coefficients of polynomials in  ${\mathcal{P}}_{n,m}$, we show that  ${\mathcal{P}}_{n,m}$ is not polyhedral, that is, contains infinitely many extreme rays. Additional preliminary results on the faces are obtained."
+S10,SC0008,3,,,,2025-06-26 16:00:00,MS24,Nonnegative and related families of matrices,Thursday,17:00,17:30,110,24,,
+S10,SC0008,4,,,,2025-06-26 16:00:00,MS24,Nonnegative and related families of matrices,Thursday,17:30,18:00,110,24,,
 S10,SC0009,1,Srinivas,Eswar,Srinivas Eswar,2025-06-26 16:00:00,MS4,Linear algebra methods for inverse problems and data assimilation,Thursday,16:00,16:30,110,4,"Exchange algorithms for Optimal Experimental Design
 ","We tackle optimal sensor placement for Bayesian linear inverse problems by establishing connections to the Column Subset Selection Problem (CSSP). We build on the Golub-Klema-Stewart (GKS) approach which involves computing the truncated Singular Value Decomposition (SVD) followed by a pivoted QR factorization on the right singular vectors. We study the effects of using the Federov exchange rule, greedily swapping sensors while improving the objective, after a GKS-style initialization. Theoretical guarantees on the number of swaps are established. Numerical experiments on model inverse problems demonstrate the performance of our approaches.
 "
@@ -2120,7 +2114,7 @@ Reference: C.-Y. Hsieh, R. Uola, P. Skrzypczyk, {\em Quantum complementarity: A 
 "
 S10,SC0012,2,Ngoc Muoi,Bui,Ngoc Muoi Bui,2025-06-26 16:00:00,MS7,Linear algebra and quantum information science,Thursday,16:30,17:00,110,7,On entanglement-breaking quantum channels,"Entanglement breaking (EB) channel is a completely positive and trace-preserving linear operator that disrupts the entanglement between the input system with any system. Examples of EB channels include depolarizing channels, quantum-classical channels, etc. We will discuss some characterizations of the class of EB channels for finite- and infinite-dimensional quantum systems. In particular, we show some sufficient conditions for channels to be EB."
 S10,SC0012,3,Hsien-Yi,Hsieh,Hsien-Yi Hsieh,2025-06-26 16:00:00,MS7,Linear algebra and quantum information science,Thursday,17:00,17:30,110,7,Machine learning enhanced quantum state tomography,"Quantum state tomography is a fundamental tool in quantum information science, enabling the characterization and diagnosis of quantum states through numerical methods. In this work, we explore the use of machine learning techniques to accelerate the inference of continuous-variable (CV) quantum states. Specifically, we demonstrate how convolutional neural networks (CNNs) can be employed to efficiently infer compressed representations of CV quantum states. Furthermore, we present a machine-learning-assisted framework for Bayesian quantum state tomography, which enhances reconstruction accuracy and computational efficiency. We also discuss recent advances in operator learning methods and examine the mathematical behavior of learning CV quantum states in function space."
-S10,SC0012,4,Sang-Gyun,Youn,Sang-Gyun Youn,2025-06-26 16:00:00,MS7,Linear algebra and quantum information science,Thursday,17:30,18:00,110,7,,
+S10,SC0012,4,Sang-Gyun,Youn,Sang-Gyun Youn,2025-06-26 16:00:00,MS7,Linear algebra and quantum information science,Thursday,17:30,18:00,110,7,Reverse data-processing inequalities for partial transposes of random quantum states,"The quantum data processing inequality (QDPI) states that quantum relative entropy cannot be increased by local physical operations. However, the partial transposition can be used to increase the quantum relative entropy on random quantum states with probability one. We explain why such an unexpected phenomenon happens in view of random matrix theory and free probability."
 S10,SC0014,1,Steffen W. R.,Werner,Steffen W. R. Werner,2025-06-26 16:00:00,MS5,"Advances in matrix equations: Theory, computations, and applications",Thursday,16:00,16:30,110,5,Efficiently solving nonstandard Riccati equations via indefinite factorizations,"The continuous-time symmetric algebraic Riccati equation (CARE) is a special
 type of nonlinear matrix-valued equation and an essential component
 of many applications, including controller design, model order reduction and
