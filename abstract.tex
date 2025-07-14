@@ -285,7 +285,7 @@ the underlying graph and the properties of this inverse.
     
 
 \hypertarget{down0344}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Preconditioning via Randomized Range Deflation (RandRAND)}
     
 \textbf{Oleg Balabanov}, \info{14:00\textrm{--}14:30 @ SC3001 (June 26, Thursday)} \hfill \hyperlink{up0344}{$\Uparrow$}
     
@@ -293,7 +293,7 @@ the underlying graph and the properties of this inverse.
 (in {\color{mstitle}MS16: Approximations and errors in Krylov-based solvers})
         
 \mtskip
-    nan
+    We introduce RandRAND, a new class of randomized preconditioners for large-scale linear systems. These methods deflate the spectrum via efficient orthogonal projections onto random subspaces, without computing eigenpairs or low-rank approximations. This leads to advantages in computational cost, numerical stability, and applicability to indefinite or non-symmetric systems. We establish rigorous condition number bounds that depend only weakly on the problem size. Moreover, RandRAND can be implemented without explicitly computing the subspace basis, enabling the use of fast randomized transforms to improve both runtime and memory efficiency. To reduce the cost of orthogonalization, we employ fast randomized Q-less QR factorizations or represent projections as tall least-squares problems solved via second-level refinement and preconditioning. These strategies balance the cost of constructing and applying the RandRAND preconditioner while ensuring robustness to rounding errors.
 \end{ilasabstract}
     
 
@@ -1882,15 +1882,27 @@ matrices that will be used to show that the number of Bohemian Correlation Matri
     
 
 \hypertarget{down0377}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{A combinatorial bound on the number of distinct eigenvalues of a graph}
     
-\textbf{Tracy Hall}, \info{17:00\textrm{--}17:30 @ SC1005 (June 26, Thursday)} \hfill \hyperlink{up0377}{$\Uparrow$}
+\textbf{H. Tracy Hall}, \info{17:00\textrm{--}17:30 @ SC1005 (June 26, Thursday)} \hfill \hyperlink{up0377}{$\Uparrow$}
     
     
 (in {\color{mstitle}MS17: Graphs and matrices in honor of Leslie Hogben's retirement})
         
 \mtskip
-    nan
+    Given a graph $G$, the minimum number of distinct eigenvalues
+in a real symmetric matrix with pattern described by $G$ is called $q(G)$.
+Just as the Strong Arnold Property lends minor monotonicity not to minimum rank but to its complement $\mathrm{M}(G)$,
+it is known that the Strong Multiplicity Property lends minor monotonicity not
+to $q(G)$ but to its complement $\overline{q}(G)$, which can be thought
+of as the greatest possible number of eigenvalue coincidences.
+
+If the shortest path between some pair of vertices in $G$ is unique,
+the number of vertices in that path is a lower bound for $q(G)$.
+We call such a unique shortest path a ``parade'', and define the
+\emph{spectator number} of a graph as the smallest possible number of vertices in the complement of a parade.
+We study the minor monotone floor of the spectator number of a graph (the \emph{spectator floor} of $G$), and find in particular that, just as with the minor monotone floor of zero forcing number,
+the smallest spectator number of any graph $H$ of which $G$ is a minor can be found without having to consider the unbounded class of graphs $H$ on a greater number of vertices.
 \end{ilasabstract}
     
 
@@ -3109,7 +3121,7 @@ In this way, we propose a natural preconditioning strategy for linear systems wi
     
 
 \hypertarget{down0187}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Special orthogonal, special unitary, and symplectic groups as products of Grassmannians}
     
 \textbf{Xiang Lu}, \info{14:30\textrm{--}15:00 @ SC2006 (June 24, Tuesday)} \hfill \hyperlink{up0187}{$\Uparrow$}
     
@@ -3117,7 +3129,7 @@ In this way, we propose a natural preconditioning strategy for linear systems wi
 (in {\color{mstitle}MS32: Advances in matrix manifold optimization})
         
 \mtskip
-    nan
+    We describe a curious structure of the special orthogonal, special unitary, and symplectic groups that has not been observed, namely, they can be expressed as matrix products of their corresponding Grassmannians realized as involution matrices. We will show that $\operatorname{SO}(n)$ is a product of two real Grassmannians, $\operatorname{SU}(n)$ a product of four complex Grassmannians, and $\operatorname{Sp}(2n, \mathbb{R})$ or $\operatorname{Sp}(2n, \mathbb{C})$ a product of four symplectic Grassmannians over $\mathbb{R}$ or $\mathbb{C}$ respectively. Our proofs essentially require only standard matrix theory.
 \end{ilasabstract}
     
 
@@ -3160,7 +3172,7 @@ This talk will focus on ternary CAOAs with strength $2$, emphasizing the charact
     
 
 \hypertarget{down0371}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Compositional optimization of Rayleigh quotients and related distance problems for matrix polynomials}
     
 \textbf{Ding Lu}, \info{16:00\textrm{--}16:30 @ SC1003 (June 26, Thursday)} \hfill \hyperlink{up0371}{$\Uparrow$}
     
@@ -3168,7 +3180,7 @@ This talk will focus on ternary CAOAs with strength $2$, emphasizing the charact
 (in {\color{mstitle}MS14: Pencils, polynomial, and rational matrices})
         
 \mtskip
-    nan
+    This talk discusses the connection between the compositional optimization of Rayleigh quotients and a class of eigenvector-dependent nonlinear eigenvalue problems (NEPv). By examining the geometric structure of joint numerical ranges, we show that such NEPv naturally arise as the first-order optimality conditions for optimization over these sets. This perspective offers a geometric interpretation of self-consistent-field (SCF) iterations and guides the development of a geometric algorithm for computing global optimizers. We will present related applications to distance problems for matrix polynomials and demonstrate the effectiveness of the proposed approach through numerical examples.
 \end{ilasabstract}
     
 
@@ -3343,7 +3355,7 @@ of spectral information of the argument are derived and tested on a set of examp
     
 
 \hypertarget{down0249}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Phase-isometries on continuous function spaces}
     
 \textbf{Izuho Matsuzaki}, \info{11:30\textrm{--}12:00 @ SC0012 (June 25, Wednesday)} \hfill \hyperlink{up0249}{$\Uparrow$}
     
@@ -3351,7 +3363,11 @@ of spectral information of the argument are derived and tested on a set of examp
 (in {\color{mstitle}MS35: Preserver Problems, II})
         
 \mtskip
-    nan
+    For a locally compact Hausdorff space $L$, we denote by $C_0(L,\mathbf{R})$ the Banach space of all real-valued continuous functions on $L$ vanishing at infinity endowed with the supremum norm.
+We show that every surjective phase-isometry $T\colon S(C_0(X,\mathbf{R}))\to S(C_0(Y,\mathbf{R}))$
+between the unit sphere of $C_0(X,\mathbf{R})$ and $C_0(Y,\mathbf{R})$ is similar to a weighted
+composition operator. 
+This fact is included in the result by Tan, Zhang and Huang (2023), but we will introduce another proof which can be applied to complex-valued function spaces.
 \end{ilasabstract}
     
 
@@ -3765,7 +3781,7 @@ In this talk, I will explain that this is true under the additional assumption t
     
 
 \hypertarget{down0253}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{A new characterization of the weighted Kubo-Ando geometric means via composite quantum state discrimination}
     
 \textbf{Milán Mosonyi}, \info{10:30\textrm{--}11:00 @ SC1001 (June 25, Wednesday)} \hfill \hyperlink{up0253}{$\Uparrow$}
     
@@ -3773,7 +3789,8 @@ In this talk, I will explain that this is true under the additional assumption t
 (in {\color{mstitle}MS10: Matrix means and related topics})
         
 \mtskip
-    nan
+    The optimal error exponents of binary composite i.i.d. state discrimination are trivially bounded by the worst-case pairwise exponents of discriminating individual elements of the sets representing the two hypotheses, and in the finite-dimensional classical case, these bounds in fact give exact single copy expressions for the error exponents. In contrast, in the non-commutative case, the optimal exponents are only known to be expressible in terms of regularized divergences, resulting in formulas that, while conceptually relevant, practically not very useful. In this paper, we develop further an approach initiated in [Mosonyi, Szilágyi, Weiner, IEEE Trans. Inf. Th. 68(2):1032–1067, 2022] to give improved single-copy bounds on the error exponents by comparing not only individual states from the two hypotheses, but also various unnormalized positive semi-definite operators associated to them. Here, we show a number of equivalent characterizations of such operators giving valid bounds, and show that in the commutative case, considering weighted geometric means of the states, and in the case of two states per hypothesis, considering weighted Kubo-Ando geometric means, are optimal for this approach. As a result, we give a new characterization of the weighted Kubo-Ando geometric means as the only 2-variable operator geometric means that are block additive, tensor multiplicative, and satisfy the arithmetic-geometric mean inequality. We also extend our results to composite quantum channel discrimination, and show an analogous optimality property of the weighted Kubo-Ando geometric means of two quantum channels, a notion that seems to be new. We extend this concept to defining the notion of superoperator perspective function and establish some of its basic properties, which may be of independent interest.
+
 \end{ilasabstract}
     
 
@@ -4218,7 +4235,7 @@ where $\omega(G)$ denotes the clique number of $G$. In this talk, we prove this 
     
 
 \hypertarget{down0132}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Law of large numbers for generalized operator means}
     
 \textbf{Miklós Pálfia}, \info{10:30\textrm{--}11:00 @ SC1001 (June 24, Tuesday)} \hfill \hyperlink{up0132}{$\Uparrow$}
     
@@ -4226,7 +4243,7 @@ where $\omega(G)$ denotes the clique number of $G$. In this talk, we prove this 
 (in {\color{mstitle}MS10: Matrix means and related topics})
         
 \mtskip
-    nan
+    In this talk we investigate zeros of nonlinear operators in a Thompson metric space. Inspired by the work of Gaubert and Qu from 2014, we study exponentially contracting continuous and discrete time flows generated by these nonlinear operators. We establish the operator norm convergence of deterministic and stochastic resolvent and proximal type algorithms, in particular versions coming from a Trotter-Kato type formula. This generalizes recent strong law of large numbers and so called `nodice' results proved for the Karcher mean of positive operators by Lim and the speaker. Applications include generalization of these results from the Karcher mean to other, so called generalized Karcher means introduced in 2016 by the speaker. The talk is based on recent joint work published in 2024 with Zoltán Léka.
 \end{ilasabstract}
     
 
@@ -4314,7 +4331,7 @@ Some part of this work has been jointly done with Dr. Arnab Patra, Dr. Kais Feki
     
 
 \hypertarget{down0356}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Randomized preconditioned solvers for Strong Constraint 4D-Var data assimilation}
     
 \textbf{Vishwas Rao}, \info{16:30\textrm{--}17:00 @ SC0009 (June 26, Thursday)} \hfill \hyperlink{up0356}{$\Uparrow$}
     
@@ -4322,7 +4339,19 @@ Some part of this work has been jointly done with Dr. Arnab Patra, Dr. Kais Feki
 (in {\color{mstitle}MS4: Linear algebra methods for inverse problems and data assimilation})
         
 \mtskip
-    nan
+    The Strong Constraint 4D Variational (SC-4DVAR) data assimilation method is widely used in climate and weather applications. 
+%
+SC-4DVAR involves solving a minimization problem to compute the maximum a posteriori estimate, which we tackle using the Gauss-Newton method. 
+%
+The computation of the descent direction is expensive since it involves the solution of a large-scale and potentially ill-conditioned linear system, solved using the preconditioned conjugate gradient (PCG) method. 
+%
+To address this cost, we efficiently construct scalable preconditioners using three different randomization techniques, which all rely on a certain low-rank structure involving the Gauss-Newton Hessian. 
+%
+The proposed techniques come with theoretical guarantees on the condition number, and at the same time, are amenable to parallelization.
+%
+We also develop an adaptive approach to estimate the sketch size and choose between the reuse or recomputation of the preconditioner. 
+% 
+We demonstrate the performance and effectiveness of our methodology on two representative model problems---the Burgers and barotropic vorticity equation---showing a drastic reduction in both the number of PCG iterations and the number of Gauss-Newton Hessian products after including the preconditioner construction cost.
 \end{ilasabstract}
     
 
@@ -4533,7 +4562,7 @@ Kraus matrices; conditionally negative semidefiniteness; inertia problems, stron
     
 
 \hypertarget{down0303}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{MinAres and CAr: New Krylov methods for symmetric linear systems}
     
 \textbf{Michael Saunders}, \info{11:30\textrm{--}12:00 @ SC3001 (June 26, Thursday)} \hfill \hyperlink{up0303}{$\Uparrow$}
     
@@ -4541,7 +4570,16 @@ Kraus matrices; conditionally negative semidefiniteness; inertia problems, stron
 (in {\color{mstitle}MS16: Approximations and errors in Krylov-based solvers})
         
 \mtskip
-    nan
+    We introduce a Krylov solver named MinAres for symmetric linear systems $Ax \approx b$, where $A$ is possibly singular.
+MinAres is based on the symmetric Lanczos process, like Minres and Minres-QLP, but it minimizes $\|Ar_k\|$ in each Krylov subspace rather than $\|r_k\|$, where $r_k$ is the current residual vector.
+In our experiments, MinAres terminates significantly earlier than Minres on ill-conditioned and singular linear systems.
+
+We derive properties of MinAres from an equivalent solver named CAr, which is to MinAres as Cr is to Minres.
+CAr is not based on the Lanczos process and minimizes $\|Ar_k\|$ in the same Krylov subspaces as MinAres.
+We establish that MinAres and CAr generate monotonic $\|x_k - x^*\|$, $\|x_k - x^*\|_A$, and $\|r_k\|$ when $A$ is positive definite.
+
+MinAres and CAr are implemented in Julia as part of the package Krylov.jl.
+They are applicable to any floating-point system supported by Julia, including complex numbers, and can run on both CPUs and GPUs.
 \end{ilasabstract}
     
 
@@ -5102,7 +5140,7 @@ classes; Quasi-complete graphs; Quasi-stars.
     
 
 \hypertarget{down0255}{}\begin{ilasabstract}
-\talktitle{nan}
+\talktitle{Geometric properties and distance inequalities on Grassmannians}
     
 \textbf{Tin-Yau Tam}, \info{11:30\textrm{--}12:00 @ SC1001 (June 25, Wednesday)} \hfill \hyperlink{up0255}{$\Uparrow$}
     
@@ -5110,7 +5148,9 @@ classes; Quasi-complete graphs; Quasi-stars.
 (in {\color{mstitle}MS10: Matrix means and related topics})
         
 \mtskip
-    nan
+    We present geometric inequalities for the geometric mean of  elements in the Grassmannians. These inequalities reflect the elliptic geometry of the Grassmannians as Riemannian manifolds. These include Semi-Parallelogram Law, Law of Cosines, and geodesic triangle inequalities. Through examples, we illustrate that these inequalities are local properties, contrasting with the global hyperbolic geometry of the manifold of positive definite matrices.
+
+This is a joint work with my Ph.D. student  Xiang Xiang Wang at the University of Nevada, Reno.
 \end{ilasabstract}
     
 
